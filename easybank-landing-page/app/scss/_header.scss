@@ -1,0 +1,21 @@
+.header {
+   nav {
+      padding: 24px;
+   }
+
+   &__logo {
+   }
+
+   &__menu {
+      > span {
+         display: block;
+         width: 26px;
+         height: 2px;
+         background: $darkBlue;
+
+         &:not(:last-child) {
+            margin-bottom: 3px;
+         }
+      }
+   }
+}
