@@ -1,4 +1,12 @@
 .feature {
+   &__intro {
+      margin-bottom: 3.75rem;
+
+      @include breakpoint-up(large) {
+         width: 60%;
+      }
+   }
+
    &__grid {
       @include breakpoint-up(medium) {
          display: flex;
@@ -9,14 +17,14 @@
    &__item {
       padding: 0.9375rem;
 
-      @include breakpoint-up(medium){
+      @include breakpoint-up(medium) {
          flex: 0 0 50%;
       }
 
-      @include breakpoint-up(large){
+      @include breakpoint-up(large) {
          flex: 1;
       }
-  }
+   }
 
    &__icon {
    }
