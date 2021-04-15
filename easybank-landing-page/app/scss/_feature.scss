@@ -27,6 +27,11 @@
    }
 
    &__icon {
+      margin-bottom: 1.875rem;
+
+      @include breakpoint-up(large) {
+         margin-bottom: 2.75rem;
+      }
    }
 
    &__title {
