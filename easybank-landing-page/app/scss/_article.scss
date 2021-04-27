@@ -1,38 +1,40 @@
 .articles {
-  background-color: $veryLightGray;
+   background-color: $veryLightGray;
 }
 
 .article {
+   &__content {
+   }
 
-  &__content {
+   &__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.875rem;
 
-  }
+      @include breakpoint-up(medium) {
+         grid-template-columns: repeat(2, 1fr);
+      }
 
-  &__grid {
-    
-  }
+      @include breakpoint-up(large) {
+         grid-template-columns: repeat(4, 1fr);
+      }
+   }
 
-  &__item {
-    
-  }
+   &__item {
+   }
 
-  &__image {
-    
-  }
+   &__image {
+   }
 
-  &__text {
-    
-  }
+   &__text {
+   }
 
-  &__author {
-    
-  }
+   &__author {
+   }
 
-  &__title {
-    
-  }
+   &__title {
+   }
 
-  &__description {
-    
-  }
+   &__description {
+   }
 }
