@@ -33,6 +33,10 @@
    }
 
    &__image {
+      height: 12.5rem;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
    }
 
    &__text {
