@@ -40,6 +40,12 @@
    }
 
    &__text {
+      padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+      color: $grayishBlue;
+
+      @include breakpoint-up(medium) {
+         padding: 1.875rem 1.5625rem;
+      }
    }
 
    &__author {
