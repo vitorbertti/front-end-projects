@@ -22,6 +22,15 @@
    }
 
    &__logo {
+      display: inline-block;
+
+      @include breakpoint-down(medium) {
+         margin-bottom: 1.875rem;
+      }
+
+      @include breakpoint-up(large) {
+         grid-area: logo;
+      }
    }
 
    &__social {
