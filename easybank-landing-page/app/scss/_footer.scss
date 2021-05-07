@@ -34,6 +34,31 @@
    }
 
    &__social {
+      @include breakpoint-down(medium) {
+         margin-bottom: 1.875rem;
+      }
+
+      @include breakpoint-up(large) {
+         grid-area: social;
+         align-self: end;
+      }
+
+      a {
+         display: inline-block;
+         height: 1.25rem;
+
+         svg path {
+            transition: fill 150ms ease-in-out;
+         }
+
+         &:hover svg path {
+            fill: $limeGreen;
+         }
+      }
+
+      a:not(:last-child) {
+         margin-right: 1rem;
+      }
    }
 
    &__links {
