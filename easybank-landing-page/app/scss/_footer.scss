@@ -77,6 +77,25 @@
             grid-area: links1;
          }
       }
+
+      &.col2 {
+         @include breakpoint-down(medium) {
+            margin-bottom: 1.875rem;
+         }
+
+         @include breakpoint-up(large) {
+            grid-area: links2;
+         }
+      }
+
+      a {
+         line-height: 2.25;
+         transition: color 150ms ease-in-out;
+
+         &:hover {
+            color: $limeGreen;
+         }
+      }
    }
 
    &__cta {
