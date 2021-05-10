@@ -99,6 +99,17 @@
    }
 
    &__cta {
+      @include breakpoint-up(large) {
+         grid-area: cta;
+         text-align: right;
+         justify-self: end;
+      }
+
+      a.button {
+         @include breakpoint-down(medium) {
+            margin-bottom: 1.875rem;
+         }
+      }
    }
 
    &__copyright {
