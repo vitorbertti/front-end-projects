@@ -113,5 +113,13 @@
    }
 
    &__copyright {
+      font-size: 0.8125rem;
+      color: $grayishBlue;
+
+      @include breakpoint-up(large) {
+         grid-area: copyright;
+         align-self: end;
+         justify-self: end;
+      }
    }
 }
