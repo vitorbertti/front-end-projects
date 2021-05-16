@@ -33,3 +33,33 @@ h2,
 h3 {
    margin-top: 0;
 }
+
+.card {
+   background: #ffffff;
+   border-radius: 2rem;
+   max-width: 56rem;
+   padding: 2.875rem 1.5rem;
+   background-image: url('images/bg-pattern-mobile.svg');
+   background-repeat: no-repeat;
+   background-position: center 0%;
+   background-size: 15rem;
+}
+
+.card__box {
+   display: none;
+}
+
+.card__image {
+   position: relative;
+}
+
+.card__image img {
+   position: absolute;
+   top: -6.8rem;
+   left: 50%;
+   transform: translateX(-50%);
+   display: block;
+   width: 100%;
+   max-width: 15rem;
+   height: auto;
+}
