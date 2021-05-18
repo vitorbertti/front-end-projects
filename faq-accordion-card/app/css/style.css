@@ -63,3 +63,16 @@ h3 {
    max-width: 15rem;
    height: auto;
 }
+
+.card__text {
+   padding-top: 7rem;
+}
+
+.accordion__item {
+   padding-top: 1rem;
+   border-bottom: 1px solid var(--divider-blue);
+}
+
+.accordion__item h2 {
+   margin-bottom: 0;
+}
