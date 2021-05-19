@@ -76,3 +76,17 @@ h3 {
 .accordion__item h2 {
    margin-bottom: 0;
 }
+
+.accordion__question {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border: none;
+	background: transparent;
+	margin-bottom: 1rem;
+	padding: 0.2rem;
+	font-size: 0.875rem;
+	font-family: 'Kumbh Sans', sans-serif;
+	text-align: left;
+}
