@@ -90,3 +90,20 @@ h3 {
 	font-family: 'Kumbh Sans', sans-serif;
 	text-align: left;
 }
+
+.accordion__question.open {
+	font-weight: 700;
+}
+
+.accordion__question::after {
+	content: '';
+	display: block;
+	width: 0.625rem;
+	height: 1rem;
+	border: none;
+	background-image: url('/images/icon-arrow-down.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	transition: transform 300ms ease-in-out;
+}
