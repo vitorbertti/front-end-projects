@@ -95,6 +95,10 @@ h3 {
    font-weight: 700;
 }
 
+.accordion__question.open::after {
+   transform: rotate(180deg);
+}
+
 .accordion__question::after {
    content: '';
    display: block;
@@ -112,4 +116,8 @@ h3 {
 .accordion__question:focus-visible {
    border: none;
    outline: dashed 1px rgba(0, 0, 0, 0.25);
+}
+
+.accordion__question.open::after {
+   transform: rotate(180deg);
 }
