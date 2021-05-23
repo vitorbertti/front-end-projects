@@ -118,6 +118,8 @@ h3 {
    outline: dashed 1px rgba(0, 0, 0, 0.25);
 }
 
-.accordion__question.open::after {
-   transform: rotate(180deg);
+.accordion__content {
+   font-size: 0.75rem;
+   line-height: 1.4;
+   padding-bottom: 1rem;
 }
