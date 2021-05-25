@@ -123,3 +123,11 @@ h3 {
    line-height: 1.4;
    padding-bottom: 1rem;
 }
+
+.accordion__collapse {
+   transition: height 300ms ease;
+}
+
+.accordion__collapse.open {
+   display: block;
+}
