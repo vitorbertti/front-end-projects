@@ -131,3 +131,7 @@ h3 {
 .accordion__collapse.open {
    display: block;
 }
+
+.accordion__collapse.collapse {
+   display: none;
+}
