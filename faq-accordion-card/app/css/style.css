@@ -140,3 +140,19 @@ h3 {
    height: 0;
    overflow: hidden;
 }
+
+@media (min-width: 56em) {
+   body {
+      padding: 5rem;
+   }
+
+   .card {
+      position: relative;
+      display: flex;
+      margin: 0 auto;
+      padding: 4.375rem 6.25rem 4.375rem 0;
+      background-image: url('../../images/bg-pattern-desktop.svg');
+      background-size: 45%;
+      background-position: -13% center;
+   }
+}
