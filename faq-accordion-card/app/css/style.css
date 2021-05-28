@@ -155,4 +155,13 @@ h3 {
       background-size: 45%;
       background-position: -13% center;
    }
+
+   .card__box {
+      display: block;
+      position: absolute;
+      z-index: 1;
+      top: 57%;
+      left: 0;
+      transform: translateX(-50%) translateY(-50%);
+   }
 }
