@@ -164,4 +164,9 @@ h3 {
       left: 0;
       transform: translateX(-50%) translateY(-50%);
    }
+
+   .card__image,
+	.card__text {
+		flex: 1;
+	}
 }
