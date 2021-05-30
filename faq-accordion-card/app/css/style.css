@@ -169,4 +169,10 @@ h3 {
 	.card__text {
 		flex: 1;
 	}
+
+   .card__image {
+		display: flex;
+		align-items: center;
+		overflow: hidden;
+	}
 }
