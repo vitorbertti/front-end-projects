@@ -166,13 +166,21 @@ h3 {
    }
 
    .card__image,
-	.card__text {
-		flex: 1;
-	}
+   .card__text {
+      flex: 1;
+   }
 
    .card__image {
-		display: flex;
-		align-items: center;
-		overflow: hidden;
-	}
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+   }
+
+   .card__image img {
+      position: relative;
+      top: auto;
+      left: auto;
+      max-width: 25rem;
+      transform: translateX(-4rem);
+   }
 }
