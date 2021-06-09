@@ -1,0 +1,11 @@
+:root {
+   --white: hsl(0, 0%, 100%);
+   --cyan: hsl(179, 62%, 40%);
+   --ltcyan: hsl(179, 62%, 45%);
+   --yellow: hsl(71, 73%, 54%);
+   --dkyellow: hsl(71, 73%, 48%);
+   --ltgray: hsl(204, 43%, 93%);
+   --grayblue: hsl(218, 22%, 67%);
+   --paddingX: 1.8rem;
+   --paddingY: 1.5rem;
+}
