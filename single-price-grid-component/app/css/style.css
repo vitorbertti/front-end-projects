@@ -53,3 +53,10 @@ h3 {
 p {
    margin-top: 0;
 }
+
+.price {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 40rem;
+  margin: auto;
+}
