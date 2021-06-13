@@ -65,6 +65,10 @@ p {
    padding: var(--paddingX) var(--paddingY);
 }
 
+.community {
+   background-color: var(--white);  
+ }
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
