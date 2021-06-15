@@ -73,6 +73,13 @@ p {
    color: var(--cyan);
 }
 
+.community .subtitle {
+   font-size: 1rem;
+   color: var(--yellow);
+   font-weight: bold;
+   margin-bottom: 1rem;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
