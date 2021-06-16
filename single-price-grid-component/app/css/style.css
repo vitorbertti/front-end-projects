@@ -80,6 +80,12 @@ p {
    margin-bottom: 1rem;
 }
 
+.community p {
+   font-size: 0.85rem;
+   line-height: 1.75;
+   margin-bottom: 0;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
