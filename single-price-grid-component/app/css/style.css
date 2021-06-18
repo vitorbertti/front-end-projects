@@ -86,6 +86,10 @@ p {
    margin-bottom: 0;
 }
 
+.subscription, .why {
+  color: var(--ltgray);
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
