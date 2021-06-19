@@ -86,8 +86,13 @@ p {
    margin-bottom: 0;
 }
 
-.subscription, .why {
-  color: var(--ltgray);
+.subscription,
+.why {
+   color: var(--ltgray);
+}
+
+.subscription {
+   background-color: var(--cyan);
 }
 
 @media only screen and (min-width: 62.5em) {
