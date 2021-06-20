@@ -95,6 +95,14 @@ p {
    background-color: var(--cyan);
 }
 
+.subscription__price {
+   display: flex;
+   align-items: center;
+   font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 0.25rem;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
