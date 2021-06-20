@@ -103,6 +103,13 @@ p {
    margin-bottom: 0.25rem;
 }
 
+.subscription__price span {
+   font-size: 1rem;
+   margin-left: 0.8rem;
+   font-weight: normal;
+   opacity: 0.75;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
