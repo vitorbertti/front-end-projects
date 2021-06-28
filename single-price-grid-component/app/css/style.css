@@ -110,6 +110,11 @@ p {
    opacity: 0.75;
 }
 
+.subscription p {
+   font-size: 0.9rem;
+   margin-bottom: 1.75rem;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
