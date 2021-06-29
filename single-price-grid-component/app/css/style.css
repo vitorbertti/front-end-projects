@@ -115,6 +115,21 @@ p {
    margin-bottom: 1.75rem;
 }
 
+.subscription a {
+   display: block;
+   background-color: var(--yellow);
+   color: var(--white);
+   padding: 0.75rem;
+   text-align: center;
+   border-radius: 0.25rem;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+   transition: background-color 200ms ease;
+}
+
+.subscription a:hover {
+   background-color: var(--dkyellow);
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
