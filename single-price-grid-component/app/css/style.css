@@ -134,6 +134,11 @@ p {
    background-color: var(--ltcyan);
 }
 
+.why ul {
+   margin-top: 0;
+   padding: 0;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
