@@ -130,6 +130,10 @@ p {
    background-color: var(--dkyellow);
 }
 
+.why {
+   background-color: var(--ltcyan);
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
