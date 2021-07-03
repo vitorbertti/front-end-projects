@@ -139,6 +139,12 @@ p {
    padding: 0;
 }
 
+.why ul li {
+  list-style-type: none;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+}
+
 @media only screen and (min-width: 62.5em) {
    .price {
       display: grid;
