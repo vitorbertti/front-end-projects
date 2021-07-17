@@ -55,3 +55,22 @@ h2 {
       font-size: 2.125rem;
    }
 }
+
+.cta-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   @include breakpoint(medium) {
+      display: block;
+   }
+
+   button:first-child {
+      margin-bottom: 20px;
+
+      @include breakpoint(medium) {
+         margin-bottom: 0px;
+         margin-right: 16px;
+      }
+   }
+}
