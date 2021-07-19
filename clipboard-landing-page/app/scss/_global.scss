@@ -123,3 +123,23 @@ button,
       padding-bottom: 142px;
    }
 }
+
+.centered {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.content {
+   max-width: 700px;
+
+   img {
+      width: 100%;
+      height: auto;
+
+      &.medium {
+         max-width: 800px;
+      }
+   }
+}
