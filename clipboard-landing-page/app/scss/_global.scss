@@ -143,3 +143,27 @@ button,
       }
    }
 }
+
+p {
+   margin-top: 0px;
+}
+
+p.large {
+   font-size: 1.25rem;
+}
+
+p.medium {
+   font-size: 1rem;
+   line-height: 1.5;
+
+   @include breakpoint(large) {
+      font-size: 1.125rem;
+      line-height: 1.75;
+   }
+}
+
+p.small {
+   font-size: 1rem;
+   line-height: 1.75;
+   max-width: 350px;
+}
