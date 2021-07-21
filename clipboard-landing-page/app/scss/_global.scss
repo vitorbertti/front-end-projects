@@ -167,3 +167,20 @@ p.small {
    line-height: 1.75;
    max-width: 350px;
 }
+
+.margin-bottom {
+   margin-bottom: 50px;
+   line-height: 1.6;
+}
+
+.lg-margin-bottom {
+   margin-bottom: 80px;
+}
+
+.xlg-margin-bottom {
+   margin-bottom: 35px;
+
+   @include breakpoint(large) {
+      margin-bottom: 80px;
+   }
+}
