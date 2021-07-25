@@ -1,5 +1,12 @@
 .snippets {
    &__content {
+      position: relative;
+      width: 100%;
+
+      @include breakpoint(large) {
+         display: flex;
+         align-items: center;
+      }
    }
 
    &__image,
