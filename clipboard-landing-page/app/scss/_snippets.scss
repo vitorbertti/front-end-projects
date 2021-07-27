@@ -35,5 +35,14 @@
    }
 
    &__features {
+      @include breakpoint(large) {
+         margin-left: 55px;
+         text-align: left;
+      }
+
+      p {
+         display: inline-block;
+         max-width: 340px;
+      }
    }
 }
