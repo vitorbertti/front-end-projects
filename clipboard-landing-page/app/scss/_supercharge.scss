@@ -13,6 +13,11 @@
 
 .supercharge {
    .content {
+      margin-bottom: 70px;
+
+      @include breakpoint(large) {
+         margin-bottom: 40px;
+      }
    }
 
    &__columns {
