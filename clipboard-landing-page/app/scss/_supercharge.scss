@@ -30,6 +30,10 @@
    }
 
    &__column {
+      margin-bottom: 60px;
+
+      @include breakpoint(large) {
+      }
    }
 
    &__icon {
