@@ -2,6 +2,14 @@ header {
    background-color: $introBg;
 
    .container {
+      display: grid;
+      grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+      grid-gap: 20px;
+      align-items: center;
+
+      @include breakpoint(large) {
+         grid-gap: 56px;
+      }
    }
 
    img {
