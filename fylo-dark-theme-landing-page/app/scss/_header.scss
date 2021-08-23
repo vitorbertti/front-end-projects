@@ -21,5 +21,14 @@ header {
    }
 
    a {
+      font-size: 0.875rem;
+
+      @include breakpoint(large) {
+         font-size: 1rem;
+      }
+
+      &:hover {
+         text-decoration: underline;
+      }
    }
 }
