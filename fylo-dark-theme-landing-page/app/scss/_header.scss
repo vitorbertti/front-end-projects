@@ -13,6 +13,11 @@ header {
    }
 
    img {
+      width: 83px;
+
+      @include breakpoint(large) {
+         width: 185px;
+      }
    }
 
    a {
