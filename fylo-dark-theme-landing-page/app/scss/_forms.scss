@@ -29,8 +29,15 @@ button,
 }
 
 input {
+   font-family: $font-body;
 }
 
 input[type='text'],
 input[type='email'] {
+   outline: none;
+   border: none;
+   border-radius: $border-radius-circle;
+   font-size: 0.9rem;
+   color: $footerBg;
+   padding: 17px 40px;
 }
