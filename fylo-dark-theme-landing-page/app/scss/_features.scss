@@ -1,5 +1,17 @@
 .features {
    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6vw 10vw;
+      margin: 0 auto;
+
+      @include breakpoint(medium) {
+         grid-template-columns: repeat(2, 1fr);
+      }
+
+      @include breakpoint(large) {
+         gap: 7vw 7vw;
+      }
    }
 
    .feature {
