@@ -31,6 +31,10 @@
       }
 
       &-title {
+         font-family: $font-title;
+         font-size: 1.5rem;
+         font-weight: 700;
+         margin-bottom: 16px;
       }
 
       &-description {
