@@ -15,7 +15,19 @@
    }
 
    .feature {
+      text-align: center;
+
       &-image {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 90px;
+         margin-bottom: 30px;
+
+         img {
+            height: 100%;
+            width: auto;
+         }
       }
 
       &-title {
