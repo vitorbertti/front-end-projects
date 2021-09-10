@@ -1,5 +1,16 @@
 .productive {
    &__grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      gap: 50px;
+      max-width: 600px;
+      margin: 0 auto;
+
+      @include breakpoint(large) {
+         grid-template-columns: repeat(2, 1fr);
+         max-width: 1320px;
+      }
    }
 
    &__image {
