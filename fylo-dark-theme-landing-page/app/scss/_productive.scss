@@ -24,6 +24,9 @@
 
    &__text {
       h2 {
+         @include breakpoint(large) {
+            max-width: 400px;
+         }
       }
 
       a {
