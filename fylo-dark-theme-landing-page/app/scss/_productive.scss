@@ -30,6 +30,18 @@
       }
 
       a {
+         background-image: url('/images/icon-arrow.svg');
+         background-repeat: no-repeat;
+         background-position: right center;
+         padding-right: 25px;
+         color: $ctaCyan;
+         border-bottom: 1px solid $ctaCyan;
+         transition: all 200ms ease-in-out;
+
+         &:hover {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+         }
       }
    }
 }
