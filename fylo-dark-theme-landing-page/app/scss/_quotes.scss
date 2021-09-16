@@ -1,5 +1,37 @@
 .quotes {
+   padding-bottom: 200px;
+
    &__grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+      max-width: 500px;
+
+      @include breakpoint(large) {
+         grid-template-columns: repeat(3, 1fr);
+         gap: 40px;
+         max-width: 1320px;
+      }
+
+      &:first-child:before {
+         content: url('/images/bg-quotes.png');
+         transform: scale(0.7);
+         position: absolute;
+         z-index: 0;
+         top: -20px;
+         left: 20px;
+         width: 27px;
+         height: 18px;
+
+         @include breakpoint(large) {
+            transform: none;
+            top: 37px;
+            left: 50px;
+            width: 60px;
+            height: 45px;
+         }
+      }
    }
 
    .quote {
