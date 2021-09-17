@@ -44,5 +44,10 @@
       @include breakpoint(large) {
          padding: 44px 24px 24px 24px;
       }
+
+      &__text {
+         font-size: 0.65em;
+         margin-bottom: 30px;
+      }
    }
 }
