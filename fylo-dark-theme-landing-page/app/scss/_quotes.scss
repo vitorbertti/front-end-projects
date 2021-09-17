@@ -35,5 +35,14 @@
    }
 
    .quote {
+      position: relative;
+      z-index: 1;
+      background-color: $testimonialBg;
+      padding: 30px 24px 24px 24px;
+      border-radius: 5px;
+
+      @include breakpoint(large) {
+         padding: 44px 24px 24px 24px;
+      }
    }
 }
