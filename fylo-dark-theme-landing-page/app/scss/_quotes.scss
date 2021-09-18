@@ -49,5 +49,12 @@
          font-size: 0.65em;
          margin-bottom: 30px;
       }
+
+      &__author {
+         display: grid;
+         grid-template-columns: 40px 1fr;
+         grid-template-rows: 20px 20px;
+         column-gap: 14px;
+      }
    }
 }
