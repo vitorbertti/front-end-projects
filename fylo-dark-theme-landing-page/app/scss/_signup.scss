@@ -5,6 +5,19 @@
    transform: translateY(-248px);
 
    &__block {
+      border-radius: $border-radius;
+      box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+      background-color: $introBg;
+      padding: 45px 30px 45px 30px;
+      text-align: center;
+
+      @include breakpoint(medium) {
+         padding: 45px 60px 45px 60px;
+      }
+
+      @include breakpoint(large) {
+         padding: 45px 80px 45px 80px;
+      }
    }
 
    &__form {
