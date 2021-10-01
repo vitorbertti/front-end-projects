@@ -29,4 +29,10 @@
          grid-column-gap: 60px;
       }
    }
+
+   &__logo {
+      @include breakpoint(large) {
+         grid-area: logo;
+      }
+   }
 }
