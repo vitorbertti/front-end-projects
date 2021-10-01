@@ -35,4 +35,15 @@
          grid-area: logo;
       }
    }
+
+   &__address {
+      grid-area: address;
+      display: flex;
+
+      svg {
+         flex: 0 0 13px;
+         margin-top: 3px;
+         margin-right: 20px;
+      }
+   }
 }
