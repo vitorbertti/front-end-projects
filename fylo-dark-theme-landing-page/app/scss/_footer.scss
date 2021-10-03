@@ -53,5 +53,9 @@
       @include breakpoint(large) {
          justify-self: right;
       }
+
+      a {
+         font-size: 0.875rem;
+      }
    }
 }
