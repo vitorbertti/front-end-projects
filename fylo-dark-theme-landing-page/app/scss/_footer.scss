@@ -57,5 +57,10 @@
       a {
          font-size: 0.875rem;
       }
+
+      &-phone,
+      &-email {
+         display: flex;
+      }
    }
 }
