@@ -97,4 +97,13 @@
    &__links2 {
       grid-area: links2;
    }
+
+   &__social {
+      grid-area: social;
+      justify-self: center;
+
+      @include breakpoint(medium) {
+         justify-self: start;
+      }
+   }
 }
