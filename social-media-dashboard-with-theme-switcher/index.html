@@ -26,6 +26,28 @@
       </style>
    </head>
    <body>
-      <h1>Social media dashboard with theme switcher</h1>
+      <header class="header container">
+         <div class="header__title">
+           <h1>Social Media Dashboard 🔥🔥🔥🔥🔥</h1>
+           <span class="header__subtitle">Total Followers: 23,004</span>
+         </div>
+   
+         <fieldset
+           class="header__toggle toggle"
+           aria-label="theme toggle"
+           role="radiogroup"
+         >
+           <label for="dark"
+             >Dark Mode <span class="visually-hidden">On</span></label
+           >
+           <div class="toggle__wrapper">
+             <input type="radio" name="theme" id="dark" />
+             <input type="radio" name="theme" id="light" />
+             <span aria-hidden="true" class="toggle__background"></span>
+             <span aria-hidden="true" class="toggle__button"></span>
+           </div>
+           <label for="light" class="visually-hidden">Dark Mode Off</label>
+         </fieldset>
+       </header>
    </body>
 </html>
