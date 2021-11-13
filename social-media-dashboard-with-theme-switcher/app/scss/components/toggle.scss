@@ -1,6 +1,11 @@
 @use '../util' as *;
 
 .toggle {
+   display: grid;
+   grid-template-columns: 1fr 3rem;
+   border: none;
+   margin: 0;
+
    label {
    }
 
