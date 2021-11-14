@@ -7,6 +7,14 @@
    margin: 0;
 
    label {
+      font-size: rem(14);
+      font-weight: 700;
+      color: var(--toggle);
+
+      &[for='dark'] {
+         line-height: rem(24);
+         margin-right: rem(13);
+      }
    }
 
    &__wrapper {
