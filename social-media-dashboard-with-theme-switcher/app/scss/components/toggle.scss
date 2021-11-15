@@ -18,6 +18,8 @@
    }
 
    &__wrapper {
+      position: relative;
+      height: rem(24);
    }
 
    input[type='radio'] {
