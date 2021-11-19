@@ -45,5 +45,14 @@
    }
 
    &__button {
+      position: absolute;
+      left: rem(3);
+      top: rem(3);
+      right: 100%;
+      width: rem(18);
+      height: rem(18);
+      border-radius: 50%;
+      background-color: var(--toggle-button);
+      transition: all 150ms ease-in-out;
    }
 }
