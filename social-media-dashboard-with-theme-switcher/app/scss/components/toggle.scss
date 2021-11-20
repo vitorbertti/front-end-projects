@@ -55,4 +55,9 @@
       background-color: var(--toggle-button);
       transition: all 150ms ease-in-out;
    }
+
+   #light:checked ~ .toggle__button {
+      left: calc(100% - 21px);
+      right: 3px;
+   }
 }
