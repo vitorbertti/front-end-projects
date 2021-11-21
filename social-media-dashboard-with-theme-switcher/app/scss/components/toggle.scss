@@ -60,4 +60,10 @@
       left: calc(100% - 21px);
       right: 3px;
    }
+
+   #system:checked ~ .toggle__button {
+      left: 50%;
+      right: auto;
+      transform: translate(-50%);
+   }
 }
