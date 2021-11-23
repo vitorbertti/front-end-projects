@@ -1,6 +1,17 @@
 @use '../util' as *;
 
 .cards {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: rem(30);
+
+   @include breakpoint(medium) {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   @include breakpoint(large) {
+      grid-template-columns: repeat(4, 1fr);
+   }
 }
 
 .card {
