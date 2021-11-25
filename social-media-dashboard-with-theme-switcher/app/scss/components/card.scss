@@ -28,4 +28,8 @@
    &:hover {
       background: var(--card-hover);
    }
+
+   &--facebook {
+      border-top: rem(5) solid var(--facebook);
+   }
 }
