@@ -60,4 +60,13 @@
    &--youtube {
       border-top: rem(5) solid var(--youtube);
    }
+
+   &__platform {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: rem(20);
+      margin-top: rem(5);
+      margin-bottom: rem(28);
+   }
 }
