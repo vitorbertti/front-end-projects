@@ -56,4 +56,8 @@
          );
       }
    }
+
+   &--youtube {
+      border-top: rem(5) solid var(--youtube);
+   }
 }
