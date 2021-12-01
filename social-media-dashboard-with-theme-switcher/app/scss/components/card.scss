@@ -79,4 +79,10 @@
    &__icon {
       margin-right: rem(8);
    }
+
+   &__username {
+      font-size: rem(12);
+      font-weight: 700;
+      color: var(--text-color2);
+   }
 }
