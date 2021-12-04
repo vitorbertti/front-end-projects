@@ -96,5 +96,13 @@
       letter-spacing: rem(-2);
       line-height: 1;
       margin-bottom: rem(4);
+
+      &--big {
+         font-size: rem(56);
+      }
+
+      &--small {
+         font-size: rem(32);
+      }
    }
 }
