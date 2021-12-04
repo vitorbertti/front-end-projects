@@ -89,4 +89,12 @@
    &__followers {
       margin-bottom: rem(25);
    }
+
+   &__count {
+      color: var(--text-color);
+      font-weight: 700;
+      letter-spacing: rem(-2);
+      line-height: 1;
+      margin-bottom: rem(4);
+   }
 }
