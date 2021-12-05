@@ -105,4 +105,12 @@
          font-size: rem(32);
       }
    }
+
+   &__label {
+      font-size: rem(12);
+      letter-spacing: rem(5);
+      font-weight: 400;
+      color: var(--text-color2);
+      text-transform: uppercase;
+   }
 }
