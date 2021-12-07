@@ -113,4 +113,12 @@
       color: var(--text-color2);
       text-transform: uppercase;
    }
+
+   &__change {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: rem(12);
+      font-weight: 700;
+   }
 }
