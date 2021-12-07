@@ -120,5 +120,13 @@
       justify-content: center;
       font-size: rem(12);
       font-weight: 700;
+
+      &--up {
+         color: var(--limegreen);
+      }
+
+      &--down {
+         color: var(--brightred);
+      }
    }
 }
