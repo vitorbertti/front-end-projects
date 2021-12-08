@@ -128,5 +128,9 @@
       &--down {
          color: var(--brightred);
       }
+
+      img {
+         margin-right: rem(4);
+      }
    }
 }
