@@ -10,4 +10,9 @@
    .card__count {
       margin-bottom: 0;
    }
+
+   .card__count,
+   .card__change {
+      align-self: end;
+   }
 }
