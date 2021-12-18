@@ -10,3 +10,7 @@ const setLightMode = () => {
   document.querySelector('body').classList = 'light';
   localStorage.setItem('colorMode', 'light');
 };
+
+const colorModeFromLocalStorage = () => {
+  return localStorage.getItem('colorMode');
+};
