@@ -5,3 +5,8 @@ const setDarkMode = () => {
   document.querySelector('body').classList = 'dark';
   localStorage.setItem('colorMode', 'dark');
 };
+
+const setLightMode = () => {
+  document.querySelector('body').classList = 'light';
+  localStorage.setItem('colorMode', 'light');
+};
