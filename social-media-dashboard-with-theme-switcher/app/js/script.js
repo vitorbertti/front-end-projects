@@ -14,3 +14,9 @@ const setLightMode = () => {
 const colorModeFromLocalStorage = () => {
   return localStorage.getItem('colorMode');
 };
+
+const colorModeFromPreferences = () => {
+  return window.matchMedia('(prefers-color-scheme: dark)').matches 
+              ? 'dark'
+              : 'light'
+};
