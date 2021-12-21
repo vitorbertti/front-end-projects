@@ -20,3 +20,8 @@ const colorModeFromPreferences = () => {
               ? 'dark'
               : 'light'
 };
+
+const loadAndUpdateColor = () => {
+  const color = colorModeFromLocalStorage() || colorModeFromPreferences();
+  color == 'dark' ? darkButton.click() : lightButton.click();
+};
