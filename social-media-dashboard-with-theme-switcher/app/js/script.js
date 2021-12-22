@@ -32,3 +32,10 @@ radioButtons.forEach(button => {
     darkButton.checked ? setDarkMode() : setLightMode();
   });
 });
+
+window.matchMedia('(prefers-color-scheme: dark)')
+  .addEventListener('change', (event) => {
+    event.matches ? darkButton.click() : lightButton.click();
+  });
+
+loadAndUpdateColor();
