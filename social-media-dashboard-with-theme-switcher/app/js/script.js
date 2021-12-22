@@ -25,3 +25,10 @@ const loadAndUpdateColor = () => {
   const color = colorModeFromLocalStorage() || colorModeFromPreferences();
   color == 'dark' ? darkButton.click() : lightButton.click();
 };
+
+const radioButtons = document.querySelectorAll('.toggle__wrapper input');
+radioButtons.forEach(button => {
+  button.addEventListener('click', (event) => {
+    darkButton.checked ? setDarkMode() : setLightMode();
+  });
+});
