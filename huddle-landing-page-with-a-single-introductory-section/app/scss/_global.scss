@@ -36,3 +36,37 @@ header {
       }
    }
 }
+
+footer {
+   display: flex;
+   justify-content: center;
+
+   @media screen and (min-width: 1024px) {
+      justify-content: flex-end;
+   }
+
+   > a {
+      margin-right: 16px;
+      transform: translateY(0px);
+      transition: transform 100ms ease-in-out;
+
+      &:last-child {
+         margin-right: 0px;
+      }
+
+      &:hover {
+         transform: translateY(-3px);
+      }
+   }
+
+   i.fab {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      color: #ffffff;
+   }
+}
