@@ -1,0 +1,14 @@
+body {
+   padding: 40px;
+   background-color: $purple;
+   background-image: url('/img/bg-mobile.svg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   color: #ffffff;
+
+   @media screen and (min-width: 1024px) {
+      padding: 60px 80px 40px 80px;
+      background-image: url('/img/bg-desktop.svg');
+   }
+}
