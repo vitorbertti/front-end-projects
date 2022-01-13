@@ -24,11 +24,21 @@ main {
 }
 
 .heroImage {
-   @media screen and (max-width: 1023px){
-       margin-bottom: 70px;
+   @media screen and (max-width: 1023px) {
+      margin-bottom: 70px;
    }
 
    img {
-       width: 100%;
+      width: 100%;
+   }
+}
+
+.heroText {
+   line-height: 1.75;
+   text-align: center;
+
+   @media screen and (min-width: 1024px) {
+      padding-left: 60px;
+      text-align: left;
    }
 }
