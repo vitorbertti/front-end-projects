@@ -69,4 +69,13 @@ a.cta {
    box-shadow: 5px 5px 10px darken($purple, 20%);
    transform: translateX(0px);
    transition: transform 100ms ease-in-out;
+
+   @media screen and (min-width: 1024px) {
+      min-width: 200px;
+      padding: 20px 66px;
+   }
+
+   &:hover {
+      transform: translateX(3px);
+   }
 }
