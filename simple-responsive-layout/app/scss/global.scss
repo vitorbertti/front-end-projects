@@ -20,3 +20,15 @@ body {
    margin: auto;
    max-width: rem-calc(1200);
 }
+
+main,
+header,
+section,
+aside,
+footer {
+   display: block;
+   margin: 0;
+   padding: rem-calc(20);
+   border: 1px solid #000000;
+   color: #ffffff;
+}
