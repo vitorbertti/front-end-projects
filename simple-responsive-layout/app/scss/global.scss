@@ -44,3 +44,9 @@ main {
 .hero {
    background: #d22b1f;
 }
+
+.flex-container {
+   @media screen and (min-width: 640px) {
+      display: flex;
+   }
+}
