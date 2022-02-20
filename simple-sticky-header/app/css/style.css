@@ -30,3 +30,7 @@ header {
    background-color: #ffffff;
    transition: padding 300ms ease;
 }
+
+header.sticky {
+   padding: 10px 20px;
+}
