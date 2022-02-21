@@ -34,3 +34,10 @@ header {
 header.sticky {
    padding: 10px 20px;
 }
+
+a.nav__link {
+   margin-right: 10px;
+   font-size: 14px;
+   color: #000000;
+   text-decoration: underline;
+}
