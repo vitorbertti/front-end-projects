@@ -41,3 +41,7 @@ a.nav__link {
    color: #000000;
    text-decoration: underline;
 }
+
+a.nav__link:last-child {
+   margin-right: 0;
+}
