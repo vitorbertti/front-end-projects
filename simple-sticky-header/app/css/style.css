@@ -45,3 +45,10 @@ a.nav__link {
 a.nav__link:last-child {
    margin-right: 0;
 }
+
+section.content {
+   margin-top: 80px;
+   padding: 20px;
+   background-color: #aba9bf;
+   color: #202020;
+}
