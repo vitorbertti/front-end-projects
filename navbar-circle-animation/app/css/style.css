@@ -7,3 +7,8 @@
 body {
    font-family: sans-serif;
 }
+
+nav {
+   height: 10vh;
+   background: #5b78c7;
+}
