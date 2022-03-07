@@ -35,3 +35,9 @@ nav {
    justify-content: center;
    align-items: center;
 }
+
+.landing h1 {
+   margin: 100px;
+   font-size: 50px;
+   color: #ae5fce;
+}
