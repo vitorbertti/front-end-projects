@@ -49,4 +49,8 @@ nav {
       background: white;
       margin: 5px;
    }
+
+   nav {
+      position: relative;
+   }
 }
