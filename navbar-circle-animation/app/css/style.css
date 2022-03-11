@@ -53,4 +53,13 @@ nav {
    nav {
       position: relative;
    }
+
+   .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+   }
 }
