@@ -88,4 +88,8 @@ nav {
    .nav-links li {
       opacity: 0;
    }
+
+   .nav-links li a {
+      font-size: 25px;
+   }
 }
