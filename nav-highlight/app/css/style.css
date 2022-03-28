@@ -7,3 +7,9 @@
 body {
    font-family: sans-serif;
 }
+
+header {
+   height: 100vh;
+   background: url('https://images.pexels.com/photos/1164763/pexels-photo-1164763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+   background-size: cover;
+}
