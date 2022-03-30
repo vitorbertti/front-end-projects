@@ -13,3 +13,16 @@ header {
    background: url('https://images.pexels.com/photos/1164763/pexels-photo-1164763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
    background-size: cover;
 }
+
+nav ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style: none;
+   background: rgb(250, 250, 250);
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   width: 100%;
+   height: 10vh;
+}
