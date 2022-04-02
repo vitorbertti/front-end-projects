@@ -45,3 +45,8 @@ nav a::after {
    transform: translateX(-100%);
    transition: transform 0.5s ease;
 }
+
+nav li {
+   overflow: hidden;
+   height: 25px;
+}
