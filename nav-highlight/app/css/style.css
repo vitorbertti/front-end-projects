@@ -50,3 +50,7 @@ nav li {
    overflow: hidden;
    height: 25px;
 }
+
+a.active::after {
+   transform: translateX(0%);
+}
