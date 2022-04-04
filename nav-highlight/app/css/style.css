@@ -54,3 +54,13 @@ nav li {
 a.active::after {
    transform: translateX(0%);
 }
+
+#one,
+#two,
+#three {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
