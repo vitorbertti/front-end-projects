@@ -68,3 +68,7 @@ a.active::after {
 #one {
    background: rgb(47, 69, 117);
 }
+
+#two {
+  background: rgb(91, 47, 117);
+}
