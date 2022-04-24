@@ -1,0 +1,7 @@
+.guess {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   gap: rem(3);
+   width: rem(300);
+   margin-bottom: rem(10);
+}
