@@ -17,3 +17,8 @@
      transform: rotateX(0deg);
    }
 }
+
+.flip-in {
+   animation: flip-in 250ms;
+   animation-fill-mode: forwards;
+}
