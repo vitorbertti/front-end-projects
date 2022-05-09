@@ -39,3 +39,8 @@
       transform: translateY(0);
    }
 }
+
+.jump {
+   animation: jump 250ms;
+   animation-fill-mode: forwards;
+}
