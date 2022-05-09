@@ -27,3 +27,15 @@
    animation: flip-out 250ms;
    animation-fill-mode: forwards;
 }
+
+@keyframes jump {
+   0% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(rem(-10));
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
