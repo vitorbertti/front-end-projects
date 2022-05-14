@@ -8,3 +8,5 @@ const chooseWord = () => {
    let randomItem = Math.floor(Math.random() * (words.length - 1)) + 1
    solutionWord = words[randomItem]
 };
+
+chooseWord();
