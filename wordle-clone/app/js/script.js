@@ -31,3 +31,9 @@ const submitGuess = () => {
       }, i * 200)
    }
 }
+
+const checkIfGuessComplete = (i) => {
+   if (i == 4) {
+      checkWin();
+   }
+}
