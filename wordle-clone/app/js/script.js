@@ -23,3 +23,11 @@ document.addEventListener('keydown', (e) => {
       }
    }
 })
+
+const submitGuess = () => {
+   for (let i = 0; i < 5; i++) {
+      setTimeout(() => {
+         revealTile(i, checkLetter(i))
+      }, i * 200)
+   }
+}
