@@ -32,6 +32,17 @@ const submitGuess = () => {
    }
 }
 
+const jumpTiles = () => {
+   for (let i = 0; i < 5; i++) {
+      setTimeout(() => {
+         let currentTile = document.querySelector(
+            '#guess' + currentGuessCount + 'Tile' + (i + 1)
+         )
+         currentTile.classList.add('jump')
+      }, i * 200)
+   }
+}
+
 const checkIfGuessComplete = (i) => {
    if (i == 4) {
       checkWin();
