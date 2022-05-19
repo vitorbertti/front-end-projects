@@ -43,6 +43,22 @@ const jumpTiles = () => {
    }
 }
 
+const checkWin = () => {
+   if (solutionWord == currentGuess.dataset.letters) {
+      setTimeout(() => {
+         jumpTiles()
+      }, 500)
+   } else {
+      currentGuessCount = currentGuessCount + 1
+      currentGuess = document.querySelector('#guess' + currentGuessCount)
+      if (currentGuessCount == 7) {
+         setTimeout(() => {
+            showSolution()
+         }, 500)
+      }
+   }
+}
+
 const checkIfGuessComplete = (i) => {
    if (i == 4) {
       checkWin();
