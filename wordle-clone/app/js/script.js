@@ -64,3 +64,7 @@ const checkIfGuessComplete = (i) => {
       checkWin();
    }
 }
+
+const showSolution = () => {
+   alert('Better luck next time. The solution was: ' + solutionWord)
+}
