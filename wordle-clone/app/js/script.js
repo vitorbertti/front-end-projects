@@ -76,3 +76,11 @@ const updateLetters = (letter) => {
    currentGuess.dataset.letters = newLetters
    updateTiles(currentTile, letter)
 }
+
+const updateTiles = (tileNumber, letter) => {
+   let currentTile = document.querySelector(
+      '#guess' + currentGuessCount + 'Tile' + tileNumber
+   )
+   currentTile.innerText = letter
+   currentTile.classList.add('has-letter')
+}
