@@ -68,3 +68,11 @@ const checkIfGuessComplete = (i) => {
 const showSolution = () => {
    alert('Better luck next time. The solution was: ' + solutionWord)
 }
+
+const updateLetters = (letter) => {
+   let oldLetters = currentGuess.dataset.letters
+   let newLetters = oldLetters + letter
+   let currentTile = newLetters.length
+   currentGuess.dataset.letters = newLetters
+   updateTiles(currentTile, letter)
+}
