@@ -84,3 +84,10 @@ const updateTiles = (tileNumber, letter) => {
    currentTile.innerText = letter
    currentTile.classList.add('has-letter')
 }
+
+const deleteFromLetters = () => {
+   let oldLetters = currentGuess.dataset.letters
+   let newLetters = oldLetters.slice(0, -1)
+   currentGuess.dataset.letters = newLetters
+   deleteFromTiles(oldLetters.length)
+};
