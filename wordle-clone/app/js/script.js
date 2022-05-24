@@ -90,4 +90,12 @@ const deleteFromLetters = () => {
    let newLetters = oldLetters.slice(0, -1)
    currentGuess.dataset.letters = newLetters
    deleteFromTiles(oldLetters.length)
-};
+}
+
+const deleteFromTiles = (tileNumber) => {
+   let currentTile = document.querySelector(
+     '#guess' + currentGuessCount + 'Tile' + tileNumber
+   )
+   currentTile.innerText = ''
+   currentTile.classList.remove('has-letter')
+}
