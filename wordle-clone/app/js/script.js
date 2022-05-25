@@ -99,3 +99,14 @@ const deleteFromTiles = (tileNumber) => {
    currentTile.innerText = ''
    currentTile.classList.remove('has-letter')
 }
+
+const checkLetter = (position) => {
+   let guessedLetter = currentGuess.dataset.letters.charAt(position)
+   let solutionLetter = solutionWord.charAt(position)
+
+   if (guessedLetter == solutionLetter) {
+     return 'correct'
+   } else {
+     return checkLetterExists(guessedLetter) ? 'present' : 'absent'
+   }
+}
