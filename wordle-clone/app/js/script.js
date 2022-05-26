@@ -110,3 +110,7 @@ const checkLetter = (position) => {
      return checkLetterExists(guessedLetter) ? 'present' : 'absent'
    }
 }
+
+const checkLetterExists = (letter) => {
+   return solutionWord.includes(letter)
+}
