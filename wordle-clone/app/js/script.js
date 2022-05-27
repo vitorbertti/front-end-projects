@@ -114,3 +114,9 @@ const checkLetter = (position) => {
 const checkLetterExists = (letter) => {
    return solutionWord.includes(letter)
 }
+
+const revealTile = (i, state) => {
+   let tileNum = i + 1
+   flipTile(tileNum, state)
+   checkIfGuessComplete(i)
+}
