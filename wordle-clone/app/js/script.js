@@ -120,3 +120,20 @@ const revealTile = (i, state) => {
    flipTile(tileNum, state)
    checkIfGuessComplete(i)
 }
+
+const flipTile = (tileNum, state) => {
+   let tile = document.querySelector(
+      '#guess' + currentGuessCount + 'Tile' + tileNum
+   )
+   tile.classList.add('flip-in')
+   setTimeout(() => {
+      tile.classList.add(state)
+   }, 250)
+   setTimeout(() => {
+      tile.classList.remove('flip-in')
+      tile.classList.add('flip-out')
+   }, 250)
+   setTimeout(() => {
+      tile.classList.remove('flip-out')
+   }, 1500)
+}
