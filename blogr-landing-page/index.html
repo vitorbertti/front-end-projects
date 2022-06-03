@@ -14,29 +14,50 @@
    </style>
 </head>
 <body>
-   Product
-
-   Overview
-   Pricing
-   Marketplace
-   Features
-   Integrations
-
-   Company
-
-   About
-   Team
-   Blog
-   Careers
-
-   Connect
-
-   Contact
-   Newsletter
-   LinkedIn
-   
-   Login
-   Sign Up
+   <nav aria-label="Primary navigation">
+      <div class="container nav-container">
+         <a href="/" aria-label="Go to homepage">
+            <img src="/images/logo.svg" alt="Logo">
+         </a>
+         <button class="btn--menu" aria-label="Open mobile nav" aria-expanded="false" aria-controls="menubar"></button>
+         <ul role="menubar" class="nav-links--main" id="menubar">
+            <li role="none">
+               <a href="#" role="menuitem" class="nav-link--main">Product</a>
+               <ul class="nav-sublinks">
+               Overview
+               Pricing
+               Marketplace
+               Features
+               Integrations
+               </ul>
+            </li>
+            <li role="none">
+               <a href="#" role="menuitem" class="nav-link--main">Company</a>
+               <ul class="nav-sublinks">
+               About
+               Team
+               Blog
+               Careers
+               </ul>
+            </li>
+            <li role="none" class="right-me">
+               <a href="#" role="menuitem" class="nav-link--main">Connect</a>
+               <ul class="nav-sublinks">
+               Contact
+               Newsletter
+               LinkedIn
+               </ul>
+            </li>
+            <li role="none">
+               <a href="#" class="btn btn--outline" role="menuitem">Login</a>
+            </li>
+            <li role="none">
+               <a href="#" class="btn btn--filled" role="menuitem">Sign Up</a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+  
 
    A modern publishing platform
    Grow your audience and build your online brand
