@@ -46,3 +46,10 @@ svg {
    --space-2xl-3xl: clamp(5.25rem, calc(3.79rem + 7.32vw), 9rem);
    --space-3xl-4xl: clamp(7.88rem, calc(7.44rem + 2.2vw), 9rem);
 }
+
+body {
+   font-size: var(--body);
+   font-family: "Overpass", sans-serif;
+   letter-spacing: 0.02em;
+   line-height: 1.5;
+}
