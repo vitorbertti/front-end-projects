@@ -53,3 +53,11 @@ body {
    letter-spacing: 0.02em;
    line-height: 1.5;
 }
+
+main {
+   display: grid;
+   gap: var(--space-xl-2xl);
+   padding: var(--space-xl-2xl) var(--space-xs-s);
+   color: var(--text--body);
+   overflow: hidden;
+}
