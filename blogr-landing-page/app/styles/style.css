@@ -61,3 +61,9 @@ main {
    color: var(--text--body);
    overflow: hidden;
 }
+
+.h1 {
+   font-family: "Overpass", sans-serif;
+   font-size: var(--header-lg);
+   line-height: 1.2;
+}
