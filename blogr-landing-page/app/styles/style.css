@@ -67,3 +67,9 @@ main {
    font-size: var(--header-lg);
    line-height: 1.2;
 }
+
+.h2 {
+   font-size: var(--header-md);
+   color: var(--text--headings);
+   line-height: 1.2;
+}
