@@ -73,3 +73,10 @@ main {
    color: var(--text--headings);
    line-height: 1.2;
 }
+
+.h3 {
+   font-size: var(--header-sm);
+   color: var(--text--headings);
+   line-height: 1.2;
+   max-inline-size: 18ch;
+}
