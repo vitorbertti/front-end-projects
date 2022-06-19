@@ -92,3 +92,10 @@ main {
    white-space: nowrap;
    border-width: 0;
 }
+
+.grid-sm {
+   display: grid;
+   place-items: center;
+   gap: var(--space-2xs-xs);
+   text-align: center;
+}
