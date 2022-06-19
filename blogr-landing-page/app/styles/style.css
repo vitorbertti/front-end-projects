@@ -99,3 +99,14 @@ main {
    gap: var(--space-2xs-xs);
    text-align: center;
 }
+
+@media (min-width:768px) {
+   .grid-sm {
+      text-align: left;
+      justify-items: start;
+   }
+   header .grid-sm {
+      text-align: center;
+      justify-items: center;
+   }
+}
