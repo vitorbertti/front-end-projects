@@ -110,3 +110,9 @@ main {
       justify-items: center;
    }
 }
+
+.flex-reverse,
+.flex-wrap {
+   display: flex;
+   gap: var(--space-l-xl);
+}
