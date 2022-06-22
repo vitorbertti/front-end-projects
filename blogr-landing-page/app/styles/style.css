@@ -116,3 +116,7 @@ main {
    display: flex;
    gap: var(--space-l-xl);
 }
+
+.flex-child {
+   align-content: center;
+}
