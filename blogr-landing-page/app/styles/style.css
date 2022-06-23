@@ -120,3 +120,8 @@ main {
 .flex-child {
    align-content: center;
 }
+
+.container {
+   max-width: 1500px;
+   margin-inline: auto;
+}
