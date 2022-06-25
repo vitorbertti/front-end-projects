@@ -143,3 +143,8 @@ main {
    border: 1px solid var(--bkg);
    transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
 }
+
+.btn--filled {
+   background-color: var(--bkg);
+   color: var(--red--light);
+}
