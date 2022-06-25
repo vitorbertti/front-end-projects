@@ -131,3 +131,15 @@ main {
    align-items: center;
    gap: var(--space-2xs-xs);
 }
+
+.btn {
+   font-family: "Ubuntu", sans-serif;
+   text-decoration: none;
+   font-weight: bold;
+   background-color: var(--red--light);
+   color: var(--bkg);
+   border-radius: 2rem;
+   padding: 0.7rem 1rem;
+   border: 1px solid var(--bkg);
+   transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
+}
