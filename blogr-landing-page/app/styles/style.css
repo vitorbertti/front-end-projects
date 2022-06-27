@@ -148,3 +148,9 @@ main {
    background-color: var(--bkg);
    color: var(--red--light);
 }
+
+.btn--filled:is(:hover, :focus) {
+   background-color: var(--red--hover);
+   color: var(--bkg);
+   border-color: transparent;
+}
