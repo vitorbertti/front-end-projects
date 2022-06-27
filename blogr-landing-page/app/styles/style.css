@@ -154,3 +154,7 @@ main {
    color: var(--bkg);
    border-color: transparent;
 }
+
+.btn--outline {
+   background-color: transparent;
+}
