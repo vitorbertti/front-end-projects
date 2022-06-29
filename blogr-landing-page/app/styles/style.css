@@ -158,3 +158,8 @@ main {
 .btn--outline {
    background-color: transparent;
 }
+
+.btn--outline:is(:hover, :focus) {
+   background-color: var(--bkg);
+   color: var(--red--light);
+}
