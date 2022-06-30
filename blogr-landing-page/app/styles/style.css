@@ -163,3 +163,14 @@ main {
    background-color: var(--bkg);
    color: var(--red--light);
 }
+
+.nav-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: var(--space-l-xl);
+   position: absolute;
+   z-index: 10;
+   padding-block: var(--space-m-l);
+   inset-inline: var(--space-s-m);
+}
