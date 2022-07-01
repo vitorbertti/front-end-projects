@@ -174,3 +174,8 @@ main {
    padding-block: var(--space-m-l);
    inset-inline: var(--space-s-m);
 }
+
+[aria-label="Go to homepage"] {
+   display: grid;
+   place-items: center;
+}
