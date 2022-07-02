@@ -179,3 +179,10 @@ main {
    display: grid;
    place-items: center;
 }
+
+.nav-links--main {
+   display: none;
+   position: absolute;
+   top: 7rem;
+   background-color: var(--bkg);
+}
