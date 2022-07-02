@@ -186,3 +186,8 @@ main {
    top: 7rem;
    background-color: var(--bkg);
 }
+
+[role="none"]{
+   display: grid;
+   place-items: center;
+}
