@@ -191,3 +191,8 @@ main {
    display: grid;
    place-items: center;
 }
+
+.nav-link--main {
+   text-decoration: none;
+   color: var(--bkg);
+}
