@@ -196,3 +196,15 @@ main {
    text-decoration: none;
    color: var(--bkg);
 }
+
+@media (min-width: 768px){
+   .nav-links--main {
+      display: flex;
+      position: static;
+      background-color: transparent;
+      justify-content: space-between;
+      gap: var(--space-s-m);
+      list-style: none;
+      width: 100%;
+   }
+}
