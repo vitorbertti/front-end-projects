@@ -207,4 +207,9 @@ main {
       list-style: none;
       width: 100%;
    }
+
+   .nav-link--main::after {
+      content: url('./images/icon-arrow-light.svg');
+      margin-left: .4rem;
+   }
 }
