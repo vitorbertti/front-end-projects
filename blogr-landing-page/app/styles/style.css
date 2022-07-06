@@ -212,4 +212,8 @@ main {
       content: url('./images/icon-arrow-light.svg');
       margin-left: .4rem;
    }
+
+   .right-me {
+      margin-right: auto;
+   }
 }
