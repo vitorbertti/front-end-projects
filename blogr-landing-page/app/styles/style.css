@@ -216,4 +216,8 @@ main {
    .right-me {
       margin-right: auto;
    }
+
+   .nav-sublinks {
+      display: none;
+   }
 }
