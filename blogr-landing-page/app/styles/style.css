@@ -221,3 +221,15 @@ main {
       display: none;
    }
 }
+
+.btn--menu {
+   background: none;
+   border: 0;
+   cursor: pointer;
+   height: 32px;
+   width: 32px;
+   background-image: url('./images/icon-hamburger.svg');
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
