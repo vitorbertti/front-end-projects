@@ -237,3 +237,7 @@ main {
 .btn--menu[aria-expanded="true"] {
    background-image: url('./images/icon-close.svg');
 }
+
+.btn--menu[aria-expanded="true"] + .nav-links--main {
+   display: block;
+}
