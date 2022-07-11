@@ -241,3 +241,9 @@ main {
 .btn--menu[aria-expanded="true"] + .nav-links--main {
    display: block;
 }
+
+@media (min-width: 768px){
+   .btn--menu {
+      display: none;
+   }
+}
