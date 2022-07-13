@@ -247,3 +247,17 @@ main {
       display: none;
    }
 }
+
+header {
+   display: grid;
+   place-items: center;
+   gap: var(--space-l-xl);
+   background: var(--gradient--bkg);
+   color: var(--bkg);
+   padding: 12rem 2rem var(--space-3xl-4xl);
+   text-align: center;
+   position: relative;
+   border-bottom-left-radius: 6rem;
+   z-index: 1;
+   overflow: hidden;
+}
