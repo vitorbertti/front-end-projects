@@ -269,3 +269,8 @@ header .bkg {
    top: -4rem;
    right: -4rem;
 }
+
+header .mobile-only {
+   inset: 0;
+   z-index: 1;
+}
