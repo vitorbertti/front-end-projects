@@ -261,3 +261,11 @@ header {
    z-index: 1;
    overflow: hidden;
 }
+
+header .bkg {
+   position: absolute;
+   z-index: -1;
+   transform: scale(4);
+   top: -4rem;
+   right: -4rem;
+}
