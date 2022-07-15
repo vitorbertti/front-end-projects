@@ -274,3 +274,7 @@ header .mobile-only {
    inset: 0;
    z-index: 1;
 }
+
+header .desktop-only {
+   display: none;
+}
