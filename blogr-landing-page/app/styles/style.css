@@ -278,3 +278,10 @@ header .mobile-only {
 header .desktop-only {
    display: none;
 }
+
+[aria-labelledby="future-designed"] {
+   display: grid;
+   place-items: center;
+   gap: var(--space-xl-2xl);
+   text-align: center;
+}
