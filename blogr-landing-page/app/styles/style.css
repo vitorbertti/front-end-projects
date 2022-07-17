@@ -285,3 +285,7 @@ header .desktop-only {
    gap: var(--space-xl-2xl);
    text-align: center;
 }
+
+.future--desktop-svg {
+   display: none;
+}
