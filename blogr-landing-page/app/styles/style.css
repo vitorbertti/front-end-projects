@@ -289,3 +289,7 @@ header .desktop-only {
 .future--desktop-svg {
    display: none;
 }
+
+.future--mobile-svg {
+   margin-inline: auto;
+}
