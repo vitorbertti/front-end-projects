@@ -293,3 +293,9 @@ header .desktop-only {
 .future--mobile-svg {
    margin-inline: auto;
 }
+
+@media (min-width: 768px){
+   .future--desktop-svg {
+      display: block;
+   }
+}
