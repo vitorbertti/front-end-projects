@@ -298,4 +298,8 @@ header .desktop-only {
    .future--desktop-svg {
       display: block;
    }
+
+   .future--mobile-svg {
+      display: none;
+   }
 }
