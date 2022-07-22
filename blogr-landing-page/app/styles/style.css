@@ -303,3 +303,8 @@ header .desktop-only {
       display: none;
    }
 }
+
+.text-group {
+   display: grid;
+   gap: var(--space-l-xl);
+}
