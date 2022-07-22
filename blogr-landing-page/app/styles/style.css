@@ -308,3 +308,14 @@ header .desktop-only {
    display: grid;
    gap: var(--space-l-xl);
 }
+
+[aria-labelledby="phones"] {
+   display: grid;
+   gap: var(--space-xl-2xl);
+   text-align: center;
+   color: var(--bkg);
+   padding-bottom: var(--space-2xl-3xl);
+   border-bottom-left-radius: 6rem;
+   border-top-right-radius: 6rem;
+   position: relative;
+}
