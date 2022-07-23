@@ -319,3 +319,9 @@ header .desktop-only {
    border-top-right-radius: 6rem;
    position: relative;
 }
+
+@media (min-width:768px) {
+   [aria-labelledby="phones"] {
+      padding-bottom: 0;
+   }
+}
