@@ -325,3 +325,7 @@ header .desktop-only {
       padding-bottom: 0;
    }
 }
+
+[aria-labelledby="phones"] .phones {
+   margin-inline: auto;
+}
