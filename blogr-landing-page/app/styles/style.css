@@ -329,3 +329,7 @@ header .desktop-only {
 [aria-labelledby="phones"] .phones {
    margin-inline: auto;
 }
+
+[aria-labelledby="phones"] .h2 {
+   color: var(--bkg);
+}
