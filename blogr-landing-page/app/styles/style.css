@@ -333,3 +333,7 @@ header .desktop-only {
 [aria-labelledby="phones"] .h2 {
    color: var(--bkg);
 }
+
+[aria-labelledby="phones"] .flex-wrap {
+   gap: var(--space-s-m);
+}
