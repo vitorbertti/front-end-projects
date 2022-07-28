@@ -337,3 +337,13 @@ header .desktop-only {
 [aria-labelledby="phones"] .flex-wrap {
    gap: var(--space-s-m);
 }
+
+.phones-bkg {
+   background: var(--gradient--body);
+   position: absolute;
+   inset: var(--space-3xl-4xl) calc(var(--space-xs-s) * -1) 0;
+   z-index: -2;
+   border-bottom-left-radius: 6rem;
+   border-top-right-radius: 6rem;
+   overflow: hidden;
+}
