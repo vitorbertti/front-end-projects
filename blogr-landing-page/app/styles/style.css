@@ -353,3 +353,11 @@ header .desktop-only {
       inset: var(--space-xl-2xl) calc(var(--space-xs-s) * -1) var(--space-2xl-3xl);
    }
 }
+
+.phones-bkg .bkg {
+   position: absolute;
+   z-index: -1;
+   right: 0;
+   left: 0;
+   top: -20%;
+}
