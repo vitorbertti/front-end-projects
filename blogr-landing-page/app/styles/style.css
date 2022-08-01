@@ -361,3 +361,11 @@ header .desktop-only {
    left: 0;
    top: -20%;
 }
+
+@media (min-width: 768px) {
+   .phones-bkg .bkg {
+      top: -100%;
+      transform: scale(1.5);
+      left: -5%;
+   }
+}
