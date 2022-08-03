@@ -373,3 +373,7 @@ header .desktop-only {
 .feature--desktop-svg {
    display: none;
 }
+
+.feature--mobile-svg {
+   margin-inline: auto;
+}
