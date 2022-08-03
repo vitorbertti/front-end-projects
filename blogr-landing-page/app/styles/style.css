@@ -369,3 +369,7 @@ header .desktop-only {
       left: -5%;
    }
 }
+
+.feature--desktop-svg {
+   display: none;
+}
