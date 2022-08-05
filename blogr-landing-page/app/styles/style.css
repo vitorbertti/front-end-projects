@@ -377,3 +377,9 @@ header .desktop-only {
 .feature--mobile-svg {
    margin-inline: auto;
 }
+
+@media (min-width: 768px) {
+   .feature--desktop-svg {
+      display: block;
+   }
+}
