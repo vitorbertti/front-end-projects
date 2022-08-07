@@ -382,4 +382,8 @@ header .desktop-only {
    .feature--desktop-svg {
       display: block;
    }
+
+   .feature--mobile-svg {
+      display: none;
+   }
 }
