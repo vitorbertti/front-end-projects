@@ -387,3 +387,10 @@ header .desktop-only {
       display: none;
    }
 }
+
+footer {
+   background-color: var(--bkg--footer);
+   border-top-right-radius: 6rem;
+   padding-block: var(--space-xl-2xl);
+   color: var(--bkg);
+}
