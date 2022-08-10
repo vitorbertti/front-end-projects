@@ -403,3 +403,10 @@ footer {
    text-align: center;
    gap: var(--space-l-xl);
 }
+
+@media (min-width: 768px){
+   .footer-flex {
+      justify-content: space-between;
+      align-items: start;
+   }
+}
