@@ -394,3 +394,12 @@ footer {
    padding-block: var(--space-xl-2xl);
    color: var(--bkg);
 }
+
+.footer-flex {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: var(--space-l-xl);
+}
