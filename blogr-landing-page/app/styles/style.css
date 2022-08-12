@@ -410,3 +410,8 @@ footer {
       align-items: start;
    }
 }
+
+.footer-logo,
+[aria-label="Secondary Nav"] {
+   flex: 1 1 100%;
+}
