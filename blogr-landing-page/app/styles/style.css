@@ -415,3 +415,9 @@ footer {
 [aria-label="Secondary Nav"] {
    flex: 1 1 100%;
 }
+
+@media (min-width: 768px){
+   .footer-logo {
+      flex: 1 1 25%;
+   }
+}
