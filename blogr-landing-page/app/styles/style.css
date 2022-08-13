@@ -421,3 +421,9 @@ footer {
       flex: 1 1 25%;
    }
 }
+
+[aria-label="Secondary Nav"] {
+   display: flex;
+   flex-direction: column;
+   gap: var(--space-l-xl);
+}
