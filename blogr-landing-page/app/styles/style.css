@@ -427,3 +427,12 @@ footer {
    flex-direction: column;
    gap: var(--space-l-xl);
 }
+
+@media (min-width: 768px) {
+   [aria-label="Secondary Nav"] {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex: 1 1 70%;
+   }
+}
