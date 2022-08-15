@@ -436,3 +436,9 @@ footer {
       flex: 1 1 70%;
    }
 }
+
+.nav-links {
+   list-style: none;
+   display: grid;
+   gap: 0.2rem;
+}
