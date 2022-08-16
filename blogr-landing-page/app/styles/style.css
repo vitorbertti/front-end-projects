@@ -442,3 +442,7 @@ footer {
    display: grid;
    gap: 0.2rem;
 }
+
+.nav-link:first-child {
+   margin-bottom: 1rem;
+}
