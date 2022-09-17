@@ -99,5 +99,15 @@
          <img src="./images/image-hero-desktop.png" id="hero-img">
       </div>
    </div>
+   <script>
+      const ham = document.querySelector('.ham')
+    
+      ham.addEventListener('click', e => {
+         document.querySelector('.mobile-nav').classList.add('show')
+         document.querySelector('.overlay').style.display = 'block'
+         document.querySelector('body').classList.add('lock')
+      })
+      
+    </script>
 </body>
 </html>
