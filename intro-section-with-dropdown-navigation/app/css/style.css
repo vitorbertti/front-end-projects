@@ -12,3 +12,9 @@ body {
 .lock {
    overflow: hidden;
 }
+
+.nav-btns button:nth-child(1) {
+   border: none;
+   outline: none;
+   background-color: transparent;
+}
