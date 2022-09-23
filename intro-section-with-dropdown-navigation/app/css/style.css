@@ -27,3 +27,10 @@ body {
    border: 1px solid black;
    background-color: transparent;
 }
+
+a {
+   text-decoration: none;
+   color: black;
+   display: inline;
+   margin: 10px;
+}
