@@ -34,3 +34,7 @@ a {
    display: inline;
    margin: 10px;
 }
+
+.ham {
+   display: none;
+}
