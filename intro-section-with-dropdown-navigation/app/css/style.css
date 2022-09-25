@@ -38,3 +38,7 @@ a {
 .ham {
    display: none;
 }
+
+.overlay {
+   display: none;
+}
