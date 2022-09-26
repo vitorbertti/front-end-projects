@@ -42,3 +42,9 @@ a {
 .overlay {
    display: none;
 }
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
