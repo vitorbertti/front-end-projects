@@ -48,3 +48,8 @@ nav {
    align-items: center;
    justify-content: space-around;
 }
+
+h1 {
+   font-size: 70px;
+   width: 500px;
+}
