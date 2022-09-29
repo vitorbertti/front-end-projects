@@ -53,3 +53,13 @@ h1 {
    font-size: 70px;
    width: 500px;
 }
+
+.hero {
+   display: grid;
+   grid-template-columns: repeat(2, 450px);
+   grid-gap: 80px;
+   margin: 0 auto;
+   max-width: 1200px;
+   justify-content: center;
+   align-items: center;
+}
