@@ -67,3 +67,10 @@ h1 {
 .img-container img {
    width: 100%;
 }
+
+.logos {
+   margin-top: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
