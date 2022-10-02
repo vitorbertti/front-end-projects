@@ -74,3 +74,15 @@ h1 {
    align-items: center;
    justify-content: space-around;
 }
+
+.hero button {
+   margin-top: 40px;
+   border: none;
+   outline: none;
+   background-color: black;
+   color: #fff;
+   padding: 15px 25px;
+   border-radius: 10px;
+   font-size: 15px;
+   transition: all 1s;
+}
