@@ -86,3 +86,12 @@ h1 {
    font-size: 15px;
    transition: all 1s;
 }
+
+.hero button:hover {
+   background-color: transparent;
+   border: 1px solid black;
+   color: grey;
+   font-family: bold;
+   cursor: pointer;
+   transition: all 1s;
+}
