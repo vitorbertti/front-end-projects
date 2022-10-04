@@ -95,3 +95,8 @@ h1 {
    cursor: pointer;
    transition: all 1s;
 }
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
