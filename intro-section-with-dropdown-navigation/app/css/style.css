@@ -118,3 +118,7 @@ h1 {
    display: flex;
    align-items: center;
 }
+
+.dropdown-content a:hover {
+   background-color: #ddd;
+}
