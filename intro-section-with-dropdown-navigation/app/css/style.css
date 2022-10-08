@@ -126,3 +126,7 @@ h1 {
 .dropdown-content img {
    margin-right: 10px;
 }
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
