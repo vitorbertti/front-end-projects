@@ -130,3 +130,10 @@ h1 {
 .dropdown:hover .dropdown-content {
    display: block;
 }
+
+@media (max-width: 1200px) {
+   .hero {
+      max-width: 960px;
+      grid-template-columns: repeat(2, 400px);
+   }
+}
