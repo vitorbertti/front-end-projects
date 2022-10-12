@@ -142,4 +142,8 @@ h1 {
    .nav-btns {
       display: none;
    }
+
+   .nav-ul {
+      display: none;
+   }
 }
