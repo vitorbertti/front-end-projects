@@ -146,4 +146,9 @@ h1 {
    .nav-ul {
       display: none;
    }
+
+   nav {
+      display: flex;
+      justify-content: space-between;
+   }
 }
