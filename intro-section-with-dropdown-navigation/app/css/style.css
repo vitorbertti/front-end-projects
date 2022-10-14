@@ -150,6 +150,7 @@ h1 {
    nav {
       display: flex;
       justify-content: space-between;
+      padding: 20px;
    }
 
    .ham {
