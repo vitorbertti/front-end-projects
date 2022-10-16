@@ -162,4 +162,8 @@ h1 {
       max-width: 960px;
       grid-template-columns: repeat(1, max(200px, 350px));
    }
+
+   .img-container {
+      grid-row: 1;
+   }
 }
