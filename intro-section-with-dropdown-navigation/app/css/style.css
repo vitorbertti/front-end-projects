@@ -166,4 +166,9 @@ h1 {
    .img-container {
       grid-row: 1;
    }
+
+   .img-container img {
+      content: url(images/image-hero-mobile.png);
+      max-width: 100%;
+   }
 }
