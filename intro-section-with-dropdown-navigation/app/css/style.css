@@ -171,4 +171,8 @@ h1 {
       content: url(images/image-hero-mobile.png);
       max-width: 100%;
    }
+
+   .hero-text {
+      text-align: center;
+   }
 }
