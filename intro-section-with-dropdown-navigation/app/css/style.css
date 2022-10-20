@@ -175,4 +175,8 @@ h1 {
    .hero-text {
       text-align: center;
    }
+
+   .hero button {
+      margin: 0;
+   }
 }
