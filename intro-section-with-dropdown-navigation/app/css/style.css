@@ -190,4 +190,13 @@ h1 {
    br {
       display: none;
    }
+
+   .overlay {
+      display: none;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      top: 0;
+      height: 100vh;
+   }
 }
