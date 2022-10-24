@@ -199,4 +199,18 @@ h1 {
       top: 0;
       height: 100vh;
    }
+
+   .mobile-nav {
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+      position: absolute;
+      top: -10px;
+      right: 0;
+      background-color: #fff;
+      padding: 20px;
+      display: none;
+      width: 180px;
+      height: 100%;
+   }
 }
