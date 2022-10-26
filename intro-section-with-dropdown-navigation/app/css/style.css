@@ -217,4 +217,8 @@ h1 {
    .mobile-nav img {
       text-align: right;
    }
+
+   .show {
+      display: flex;
+   }
 }
