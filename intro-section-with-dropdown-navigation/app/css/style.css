@@ -221,4 +221,8 @@ h1 {
    .show {
       display: flex;
    }
+
+   a {
+      margin: 0;
+   }
 }
