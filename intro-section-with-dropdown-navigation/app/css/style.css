@@ -225,4 +225,11 @@ h1 {
    a {
       margin: 0;
    }
+
+   .mobile-nav-con {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: end;
+   }
 }
