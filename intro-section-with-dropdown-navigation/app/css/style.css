@@ -232,4 +232,8 @@ h1 {
       width: 100%;
       justify-content: end;
    }
+
+   .mobile-nav-con > * {
+      padding: 20px;
+   }
 }
