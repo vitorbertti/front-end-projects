@@ -62,3 +62,8 @@ html:focus-within {
    --space-2xl: clamp(4.00rem, calc(3.41rem + 2.93vw), 5.50rem);
    --space-3xl: clamp(6.00rem, calc(5.12rem + 4.39vw), 8.25rem);
 }
+
+.stack-xs {
+   display: grid;
+   gap: var(--space-2xs);
+}
