@@ -77,3 +77,8 @@ html:focus-within {
    display: grid;
    gap: var(--space-md);
 }
+
+.stack-xl {
+   display: grid;
+   gap: var(--space-xl)
+}
