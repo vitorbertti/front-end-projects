@@ -88,3 +88,7 @@ html:focus-within {
    text-decoration: none;
    color: hsl(var(--text));
 }
+
+.ring-link:where(:focus) {
+   outline: none;
+}
