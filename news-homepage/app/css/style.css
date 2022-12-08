@@ -103,3 +103,7 @@ html:focus-within {
    --hoverClr: hsl(var(--accent2));
    color: var(--hoverClr);
 }
+
+.ring-link--alt:hover {
+   --hoverClr: hsl(var(--accent1));
+}
