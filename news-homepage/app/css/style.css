@@ -107,3 +107,11 @@ html:focus-within {
 .ring-link--alt:hover {
    --hoverClr: hsl(var(--accent1));
 }
+
+body {
+   font-family: 'Inter', sans-serif;
+   background-color: hsl(var(--bkg));
+   color: hsl(var(--text));
+   font-size: var(--fs-400);
+   line-height: var(--lh-1-4);
+}
