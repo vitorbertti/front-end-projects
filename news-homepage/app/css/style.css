@@ -115,3 +115,8 @@ body {
    font-size: var(--fs-400);
    line-height: var(--lh-1-4);
 }
+
+main {
+   display: grid;
+   gap: var(--space-lg);
+}
