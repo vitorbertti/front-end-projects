@@ -150,3 +150,8 @@ h3 {
    grid-template-rows: auto 1fr auto;
    z-index: 50;
 }
+
+p {
+   max-width: 60ch;
+   color: hsl(var(--muted));
+}
