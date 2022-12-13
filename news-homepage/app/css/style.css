@@ -139,3 +139,14 @@ h3 {
    font-size: var(--fs-500);
    font-weight: 700;
 }
+
+.wrapper {
+   overflow: hidden;
+   padding: var(--space-xs);
+   min-height: 100vh;
+   position: relative;
+   display: grid;
+   gap: var(--space-lg);
+   grid-template-rows: auto 1fr auto;
+   z-index: 50;
+}
