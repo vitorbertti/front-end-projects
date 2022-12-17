@@ -173,3 +173,10 @@ p {
    width: 100%;
    max-width: 1200px;
 }
+
+.flex-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   gap: var(--space-sm);
+}
