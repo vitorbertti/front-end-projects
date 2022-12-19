@@ -198,3 +198,10 @@ p {
 .btn:where(:focus) {
    outline: none;
 }
+
+.btn:where(:hover, :focus-visible) {
+   --accent2: var(--text);
+   box-shadow:
+      0 0 0 .15em hsl(var(--bkg)),
+      0 0 0 .4em hsl(var(--accent2));
+}
