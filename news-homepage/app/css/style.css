@@ -231,3 +231,7 @@ nav {
    background-color: hsl(var(--bkg));
    transform: translateX(100%);
 }
+
+.nav-links[open] {
+   transform: translateX(0%);
+}
