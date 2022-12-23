@@ -216,3 +216,18 @@ nav {
    background: none;
    border: none;
 }
+
+.nav-links {
+   position: absolute;
+   right: 0;
+   top: 0;
+   display: grid;
+   gap: var(--space-md);
+   min-width: 70vw;
+   align-content: center;
+   min-height: 100vh;
+   min-height: 100vh;
+   padding-inline: var(--space-md);
+   background-color: hsl(var(--bkg));
+   transform: translateX(100%);
+}
