@@ -235,3 +235,11 @@ nav {
 .nav-links[open] {
    transform: translateX(0%);
 }
+
+.close-btn {
+   position: absolute;
+   background: none;
+   border: none;
+   top: var(--space-sm);
+   right: var(--space-sm);
+}
