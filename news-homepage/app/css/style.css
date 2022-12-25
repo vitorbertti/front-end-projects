@@ -243,3 +243,12 @@ nav {
    top: var(--space-sm);
    right: var(--space-sm);
 }
+
+.nav-bkg {
+   background-color: hsl(var(--text) / .4);
+   position: absolute;
+   inset: 0;
+   right: 70vw;
+   transform: translateX(-100%);
+   z-index: 100;
+}
