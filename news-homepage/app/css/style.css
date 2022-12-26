@@ -252,3 +252,7 @@ nav {
    transform: translateX(-100%);
    z-index: 100;
 }
+
+.nav-bkg[open] {
+   transform: translateX(0%);
+}
