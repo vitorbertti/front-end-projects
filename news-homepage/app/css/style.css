@@ -256,3 +256,8 @@ nav {
 .nav-bkg[open] {
    transform: translateX(0%);
 }
+
+.nav-link {
+   text-decoration: none;
+   color: hsl(var(--text));
+}
