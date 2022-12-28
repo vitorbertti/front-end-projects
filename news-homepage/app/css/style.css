@@ -261,3 +261,9 @@ nav {
    text-decoration: none;
    color: hsl(var(--text));
 }
+
+[aria-labelledby="new"]{
+   background-color: hsl(var(--text));
+   color: hsl(var(--bkg));
+   padding: var(--space-md) var(--space-xs);
+}
