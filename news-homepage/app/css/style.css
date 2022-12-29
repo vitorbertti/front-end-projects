@@ -267,3 +267,7 @@ nav {
    color: hsl(var(--bkg));
    padding: var(--space-md) var(--space-xs);
 }
+
+#new {
+   color: hsl(var(--accent1));
+}
