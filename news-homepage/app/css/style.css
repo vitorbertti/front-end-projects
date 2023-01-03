@@ -271,3 +271,9 @@ nav {
 #new {
    color: hsl(var(--accent1));
 }
+
+.new-article {
+   border-bottom: 1px solid hsl(var(--muted));
+   padding-bottom: var(--space-md);
+   margin-bottom: calc(var(--space-md) * -1);
+}
