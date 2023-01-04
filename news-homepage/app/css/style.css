@@ -277,3 +277,7 @@ nav {
    padding-bottom: var(--space-md);
    margin-bottom: calc(var(--space-md) * -1);
 }
+
+.new-article a {
+   color: hsl(var(--bkg));
+}
