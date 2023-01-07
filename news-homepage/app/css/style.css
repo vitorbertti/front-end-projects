@@ -293,3 +293,9 @@ nav {
    flex-wrap: wrap;
    gap: var(--space-md);
 }
+
+.top-article {
+   display: flex;
+   align-items: start;
+   gap: var(--space-sm);
+}
