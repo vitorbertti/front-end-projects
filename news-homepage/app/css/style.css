@@ -299,3 +299,9 @@ nav {
    align-items: start;
    gap: var(--space-sm);
 }
+
+.number {
+   font-size: var(--fs-600);
+   font-weight: 800;
+   color: hsl(var(--light));
+}
