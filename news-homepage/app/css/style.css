@@ -305,3 +305,7 @@ nav {
    font-weight: 800;
    color: hsl(var(--light));
 }
+
+.top-article-img {
+   width: var(--space-3xl);
+}
