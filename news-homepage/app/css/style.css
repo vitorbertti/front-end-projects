@@ -309,3 +309,9 @@ nav {
 .top-article-img {
    width: var(--space-3xl);
 }
+
+@media only screen and (min-width: 900px) {
+   .wrapper {
+      padding: var(--space-xl);
+   }
+}
