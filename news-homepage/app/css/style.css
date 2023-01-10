@@ -314,4 +314,8 @@ nav {
    .wrapper {
       padding: var(--space-xl);
    }
+
+   .btn-nav, .nav-bkg, .close-btn {
+      display: none;
+   }
 }
