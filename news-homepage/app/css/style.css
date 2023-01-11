@@ -318,4 +318,13 @@ nav {
    .btn-nav, .nav-bkg, .close-btn {
       display: none;
    }
+
+   .nav-links {
+      position: static;
+      display: flex;
+      transform: translateX(0%);
+      min-height: auto;
+      min-width: auto;
+      padding: 0;
+   }
 }
