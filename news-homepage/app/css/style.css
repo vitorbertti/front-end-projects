@@ -327,4 +327,8 @@ nav {
       min-width: auto;
       padding: 0;
    }
+
+   .flex-wrapper > * {
+      flex: 1 1 40%;
+   }
 }
