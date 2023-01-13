@@ -331,4 +331,8 @@ nav {
    .flex-wrapper > * {
       flex: 1 1 40%;
    }
+
+   [aria-labelledby="new"] {
+      flex-basis: 10%;
+   }
 }
