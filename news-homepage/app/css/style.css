@@ -335,4 +335,8 @@ nav {
    [aria-labelledby="new"] {
       flex-basis: 10%;
    }
+
+   .top-article {
+      flex: 1 1 25%;
+   }
 }
