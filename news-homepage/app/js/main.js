@@ -5,3 +5,10 @@ const mobileNav = document.querySelector("#mobileNav")
 const navLinks = document.querySelectorAll(".nav-link")
 const closeBtn = document.querySelector("#closeBtn")
 const navBkg = document.querySelector(".nav-bkg")
+
+const toggleOpenAttribute = (arrayOfItems) => {
+   arrayOfItems.forEach((i) => {
+		const isOpen = i.hasAttribute("open")
+      isOpen ? i.removeAttribute("open") : i.setAttribute("open", "")
+	})
+}
