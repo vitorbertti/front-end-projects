@@ -21,3 +21,10 @@ const toggleTabIndexes = (arrayOfItems) => {
 			: i.setAttribute("tabindex", "0")
 	})
 }
+
+const handleMobileNavClick = (e) => {
+	const isOpen = JSON.parse(e.target.getAttribute("aria-expanded"))
+	e.target.setAttribute("aria-expanded", !isOpen)
+	toggleOpenAttribute([mobileNav, navBkg])
+	toggleTabIndexes([...navLinks, closeBtn])
+}
