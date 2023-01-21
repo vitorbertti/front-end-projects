@@ -28,3 +28,9 @@ const handleMobileNavClick = (e) => {
 	toggleOpenAttribute([mobileNav, navBkg])
 	toggleTabIndexes([...navLinks, closeBtn])
 }
+
+const closeMobileNav = () => {
+	mobileNavBtn.setAttribute("aria-expanded", "false")
+	toggleOpenAttribute([mobileNav, navBkg])
+	toggleTabIndexes([...navLinks, closeBtn])
+}
