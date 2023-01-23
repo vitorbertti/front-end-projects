@@ -36,3 +36,5 @@ const closeMobileNav = () => {
 }
 
 mobileNavBtn.addEventListener("click", handleMobileNavClick)
+
+navBkg.addEventListener("click", closeMobileNav)
