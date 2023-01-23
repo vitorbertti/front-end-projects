@@ -34,3 +34,5 @@ const closeMobileNav = () => {
 	toggleOpenAttribute([mobileNav, navBkg])
 	toggleTabIndexes([...navLinks, closeBtn])
 }
+
+mobileNavBtn.addEventListener("click", handleMobileNavClick)
