@@ -40,3 +40,10 @@ mobileNavBtn.addEventListener("click", handleMobileNavClick)
 navBkg.addEventListener("click", closeMobileNav)
 
 closeBtn.addEventListener("click", closeMobileNav)
+
+window.addEventListener("keydown", (e) => {
+	if (!navBkg.hasAttribute("open")) {
+		return
+	}
+	e.key === "Escape" && closeMobileNav()
+})
