@@ -46,3 +46,8 @@ body {
    display: grid;
    gap: clamp(1rem, 3vw, 2rem);
 }
+
+.card {
+   background-color: var(--bg);
+   border-radius: 1rem;
+}
