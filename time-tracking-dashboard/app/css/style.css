@@ -51,3 +51,7 @@ body {
    background-color: var(--bg);
    border-radius: 1rem;
 }
+
+.card > div {
+   background-color: var(--bg);
+}
