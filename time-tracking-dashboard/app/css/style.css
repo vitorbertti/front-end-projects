@@ -62,3 +62,11 @@ body {
    justify-content: space-between;
    flex: 1 1 10%;
 }
+
+.card--avatar-top {
+   --bg: var(--avatar);
+   flex: 1 1 80%;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
