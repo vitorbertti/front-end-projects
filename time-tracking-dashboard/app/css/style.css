@@ -79,3 +79,10 @@ body {
    object-fit: cover;
    flex: 0 1 20%;
 }
+
+h1 {
+   flex: 1 1 50%;
+   font-size: 1.2rem;
+   font-weight: 300;
+   --txt: var(--neutral-2);
+}
