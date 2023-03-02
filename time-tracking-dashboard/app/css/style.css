@@ -86,3 +86,8 @@ h1 {
    font-weight: 300;
    --txt: var(--neutral-2);
 }
+
+h1 > span {
+   font-size: .8rem;
+   color: var(--neutral-4);
+}
