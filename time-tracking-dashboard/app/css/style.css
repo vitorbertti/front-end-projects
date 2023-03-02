@@ -91,3 +91,8 @@ h1 > span {
    font-size: .8rem;
    color: var(--neutral-4);
 }
+
+.card--lg {
+   border-radius: 1rem;
+   padding: 1rem;
+}
