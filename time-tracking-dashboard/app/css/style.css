@@ -96,3 +96,7 @@ h1 > span {
    border-radius: 1rem;
    padding: 1rem;
 }
+
+.timecard .card--lg {
+   --bg: var(--neutral-2);
+}
