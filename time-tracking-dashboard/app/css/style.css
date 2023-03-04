@@ -100,3 +100,9 @@ h1 > span {
 .timecard .card--lg {
    --bg: var(--neutral-2);
 }
+
+.card--sm {
+   padding: 1rem .5rem;
+   border-bottom-left-radius: 1rem;
+   border-bottom-right-radius: 1rem;
+}
