@@ -106,3 +106,8 @@ h1 > span {
    border-bottom-left-radius: 1rem;
    border-bottom-right-radius: 1rem;
 }
+
+.card--avatar .card--sm {
+   border-bottom-left-radius: 1rem;
+   border-bottom-right-radius: 1rem;
+}
