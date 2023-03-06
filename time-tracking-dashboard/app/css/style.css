@@ -111,3 +111,11 @@ h1 > span {
    border-bottom-left-radius: 1rem;
    border-bottom-right-radius: 1rem;
 }
+
+.card--avatar-bottom {
+   --bg: var(--neutral-2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: .5rem;
+}
