@@ -119,3 +119,8 @@ h1 > span {
    align-items: center;
    gap: .5rem;
 }
+
+.timecard .card--sm {
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+}
