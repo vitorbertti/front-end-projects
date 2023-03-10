@@ -135,3 +135,9 @@ h1 > span {
    top: -.8rem;
    right: .8rem;
 }
+
+.timecard--bottom {
+   position: relative;
+   display: grid;
+   gap: clamp(.5rem, 2vw, 2rem);
+}
