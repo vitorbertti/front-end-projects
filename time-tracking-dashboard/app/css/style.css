@@ -129,3 +129,9 @@ h1 > span {
    position: relative;
    overflow: hidden;
 }
+
+.icon {
+   position: absolute;
+   top: -.8rem;
+   right: .8rem;
+}
