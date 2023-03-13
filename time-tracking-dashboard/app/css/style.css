@@ -147,3 +147,9 @@ h1 > span {
    justify-content: space-between;
    align-items: center;
 }
+
+.timecard--amt {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
