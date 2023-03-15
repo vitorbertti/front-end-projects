@@ -158,3 +158,9 @@ h1 > span {
    font-size: 1.8rem;
    font-weight: 300;
 }
+
+.previous {
+   font-size: .8rem;
+   font-weight: 300;
+   color: var(--neutral-4);
+}
