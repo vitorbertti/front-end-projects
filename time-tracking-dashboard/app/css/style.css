@@ -153,3 +153,8 @@ h1 > span {
    justify-content: space-between;
    align-items: center;
 }
+
+.current {
+   font-size: 1.8rem;
+   font-weight: 300;
+}
