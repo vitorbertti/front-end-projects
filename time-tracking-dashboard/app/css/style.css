@@ -164,3 +164,8 @@ h1 > span {
    font-weight: 300;
    color: var(--neutral-4);
 }
+
+h2 {
+   font-size: 1rem;
+   font-weight: 400;
+}
