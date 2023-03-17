@@ -169,3 +169,7 @@ h2 {
    font-size: 1rem;
    font-weight: 400;
 }
+
+.timecard--title .btn {
+   flex: 0 1 0%;
+}
