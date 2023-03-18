@@ -173,3 +173,7 @@ h2 {
 .timecard--title .btn {
    flex: 0 1 0%;
 }
+
+.timecard-work {
+   --bg: var(--orange);
+}
