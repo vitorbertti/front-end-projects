@@ -181,3 +181,7 @@ h2 {
 .timecard-play {
    --bg: var(--cyan);
 }
+
+.timecard-study {
+   --bg: var(--red);
+}
