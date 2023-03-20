@@ -177,3 +177,7 @@ h2 {
 .timecard-work {
    --bg: var(--orange);
 }
+
+.timecard-play {
+   --bg: var(--cyan);
+}
