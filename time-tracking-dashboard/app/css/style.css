@@ -185,3 +185,7 @@ h2 {
 .timecard-study {
    --bg: var(--red);
 }
+
+.timecard-exercise {
+   --bg: var(--green);
+}
