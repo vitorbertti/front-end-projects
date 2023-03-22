@@ -189,3 +189,7 @@ h2 {
 .timecard-exercise {
    --bg: var(--green);
 }
+
+.timecard-social {
+   --bg: var(--purple);
+}
