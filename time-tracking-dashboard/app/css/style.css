@@ -193,3 +193,7 @@ h2 {
 .timecard-social {
    --bg: var(--purple);
 }
+
+.timecard-selfcare {
+   --bg: var(--yellow);
+}
