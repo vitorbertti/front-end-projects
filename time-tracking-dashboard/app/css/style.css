@@ -197,3 +197,20 @@ h2 {
 .timecard-selfcare {
    --bg: var(--yellow);
 }
+
+.btn {
+   font: inherit;
+   background: inherit;
+   border: none;
+   color: var(--neutral-3);
+   flex: 1 1 100%;
+   border-radius: .5rem;
+   padding: .2rem .8rem;
+   cursor: pointer;
+   box-shadow:
+      0 0 0 -.5rem var(--bg),
+      0 0 0 -.5rem var(--avatar);
+   transition:
+      box-shadow var(--time) var(--snap),
+      color var(--time) var(--ease);
+}
