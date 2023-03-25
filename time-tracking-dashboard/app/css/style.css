@@ -214,3 +214,7 @@ h2 {
       box-shadow var(--time) var(--snap),
       color var(--time) var(--ease);
 }
+
+.btn:focus {
+   outline: none;
+}
