@@ -224,3 +224,7 @@ h2 {
       0 0 0 .1rem var(--bg),
       0 0 0 .4rem var(--avatar);
 }
+
+.btn:where(.active, :hover, :focus-within) {
+   color: white;
+}
