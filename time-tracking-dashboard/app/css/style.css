@@ -228,3 +228,12 @@ h2 {
 .btn:where(.active, :hover, :focus-within) {
    color: white;
 }
+
+@media screen and (min-width: 480px) {
+   .container {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      max-width: 1200px;
+   }
+}
