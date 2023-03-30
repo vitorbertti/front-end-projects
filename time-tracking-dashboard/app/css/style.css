@@ -236,4 +236,9 @@ h2 {
       width: 100%;
       max-width: 1200px;
    }
+
+   .container--timecards {
+      flex: 1 1 80%;
+      grid-template-columns: repeat(2, 1fr);
+   }
 }
