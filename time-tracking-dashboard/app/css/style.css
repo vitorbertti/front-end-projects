@@ -241,4 +241,12 @@ h2 {
       flex: 1 1 80%;
       grid-template-columns: repeat(2, 1fr);
    }
+
+   .card--avatar-top {
+      flex-wrap: wrap;
+      align-items: start;
+      align-content: start;
+      padding: 4rem 1rem;
+      gap: 2rem;
+   }
 }
