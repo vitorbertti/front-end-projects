@@ -249,4 +249,9 @@ h2 {
       padding: 4rem 1rem;
       gap: 2rem;
    }
+
+   h1 {
+      flex: 1 1 100%;
+      font-size: 3rem;
+   }
 }
