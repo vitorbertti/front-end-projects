@@ -26,3 +26,11 @@
 img {
    max-width: 100%;
 }
+
+body {
+   background-color: var(--Magnolia);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
