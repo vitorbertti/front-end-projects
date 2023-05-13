@@ -34,3 +34,10 @@ body {
    justify-content: center;
    min-height: 100vh;
 }
+
+.form {
+   width: 900px;
+   background-color: var(--White);
+   border-radius: 1rem;
+   box-shadow: 0px 0px 1px black;
+}
