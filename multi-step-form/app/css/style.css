@@ -57,3 +57,15 @@ body {
    flex-direction: column;
    gap: 2rem;
 }
+
+.circle {
+   width: 40px;
+   height: 40px;
+   border: 2px solid var(--White);
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: var(--White);
+   font-weight: 700;
+}
