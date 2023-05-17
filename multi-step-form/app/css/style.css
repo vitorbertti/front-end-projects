@@ -69,3 +69,8 @@ body {
    color: var(--White);
    font-weight: 700;
 }
+
+.active .circle {
+   background-color: var(--Light-blue) !important;
+   color: var(--Marine-blue) !important;
+}
