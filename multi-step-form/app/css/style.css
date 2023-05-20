@@ -84,3 +84,9 @@ body {
    align-items: center;
    gap: 0.8rem;
 }
+
+.step-content {
+   display: flex;
+   flex-direction: column;
+   gap: 0.2rem;
+}
