@@ -90,3 +90,9 @@ body {
    flex-direction: column;
    gap: 0.2rem;
 }
+
+.step-content span {
+   text-transform: uppercase;
+   color: var(--Light-gray);
+   font-size: 13px;
+}
