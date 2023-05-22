@@ -101,3 +101,9 @@ body {
    text-transform: uppercase;
    color: var(--White);
 }
+
+.stp {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
