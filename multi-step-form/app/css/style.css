@@ -96,3 +96,8 @@ body {
    color: var(--Light-gray);
    font-size: 13px;
 }
+
+.step-content b {
+   text-transform: uppercase;
+   color: var(--White);
+}
