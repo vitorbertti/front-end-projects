@@ -107,3 +107,9 @@ body {
    flex-direction: column;
    justify-content: center;
 }
+
+.stp .header {
+   margin-bottom: auto;
+   padding-top: 2rem;
+   line-height: 2.5rem;
+}
