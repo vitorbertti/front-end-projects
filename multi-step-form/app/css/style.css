@@ -117,3 +117,7 @@ body {
 .header .title {
    color: var(--Marine-blue);
 }
+
+.header .exp {
+   color: var(--Cool-gray);
+}
