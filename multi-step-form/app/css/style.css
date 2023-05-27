@@ -121,3 +121,15 @@ body {
 .header .exp {
    color: var(--Cool-gray);
 }
+
+.next-stp {
+   margin-top: auto;
+   margin-bottom: 2rem;
+   margin-left: auto;
+   border: none;
+   padding: 1rem 2rem;
+   border-radius: 7px;
+   background-color: var(--Marine-blue);
+   color: white;
+   cursor: pointer;
+}
