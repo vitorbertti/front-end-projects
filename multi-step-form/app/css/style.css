@@ -138,3 +138,11 @@ body {
    display: flex;
    width: 90%;
 }
+
+.step-1 form {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   justify-content: center;
+   gap: 1rem;
+}
