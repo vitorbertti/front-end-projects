@@ -133,3 +133,8 @@ body {
    color: white;
    cursor: pointer;
 }
+
+.step-1 {
+   display: flex;
+   width: 90%;
+}
