@@ -122,6 +122,13 @@ body {
    color: var(--Cool-gray);
 }
 
+.label {
+   color: var(--Marine-blue);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
 .next-stp {
    margin-top: auto;
    margin-bottom: 2rem;
