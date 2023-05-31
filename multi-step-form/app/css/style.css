@@ -161,3 +161,7 @@ body {
    font-weight: 500;
    font-size: 1rem;
 }
+
+.step-1 form input:focus {
+   outline-color: var(--Purplish-blue);
+}
