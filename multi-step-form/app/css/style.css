@@ -165,3 +165,9 @@ body {
 .step-1 form input:focus {
    outline-color: var(--Purplish-blue);
 }
+
+form input::placeholder {
+   font-weight: 500;
+   font-size: 1rem;
+   font-family: inherit;
+}
