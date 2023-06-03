@@ -171,3 +171,10 @@ form input::placeholder {
    font-size: 1rem;
    font-family: inherit;
 }
+
+form .error {
+   display: none;
+   color: var(--Strawberry-red);
+   font-size: 0.9rem;
+   font-weight: 700;
+}
