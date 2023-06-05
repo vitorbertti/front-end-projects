@@ -183,3 +183,10 @@ form .error {
    display: none;
    width: 90%;
 }
+
+.step-2 form {
+   display: flex;
+   flex: 1;
+   align-items: center;
+   gap: 2rem;
+}
