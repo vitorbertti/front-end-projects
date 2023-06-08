@@ -203,3 +203,9 @@ form .error {
    align-items: flex-start;
    justify-content: space-between;
 }
+
+.plan-info {
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+}
