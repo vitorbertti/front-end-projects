@@ -209,3 +209,7 @@ form .error {
    flex-direction: column;
    gap: 0.3rem;
 }
+
+.plan-info b {
+   color: var(--Marine-blue);
+}
