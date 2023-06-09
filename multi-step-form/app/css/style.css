@@ -213,3 +213,7 @@ form .error {
 .plan-info b {
    color: var(--Marine-blue);
 }
+
+.plan-info span {
+   color: var(--Cool-gray);
+}
