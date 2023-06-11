@@ -217,3 +217,9 @@ form .error {
 .plan-info span {
    color: var(--Cool-gray);
 }
+
+.monthly,
+.yearly {
+   color: var(--Cool-gray);
+   font-weight: 500;
+}
