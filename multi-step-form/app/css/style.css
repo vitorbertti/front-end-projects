@@ -245,3 +245,8 @@ form .error {
    color: var(--Cool-gray);
    cursor: pointer;
 }
+
+.step-3 {
+   display: none;
+   width: 80%;
+}
