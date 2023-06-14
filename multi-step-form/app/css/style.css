@@ -233,3 +233,15 @@ form .error {
    align-items: center;
    justify-content: space-between;
 }
+
+.prev-stp {
+   margin-top: auto;
+   margin-bottom: 2rem;
+   border: none;
+   font-weight: 700;
+   background-color: transparent;
+   padding: 1rem 2rem;
+   border-radius: 7px;
+   color: var(--Cool-gray);
+   cursor: pointer;
+}
