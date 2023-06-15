@@ -250,3 +250,11 @@ form .error {
    display: none;
    width: 80%;
 }
+
+.step-3 form {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   justify-content: center;
+   gap: 1.5rem;
+}
