@@ -267,3 +267,10 @@ form .error {
    align-items: center;
    cursor: pointer;
 }
+
+.description {
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+   margin-left: 12px;
+}
