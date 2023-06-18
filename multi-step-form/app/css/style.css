@@ -274,3 +274,7 @@ form .error {
    gap: 0.3rem;
    margin-left: 12px;
 }
+
+.price {
+   margin-left: auto;
+}
