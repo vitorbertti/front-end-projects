@@ -278,3 +278,8 @@ form .error {
 .price {
    margin-left: auto;
 }
+
+.ad-selected {
+   border: 1px solid var(--Purplish-blue);
+   background-color: var(--Magnolia);
+}
