@@ -295,3 +295,8 @@ form .error {
    font-weight: 700;
    user-select: none;
 }
+
+.description small {
+   color: var(--Cool-gray);
+   font-weight: 700;
+}
