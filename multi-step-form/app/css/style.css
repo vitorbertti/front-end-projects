@@ -304,3 +304,8 @@ form .error {
 .price {
    color: var(--Purplish-blue);
 }
+
+.ad-selected {
+   border: 1px solid var(--Purplish-blue);
+   background-color: var(--Magnolia);
+}
