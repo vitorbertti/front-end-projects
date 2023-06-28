@@ -326,3 +326,7 @@ form .error {
    color: var(--Cool-gray);
    font-weight: 700;
 }
+
+.price {
+   color: var(--Purplish-blue);
+}
