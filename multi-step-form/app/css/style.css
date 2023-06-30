@@ -330,3 +330,8 @@ form .error {
 .price {
    color: var(--Purplish-blue);
 }
+
+.step-4 {
+   display: none;
+   width: 80%;
+}
