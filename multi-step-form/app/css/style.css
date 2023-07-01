@@ -342,3 +342,8 @@ form .error {
    justify-content: center;
    flex: 1;
 }
+
+.selection-container {
+   background-color: var(--Magnolia);
+   padding: 1.5rem;
+}
