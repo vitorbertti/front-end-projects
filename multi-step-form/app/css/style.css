@@ -347,3 +347,8 @@ form .error {
    background-color: var(--Magnolia);
    padding: 1.5rem;
 }
+
+.selected {
+   border: 2px solid var(--Purplish-blue);
+   background-color: var(--Magnolia);
+}
