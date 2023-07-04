@@ -352,3 +352,11 @@ form .error {
    border: 2px solid var(--Purplish-blue);
    background-color: var(--Magnolia);
 }
+
+.selected-plan {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 0;
+   color: var(--Marine-blue);
+   font-weight: 700;
+}
