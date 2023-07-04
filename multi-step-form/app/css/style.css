@@ -360,3 +360,12 @@ form .error {
    color: var(--Marine-blue);
    font-weight: 700;
 }
+
+.selected-addon {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 0;
+   color: var(--Cool-gray);
+   font-weight: 500;
+   font-size: 0.9rem;
+}
