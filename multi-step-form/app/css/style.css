@@ -369,3 +369,7 @@ form .error {
    font-weight: 500;
    font-size: 0.9rem;
 }
+
+.selected-addon .service-price {
+   color: var(--Marine-blue);
+}
