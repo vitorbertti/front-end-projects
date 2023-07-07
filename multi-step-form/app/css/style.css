@@ -381,3 +381,8 @@ form .error {
    justify-content: space-between;
    color: var(--Cool-gray);
 }
+
+.total b {
+   color: var(--Purplish-blue);
+   font-size: 1.2rem;
+}
