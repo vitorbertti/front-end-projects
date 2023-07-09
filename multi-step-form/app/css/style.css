@@ -395,3 +395,7 @@ form .error {
    justify-content: center;
    margin: auto;
 }
+
+.step-5 button {
+   display: none;
+}
