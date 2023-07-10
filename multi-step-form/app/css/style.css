@@ -399,3 +399,13 @@ form .error {
 .step-5 button {
    display: none;
 }
+
+.switcher {
+   background-color: var(--Magnolia);
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   padding: 0.5rem;
+   margin-bottom: 5rem;
+   justify-content: center;
+}
