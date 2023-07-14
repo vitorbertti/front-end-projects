@@ -422,3 +422,15 @@ form .error {
    width: 0;
    height: 0;
 }
+
+.slider {
+   position: absolute;
+   cursor: pointer;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: var(--Marine-blue);
+   -webkit-transition: 0.4s;
+   transition: 0.4s;
+}
