@@ -434,3 +434,15 @@ form .error {
    -webkit-transition: 0.4s;
    transition: 0.4s;
 }
+
+.slider:before {
+   position: absolute;
+   content: "";
+   height: 16px;
+   width: 16px;
+   left: 4px;
+   bottom: 4px;
+   background-color: white;
+   -webkit-transition: 0.4s;
+   transition: 0.4s;
+}
