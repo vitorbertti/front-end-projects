@@ -481,4 +481,8 @@ input:checked + .slider:before {
       justify-content: center;
       z-index: -1;
    }
+
+   .step-content {
+      display: none;
+   }
 }
