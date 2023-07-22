@@ -485,4 +485,11 @@ input:checked + .slider:before {
    .step-content {
       display: none;
    }
+
+   .form {
+      position: absolute;
+      top: 15%;
+      max-width: 375px;
+      background-color: white;
+   }
 }
