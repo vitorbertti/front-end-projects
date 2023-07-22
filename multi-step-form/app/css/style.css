@@ -492,4 +492,8 @@ input:checked + .slider:before {
       max-width: 375px;
       background-color: white;
    }
+
+   .form-container {
+      padding: 2rem;
+   }
 }
