@@ -496,4 +496,14 @@ input:checked + .slider:before {
    .form-container {
       padding: 2rem;
    }
+
+   .btns {
+      position: fixed;
+      bottom: 0;
+      background-color: white;
+      right: 0;
+      left: 0;
+      height: 100px;
+      padding-inline: 1rem;
+   }
 }
