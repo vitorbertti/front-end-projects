@@ -506,4 +506,8 @@ input:checked + .slider:before {
       height: 100px;
       padding-inline: 1rem;
    }
+
+   .step-1 .btns button {
+      margin: auto 0 auto auto;
+   }
 }
