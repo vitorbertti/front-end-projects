@@ -510,4 +510,9 @@ input:checked + .slider:before {
    .step-1 .btns button {
       margin: auto 0 auto auto;
    }
+
+   .step-2 form {
+      flex-direction: column;
+      gap: 0.5rem;
+   }
 }
