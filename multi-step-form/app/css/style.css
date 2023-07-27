@@ -515,4 +515,13 @@ input:checked + .slider:before {
       flex-direction: column;
       gap: 0.5rem;
    }
+
+   .plan-card {
+      width: 100%;
+      height: 100px;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 1rem;
+      align-items: center;
+   }
 }
