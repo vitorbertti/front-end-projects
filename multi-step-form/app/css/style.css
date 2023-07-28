@@ -524,4 +524,9 @@ input:checked + .slider:before {
       gap: 1rem;
       align-items: center;
    }
+
+   .stp {
+      gap: 1rem;
+      width: 100%;
+   }
 }
