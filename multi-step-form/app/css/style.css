@@ -529,4 +529,12 @@ input:checked + .slider:before {
       gap: 1rem;
       width: 100%;
    }
+
+   .stp .header {
+      padding-top: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      line-height: 1.5rem;
+   }
 }
