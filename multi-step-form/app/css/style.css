@@ -537,4 +537,8 @@ input:checked + .slider:before {
       gap: 1rem;
       line-height: 1.5rem;
    }
+
+   .switcher {
+      margin: 2rem 0;
+   }
 }
