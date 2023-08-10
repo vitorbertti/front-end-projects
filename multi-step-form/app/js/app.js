@@ -16,3 +16,32 @@ const obj = {
    kind: null,
    price: null,
 }
+
+steps.forEach((step) => {
+   const nextBtn = step.querySelector(".next-stp")
+   const prevBtn = step.querySelector(".prev-stp")
+
+   if (prevBtn) {
+      prevBtn.addEventListener("click", () => {
+         document.querySelector(`.step-${currentStep}`).style.display = "none"
+         currentStep--
+         document.querySelector(`.step-${currentStep}`).style.display = "flex"
+         circleSteps[currentCircle].classList.remove("active")
+         currentCircle--
+      })
+   }
+   
+   nextBtn.addEventListener("click", () => {
+      document.querySelector(`.step-${currentStep}`).style.display = "none"
+
+      if (currentStep < 5 && validateForm()) {
+         currentStep++
+         currentCircle++
+         setTotal()
+      }
+
+      document.querySelector(`.step-${currentStep}`).style.display = "flex"
+      circleSteps[currentCircle].classList.add("active")
+      summary(obj)
+   })
+})
