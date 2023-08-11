@@ -45,3 +45,13 @@ steps.forEach((step) => {
       summary(obj)
    })
 })
+
+function summary(obj) {
+   const planName = document.querySelector(".plan-name")
+   const planPrice = document.querySelector(".plan-price")
+
+   planPrice.innerHTML = `${obj.price.innerText}`
+   planName.innerHTML = `${obj.plan.innerText} (${
+      obj.kind ? "yearly" : "monthly"
+   })`
+}
