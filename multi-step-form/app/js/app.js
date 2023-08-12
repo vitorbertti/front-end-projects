@@ -55,3 +55,21 @@ function summary(obj) {
       obj.kind ? "yearly" : "monthly"
    })`
 }
+
+function validateForm() {
+   let valid = true
+
+   for (let i = 0; i < formInputs.length; i++) {
+      if (!formInputs[i].value) {
+         valid = false
+         formInputs[i].classList.add("err")
+         findLabel(formInputs[i]).nextElementSibling.style.display = "flex"
+      } else {
+         valid = true
+         formInputs[i].classList.remove("err")
+         findLabel(formInputs[i]).nextElementSibling.style.display = "none"
+      }
+   }
+   
+   return valid
+}
