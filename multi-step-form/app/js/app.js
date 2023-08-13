@@ -73,3 +73,12 @@ function validateForm() {
    
    return valid
 }
+
+function findLabel(el) {
+   const idVal = el.id
+   const labels = document.getElementsByTagName("label")
+
+   for (let i = 0; i < labels.length; i++) {
+      if (labels[i].htmlFor == idVal) return labels[i]
+   }
+}
