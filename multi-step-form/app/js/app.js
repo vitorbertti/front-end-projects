@@ -82,3 +82,14 @@ function findLabel(el) {
       if (labels[i].htmlFor == idVal) return labels[i]
    }
 }
+
+plans.forEach((plan) => {
+   plan.addEventListener("click", () => {
+      document.querySelector(".selected").classList.remove("selected")
+      plan.classList.add("selected")
+      const planName = plan.querySelector("b")
+      const planPrice = plan.querySelector(".plan-priced")
+      obj.plan = planName
+      obj.price = planPrice
+   })
+})
