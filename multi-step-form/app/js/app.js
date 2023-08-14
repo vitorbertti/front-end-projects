@@ -93,3 +93,17 @@ plans.forEach((plan) => {
       obj.price = planPrice
    })
 })
+
+switcher.addEventListener("click", () => {
+   const val = switcher.querySelector("input").checked
+
+   if (val) {
+      document.querySelector(".monthly").classList.remove("sw-active")
+      document.querySelector(".yearly").classList.add("sw-active")
+   } else {
+      document.querySelector(".monthly").classList.add("sw-active")
+      document.querySelector(".yearly").classList.remove("sw-active")
+   }
+   switchPrice(val)
+   obj.kind = val
+})
