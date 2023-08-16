@@ -125,3 +125,21 @@ addons.forEach((addon) => {
       }
    })
 })
+
+function switchPrice(checked) {
+   const yearlyPrice = [90, 120, 150]
+   const monthlyPrice = [9, 12, 15]
+   const prices = document.querySelectorAll(".plan-priced")
+
+   if (checked) {
+      prices[0].innerHTML = `$${yearlyPrice[0]}/yr`
+      prices[1].innerHTML = `$${yearlyPrice[1]}/yr`
+      prices[2].innerHTML = `$${yearlyPrice[2]}/yr`
+      setTime(true)
+   } else {
+      prices[0].innerHTML = `$${monthlyPrice[0]}/mo`
+      prices[1].innerHTML = `$${monthlyPrice[1]}/mo`
+      prices[2].innerHTML = `$${monthlyPrice[2]}/mo`
+      setTime(false)
+   }
+}
