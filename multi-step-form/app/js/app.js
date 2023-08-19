@@ -166,3 +166,20 @@ function showAddon(ad, val) {
       })
    }
 }
+
+function setTotal() {
+   const str = planPrice.innerHTML
+   const res = str.replace(/\D/g, "")
+   const addonPrices = document.querySelectorAll(
+      ".selected-addon .servic-price"
+   )
+ 
+   let val = 0
+   for (let i = 0; i < addonPrices.length; i++) {
+      const str = addonPrices[i].innerHTML
+      const res = str.replace(/\D/g, "")
+ 
+     val += Number(res)
+   }
+   total.innerHTML = `$${val + Number(res)}/${time?"yr":"mo"}`
+}
