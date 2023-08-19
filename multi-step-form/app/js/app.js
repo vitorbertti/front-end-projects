@@ -183,3 +183,7 @@ function setTotal() {
    }
    total.innerHTML = `$${val + Number(res)}/${time?"yr":"mo"}`
 }
+
+function setTime(t) {
+   return time = t
+}
