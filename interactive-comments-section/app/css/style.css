@@ -30,3 +30,9 @@ body {
    padding-top: 3rem;
    background-color: var(--Very-light-gray);
 }
+
+a {
+   cursor: pointer;
+   text-decoration: none;
+   font-weight: 500;
+}
