@@ -41,6 +41,14 @@ button {
    cursor: pointer;
 }
 
-button:hover{
+button:hover {
    filter: saturate(80%);
+}
+
+.btn-primary {
+   background-color: var(--Moderate-blue);
+   color: var(--White);
+   border: none;
+   padding: .75rem 1.5rem;
+   border-radius: 4px;
 }
