@@ -62,3 +62,8 @@ button:hover {
    padding: 1.5rem;
    background-color: var(--White);
 }
+
+.comments-wrp {
+   display: flex;
+   flex-direction: column;
+}
