@@ -55,6 +55,9 @@ button:hover {
 
 .comment-section {
    padding: 0 1rem;
+   max-width: 75ch;
+   margin: auto;
+   margin-top: 1rem;
 }
 
 .container {
