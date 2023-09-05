@@ -70,3 +70,17 @@ button:hover {
    display: flex;
    flex-direction: column;
 }
+
+.comment {
+   margin-bottom: 1rem;
+   display: grid;
+   grid-template-areas: 
+      "score user controls"
+      "score comment comment"
+      "score comment comment"
+   ;
+   grid-template-columns: auto 1fr auto;
+   gap: 1.5rem;
+   row-gap: 1rem;
+   color: var(--Grayish-Blue);
+}
