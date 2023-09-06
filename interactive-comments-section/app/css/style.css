@@ -84,3 +84,20 @@ button:hover {
    row-gap: 1rem;
    color: var(--Grayish-Blue);
 }
+
+.c-score {
+   color: var(--Moderate-blue);
+   font-weight: 500;
+   grid-area: score;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 1rem;
+   padding: .75rem;
+   padding-top: .5rem;
+   width: 1rem;
+   box-sizing: content-box;
+   background-color: var(--Very-light-gray);
+   border-radius: 8px;
+   align-self: flex-start;
+}
