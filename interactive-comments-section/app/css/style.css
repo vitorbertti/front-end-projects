@@ -101,3 +101,9 @@ button:hover {
    border-radius: 8px;
    align-self: flex-start;
 }
+
+.score-control {
+   width: 100%;
+   cursor: pointer;
+   object-fit: scale-down;
+}
