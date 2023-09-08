@@ -107,3 +107,8 @@ button:hover {
    cursor: pointer;
    object-fit: scale-down;
 }
+
+.c-text {
+   grid-area: comment;
+   width: 100%;
+}
