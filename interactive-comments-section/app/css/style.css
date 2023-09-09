@@ -112,3 +112,11 @@ button:hover {
    grid-area: comment;
    width: 100%;
 }
+
+.c-user {
+   width: 100%;
+   grid-area: user;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
