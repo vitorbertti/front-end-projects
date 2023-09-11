@@ -125,3 +125,8 @@ button:hover {
    color: var(--Dark-blue);
    font-weight: 700;
 }
+
+.usr-img {
+   height: 2rem;
+   width: 2rem;
+}
