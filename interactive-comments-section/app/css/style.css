@@ -120,3 +120,8 @@ button:hover {
    gap: 1rem;
    align-items: center;
 }
+
+.usr-name {
+   color: var(--Dark-blue);
+   font-weight: 700;
+}
