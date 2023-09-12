@@ -130,3 +130,12 @@ button:hover {
    height: 2rem;
    width: 2rem;
 }
+
+.c-controls {
+   display: flex;
+   gap: 1rem;
+   color: var(--Moderate-blue);
+   grid-area: controls;
+   align-self: center;
+   justify-self: flex-end;
+}
