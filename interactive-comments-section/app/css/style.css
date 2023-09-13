@@ -139,3 +139,7 @@ button:hover {
    align-self: center;
    justify-self: flex-end;
 }
+
+.c-controls a {
+   align-items: center;
+}
