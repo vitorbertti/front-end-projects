@@ -143,3 +143,7 @@ button:hover {
 .c-controls a {
    align-items: center;
 }
+
+.edit , .reply {
+   color: var(--Moderate-blue);
+}
