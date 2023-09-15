@@ -147,3 +147,7 @@ button:hover {
 .edit , .reply {
    color: var(--Moderate-blue);
 }
+
+.edit {
+   display: none;
+}
