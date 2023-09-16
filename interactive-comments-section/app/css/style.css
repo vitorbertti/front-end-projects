@@ -151,3 +151,8 @@ button:hover {
 .edit {
    display: none;
 }
+
+.delete {
+   color: var(--Soft-Red);
+   display: none;
+}
