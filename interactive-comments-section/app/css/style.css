@@ -156,3 +156,7 @@ button:hover {
    color: var(--Soft-Red);
    display: none;
 }
+
+.control-icon {
+   margin-right: .5rem;
+}
