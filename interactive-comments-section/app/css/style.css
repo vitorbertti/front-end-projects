@@ -160,3 +160,10 @@ button:hover {
 .control-icon {
    margin-right: .5rem;
 }
+
+.replies {
+   display: flex;
+   margin-left: 2.5rem;
+   padding-left: 2.4rem;
+   border-left: 1px solid var(--Light-grayish-blue);
+}
