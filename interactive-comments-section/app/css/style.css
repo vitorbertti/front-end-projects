@@ -167,3 +167,8 @@ button:hover {
    padding-left: 2.4rem;
    border-left: 1px solid var(--Light-grayish-blue);
 }
+
+.reply-to {
+   color: var(--Moderate-blue);
+   font-weight: 500;
+}
