@@ -172,3 +172,13 @@ button:hover {
    color: var(--Moderate-blue);
    font-weight: 500;
 }
+
+.reply-input {
+   display: grid;
+   margin-bottom: 1rem;
+   grid-template-areas: "avatar input button";
+   grid-template-columns: min-content auto min-content;
+   justify-items: center;
+   gap: 1rem;
+   min-height: 9rem;
+}
