@@ -182,3 +182,9 @@ button:hover {
    gap: 1rem;
    min-height: 9rem;
 }
+
+.reply-input img {
+   grid-area: avatar;
+   height: 2.5rem;
+   width: 2.5rem;
+}
