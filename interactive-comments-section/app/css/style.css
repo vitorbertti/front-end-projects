@@ -188,3 +188,8 @@ button:hover {
    height: 2.5rem;
    width: 2.5rem;
 }
+
+.reply-input button {
+   grid-area: button;
+   align-self: flex-start;
+}
