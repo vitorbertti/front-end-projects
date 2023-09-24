@@ -193,3 +193,12 @@ button:hover {
    grid-area: button;
    align-self: flex-start;
 }
+
+.reply-input textarea {
+   grid-area: input;
+   padding: 1rem;
+   width: 100%;
+   border: 1px solid var(--Light-gray);
+   border-radius: 4px;
+   resize: none;
+}
