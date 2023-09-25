@@ -202,3 +202,15 @@ button:hover {
    border-radius: 4px;
    resize: none;
 }
+
+.this-user .usr-name::after {
+   font-weight: 400;
+   content: "you";
+   color: var(--White);
+   background-color: var(--Moderate-blue);
+   padding: 0 .4rem;
+   padding-bottom: .2rem;
+   font-size: .8rem;
+   margin-left: .5rem;
+   border-radius: 2px;
+}
