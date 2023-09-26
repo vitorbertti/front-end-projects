@@ -214,3 +214,7 @@ button:hover {
    margin-left: .5rem;
    border-radius: 2px;
 }
+
+.this-user .reply {
+   display: none;
+}
