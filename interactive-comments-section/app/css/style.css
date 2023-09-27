@@ -218,3 +218,7 @@ button:hover {
 .this-user .reply {
    display: none;
 }
+
+.this-user .edit , .this-user .delete {
+   display: flex;
+}
