@@ -227,4 +227,9 @@ button:hover {
    .container {
       padding: .75rem;
    }
+
+   .replies {
+      padding-left: 1rem;
+      margin-left: .5rem;
+   }
 }
