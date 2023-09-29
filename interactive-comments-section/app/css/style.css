@@ -222,3 +222,9 @@ button:hover {
 .this-user .edit , .this-user .delete {
    display: flex;
 }
+
+@media screen and (max-width:640px) {
+   .container {
+      padding: .75rem;
+   }
+}
