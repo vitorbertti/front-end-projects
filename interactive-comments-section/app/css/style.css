@@ -232,4 +232,13 @@ button:hover {
       padding-left: 1rem;
       margin-left: .5rem;
    }
+
+   .comment {
+      grid-template-areas: 
+         "user user user"
+         "comment comment comment"
+         "score ... controls"
+      ;
+      gap: .5rem;
+   }
 }
