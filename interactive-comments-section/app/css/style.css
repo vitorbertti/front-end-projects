@@ -241,4 +241,9 @@ button:hover {
       ;
       gap: .5rem;
    }
+
+   .c-score {
+      flex-direction: row;
+      width: auto;
+   }
 }
