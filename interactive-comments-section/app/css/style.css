@@ -246,4 +246,14 @@ button:hover {
       flex-direction: row;
       width: auto;
    }
+
+   .reply-input {
+      grid-template-areas: 
+         "input input input"
+         "avatar ... button"
+      ;
+      grid-template-rows: auto min-content;
+      align-items: center;
+      gap: .5rem;
+   }
 }
