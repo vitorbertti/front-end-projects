@@ -256,4 +256,9 @@ button:hover {
       align-items: center;
       gap: .5rem;
    }
+
+   .reply-input img {
+      height: 2rem;
+      width: 2rem;
+   }
 }
