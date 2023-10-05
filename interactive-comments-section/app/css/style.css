@@ -261,4 +261,10 @@ button:hover {
       height: 2rem;
       width: 2rem;
    }
+
+   .reply-input textarea {
+      height: 6rem;
+      padding: .5rem;
+      align-self: stretch;
+   }
 }
