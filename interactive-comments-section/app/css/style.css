@@ -235,6 +235,17 @@ button:hover {
    background-color: rgba(0,0,0,.3);
 }
 
+.modal {
+   padding: 1.5rem;
+   max-width: 32ch;
+   display: grid;
+   gap: 1rem;
+   grid-template-areas: 
+   "heading heading"
+   "body body"
+   "no yes";
+}
+
 @media screen and (max-width:640px) {
    .container {
       padding: .75rem;
