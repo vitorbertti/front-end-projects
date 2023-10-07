@@ -241,9 +241,14 @@ button:hover {
    display: grid;
    gap: 1rem;
    grid-template-areas: 
-   "heading heading"
-   "body body"
-   "no yes";
+      "heading heading"
+      "body body"
+      "no yes"
+   ;
+}
+
+.invisible {
+   display: none;
 }
 
 @media screen and (max-width:640px) {
