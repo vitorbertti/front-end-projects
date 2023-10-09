@@ -247,6 +247,11 @@ button:hover {
    ;
 }
 
+.modal h3 {
+   grid-area: heading;
+   color: var(--Dark-blue);
+}
+
 .invisible {
    display: none;
 }
