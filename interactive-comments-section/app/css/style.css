@@ -252,6 +252,14 @@ button:hover {
    color: var(--Dark-blue);
 }
 
+.modal button {
+   color: var(--White);
+   padding: .75rem;
+   border-radius: 8px;
+   border: none;
+   font-weight: 500;
+}
+
 .invisible {
    display: none;
 }
