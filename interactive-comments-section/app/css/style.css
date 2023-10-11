@@ -260,6 +260,12 @@ button:hover {
    font-weight: 500;
 }
 
+.modal p {
+   grid-area: body;
+   color: var(--Grayish-Blue);
+   line-height: 1.5;
+}
+
 .invisible {
    display: none;
 }
