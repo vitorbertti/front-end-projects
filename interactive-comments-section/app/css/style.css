@@ -266,6 +266,11 @@ button:hover {
    line-height: 1.5;
 }
 
+.modal .yes {
+   grid-area: yes;
+   background-color: var(--Soft-Red);
+}
+
 .invisible {
    display: none;
 }
