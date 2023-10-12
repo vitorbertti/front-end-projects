@@ -271,6 +271,11 @@ button:hover {
    background-color: var(--Soft-Red);
 }
 
+.modal .no {
+   background-color: var(--Grayish-Blue);
+   grid-area: no;
+}
+
 .invisible {
    display: none;
 }
