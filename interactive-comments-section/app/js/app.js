@@ -69,4 +69,10 @@ const data = {
          ],
       },
    ],
-};
+}
+
+function appendFrag(frag, parent) {
+   var children = [].slice.call(frag.childNodes, 0)
+   parent.appendChild(frag)
+   return children[1]
+}
