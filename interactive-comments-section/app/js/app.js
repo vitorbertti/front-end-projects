@@ -76,3 +76,18 @@ function appendFrag(frag, parent) {
    parent.appendChild(frag)
    return children[1]
 }
+
+const addComment = (body, parentId, replyTo = undefined) => {
+   let commentParent = parentId === 0 ? data.comments : data.comments.filter((c) => c.id == parentId)[0].replies
+   let newComment = {
+      parent: parentId,
+      id: commentParent.length == 0 ? 1 : commentParent[commentParent.length - 1].id + 1,
+      content: body,
+      createdAt: "Now",
+      replyingTo: replyTo,
+      score: 0,
+      replies: parent == 0 ? [] : undefined,
+      user: data.currentUser,
+   }
+   commentParent.push(newComment)
+}
