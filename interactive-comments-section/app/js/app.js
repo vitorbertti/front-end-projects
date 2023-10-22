@@ -91,3 +91,12 @@ const addComment = (body, parentId, replyTo = undefined) => {
    }
    commentParent.push(newComment)
 }
+
+const deleteComment = (commentObject) => {
+   if (commentObject.parent == 0) {
+      data.comments = data.comments.filter((e) => e != commentObject)
+   } else {
+      data.comments.filter((e) => e.id === commentObject.parent)[0].replies = 
+         data.comments.filter((e) => e.id === commentObject.parent)[0].replies.filter((e) => e != commentObject)
+   }
+}
