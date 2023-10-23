@@ -100,3 +100,15 @@ const deleteComment = (commentObject) => {
          data.comments.filter((e) => e.id === commentObject.parent)[0].replies.filter((e) => e != commentObject)
    }
 }
+
+const promptDel = (commentObject) => {
+   const modalWrp = document.querySelector(".modal-wrp")
+   modalWrp.classList.remove("invisible")
+   modalWrp.querySelector(".yes").addEventListener("click", () => {
+      deleteComment(commentObject)
+      modalWrp.classList.add("invisible")
+   })
+   modalWrp.querySelector(".no").addEventListener("click", () => {
+      modalWrp.classList.add("invisible")
+   })
+}
