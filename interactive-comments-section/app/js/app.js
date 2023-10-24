@@ -104,11 +104,31 @@ const deleteComment = (commentObject) => {
 const promptDel = (commentObject) => {
    const modalWrp = document.querySelector(".modal-wrp")
    modalWrp.classList.remove("invisible")
+
    modalWrp.querySelector(".yes").addEventListener("click", () => {
       deleteComment(commentObject)
       modalWrp.classList.add("invisible")
    })
+   
    modalWrp.querySelector(".no").addEventListener("click", () => {
       modalWrp.classList.add("invisible")
+   })
+}
+
+const spawnReplyInput = (parent, parentId, replyTo = undefined) => {
+   if (parent.querySelectorAll(".reply-input")) {
+      parent.querySelectorAll(".reply-input").forEach((e) => {
+         e.remove()
+      })
+   }
+
+   const inputTemplate = document.querySelector(".reply-input-template")
+   const inputNode = inputTemplate.content.cloneNode(true)
+   const addedInput = appendFrag(inputNode, parent)
+
+   addedInput.querySelector(".bu-primary").addEventListener("click", () => {
+      let commentBody = addedInput.querySelector(".cmnt-input").value
+      if (commentBody.length == 0) return
+      addComment(commentBody, parentId, replyTo)
    })
 }
