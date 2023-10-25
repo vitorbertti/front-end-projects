@@ -132,3 +132,50 @@ const spawnReplyInput = (parent, parentId, replyTo = undefined) => {
       addComment(commentBody, parentId, replyTo)
    })
 }
+
+const createCommentNode = (commentObject) => {
+   const commentTemplate = document.querySelector(".comment-template")
+   var commentNode = commentTemplate.content.cloneNode(true)
+
+   commentNode.querySelector(".usr-name").textContent = commentObject.user.username
+   commentNode.querySelector(".usr-img").src = commentObject.user.image.webp
+   commentNode.querySelector(".score-number").textContent = commentObject.score
+   commentNode.querySelector(".cmnt-at").textContent = commentObject.createdAt
+   commentNode.querySelector(".c-body").textContent = commentObject.content
+
+   if (commentObject.replyingTo) 
+      commentNode.querySelector(".reply-to").textContent = "@" + commentObject.replyingTo
+ 
+   commentNode.querySelector(".score-plus").addEventListener("click", () => {
+      commentObject.score++
+   //   initComments()
+   })
+ 
+   commentNode.querySelector(".score-minus").addEventListener("click", () => {
+      commentObject.score--
+
+      if (commentObject.score < 0) 
+         commentObject.score = 0
+
+      // initComments()
+   })
+
+   if (commentObject.user.username == data.currentUser.username) {
+      commentNode.querySelector(".comment").classList.add("this-user")
+      commentNode.querySelector(".delete").addEventListener("click", () => {
+         promptDel(commentObject)
+      })
+
+      commentNode.querySelector(".edit").addEventListener("click", (e) => {
+         const path = e.path[3].querySelector(".c-body")
+         if (path.getAttribute("contenteditable") == false || path.getAttribute("contenteditable") == null) {
+            path.setAttribute("contenteditable", true)
+            path.focus()
+         } else {
+            path.removeAttribute("contenteditable")
+         }
+      })
+      return commentNode
+   }
+   return commentNode
+}
