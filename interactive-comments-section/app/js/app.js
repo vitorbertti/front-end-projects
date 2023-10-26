@@ -179,3 +179,17 @@ const createCommentNode = (commentObject) => {
    }
    return commentNode
 }
+
+const appendComment = (parentNode, commentNode, parentId) => {
+   const bu_reply = commentNode.querySelector(".reply")
+   const appendedCmnt = appendFrag(commentNode, parentNode)
+   const replyTo = appendedCmnt.querySelector(".usr-name").textContent
+
+   bu_reply.addEventListener("click", () => {
+      if (parentNode.classList.contains("replies")) {
+         spawnReplyInput(parentNode, parentId, replyTo)
+      } else {
+         spawnReplyInput(appendedCmnt.querySelector(".replies"), parentId, replyTo)
+      }
+   })
+}
