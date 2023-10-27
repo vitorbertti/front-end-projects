@@ -193,3 +193,15 @@ const appendComment = (parentNode, commentNode, parentId) => {
       }
    })
 }
+
+function initComments(commentList = data.comments, parent = document.querySelector(".comments-wrp")) {
+   parent.innerHTML = ""
+   commentList.forEach((element) => {
+      var parentId = element.parent == 0 ? element.id : element.parent
+      const comment_node = createCommentNode(element)
+      if (element.replies && element.replies.length > 0) {
+         initComments(element.replies, comment_node.querySelector(".replies"))
+      }
+      appendComment(parent, comment_node, parentId)
+   })
+}
