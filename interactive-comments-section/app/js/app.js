@@ -90,6 +90,7 @@ const addComment = (body, parentId, replyTo = undefined) => {
       user: data.currentUser,
    }
    commentParent.push(newComment)
+   initComments()
 }
 
 const deleteComment = (commentObject) => {
@@ -99,6 +100,7 @@ const deleteComment = (commentObject) => {
       data.comments.filter((e) => e.id === commentObject.parent)[0].replies = 
          data.comments.filter((e) => e.id === commentObject.parent)[0].replies.filter((e) => e != commentObject)
    }
+   initComments()
 }
 
 const promptDel = (commentObject) => {
@@ -126,7 +128,7 @@ const spawnReplyInput = (parent, parentId, replyTo = undefined) => {
    const inputNode = inputTemplate.content.cloneNode(true)
    const addedInput = appendFrag(inputNode, parent)
 
-   addedInput.querySelector(".bu-primary").addEventListener("click", () => {
+   addedInput.querySelector(".btn-primary").addEventListener("click", () => {
       let commentBody = addedInput.querySelector(".cmnt-input").value
       if (commentBody.length == 0) return
       addComment(commentBody, parentId, replyTo)
@@ -148,7 +150,7 @@ const createCommentNode = (commentObject) => {
  
    commentNode.querySelector(".score-plus").addEventListener("click", () => {
       commentObject.score++
-   //   initComments()
+      initComments()
    })
  
    commentNode.querySelector(".score-minus").addEventListener("click", () => {
@@ -157,7 +159,7 @@ const createCommentNode = (commentObject) => {
       if (commentObject.score < 0) 
          commentObject.score = 0
 
-      // initComments()
+      initComments()
    })
 
    if (commentObject.user.username == data.currentUser.username) {
@@ -205,3 +207,14 @@ function initComments(commentList = data.comments, parent = document.querySelect
       appendComment(parent, comment_node, parentId)
    })
 }
+
+initComments()
+
+const cmntInput = document.querySelector(".reply-input")
+
+cmntInput.querySelector(".btn-primary").addEventListener("click", () => {
+   let commentBody = cmntInput.querySelector(".cmnt-input").value
+   if (commentBody.length == 0) return
+   addComment(commentBody, 0)
+   cmntInput.querySelector(".cmnt-input").value = ""
+})
