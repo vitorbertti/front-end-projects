@@ -6,3 +6,12 @@
 * {
    box-sizing: border-box;
 }
+
+body {
+   font-family: MyFont;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: hsl(234, 29%, 20%);
+}
