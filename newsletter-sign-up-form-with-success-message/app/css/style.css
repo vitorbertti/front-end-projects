@@ -23,3 +23,7 @@ body {
    padding: 30px;
    border-radius: 20px;
 }
+
+.right {
+   width: 60%;
+}
