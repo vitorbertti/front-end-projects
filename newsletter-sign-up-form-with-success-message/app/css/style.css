@@ -31,3 +31,7 @@ body {
 .left {
    width: 40%;
 }
+
+.left img {
+   width: 100%;
+}
