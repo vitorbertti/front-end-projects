@@ -39,3 +39,7 @@ body {
 ul {
    list-style-image: url(../../images/icon-success.svg);
 }
+
+li {
+   margin-bottom: 10px;
+}
