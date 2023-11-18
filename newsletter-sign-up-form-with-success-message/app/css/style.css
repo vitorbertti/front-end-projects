@@ -49,3 +49,9 @@ form {
    flex-direction: column;
    width: 300px;
 }
+
+label {
+   margin-bottom: 10px;
+   color: black;
+   font-size: small;
+}
