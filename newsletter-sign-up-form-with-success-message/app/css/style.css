@@ -63,3 +63,15 @@ input {
    outline: none;
    border: 1px solid hsl(231, 7%, 60%);
 }
+
+button {
+   font-family: inherit;
+   margin-top: 20px;
+   padding: 15px 20px;
+   border: none;
+   outline: none;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: hsl(235, 18%, 26%);
+}
