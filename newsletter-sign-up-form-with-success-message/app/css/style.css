@@ -75,3 +75,8 @@ button {
    cursor: pointer;
    background-color: hsl(235, 18%, 26%);
 }
+
+button:hover {
+   background-color: hsl(4, 100%, 67%);
+   transition: all 1s;
+}
