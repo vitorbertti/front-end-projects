@@ -89,3 +89,10 @@ h1 {
 .hide {
    display: none;
 }
+
+.card-2 {
+   background-color: white;
+   width: 400px;
+   padding: 40px;
+   border-radius: 5px;
+}
