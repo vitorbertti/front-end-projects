@@ -85,3 +85,7 @@ h1 {
    font-size: 50px;
    color: hsl(234, 29%, 20%);
 }
+
+.hide {
+   display: none;
+}
