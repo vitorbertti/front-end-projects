@@ -96,3 +96,7 @@ h1 {
    padding: 40px;
    border-radius: 5px;
 }
+
+.card-2 h1 {
+   font-size: 40px;
+}
