@@ -108,3 +108,11 @@ h1 {
 .card-2 button {
    width: 100%;
 }
+
+@media (max-width: 768px) {
+   .card {
+      flex-direction: column-reverse;
+      width: 95%;
+      padding: 0;
+   }
+}
