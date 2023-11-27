@@ -104,3 +104,7 @@ h1 {
 .icon-card-2 {
    width: 50px;
 }
+
+.card-2 button {
+   width: 100%;
+}
