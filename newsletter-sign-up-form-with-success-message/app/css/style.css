@@ -129,4 +129,8 @@ h1 {
       width: 100%;
       padding: 20px;
    }
+
+   .left {
+      width: 100%;
+   }
 }
