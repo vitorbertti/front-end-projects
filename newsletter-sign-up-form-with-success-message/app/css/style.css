@@ -137,4 +137,8 @@ h1 {
    .left img {
       content: url("../../images/illustration-sign-up-mobile.svg");
    }
+
+   form {
+      width: 90%;
+   }
 }
