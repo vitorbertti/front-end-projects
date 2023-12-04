@@ -141,4 +141,8 @@ h1 {
    form {
       width: 90%;
    }
+
+   .card-2 {
+      min-height: 100vh;
+   }
 }
