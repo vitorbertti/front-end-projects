@@ -13,3 +13,15 @@ body {
    align-items: center;
    height: 100vh;
 }
+
+.phone {
+   display: flex;
+   flex-direction: column;
+   width: 210px;
+   max-height: 100%;
+   height: 450px;
+   border-radius: 20px;
+   padding: 10px;
+   background-color: white;
+   margin-bottom: 40px;
+}
