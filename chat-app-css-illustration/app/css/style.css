@@ -54,3 +54,9 @@ body {
    display: flex;
    justify-content: space-between;
 }
+
+.phone-header-left {
+   display: flex;
+   width: 65%;
+   justify-content: space-around;
+}
