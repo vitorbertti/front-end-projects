@@ -60,3 +60,7 @@ body {
    width: 65%;
    justify-content: space-around;
 }
+
+.uil-ellipsis-v {
+   margin-right: 15px;
+}
