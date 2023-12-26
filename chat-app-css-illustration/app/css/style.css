@@ -64,3 +64,7 @@ body {
 .uil-ellipsis-v {
    margin-right: 15px;
 }
+
+.phone-header-description .uil-angle-left {
+   font-size: 20px;
+}
