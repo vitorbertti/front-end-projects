@@ -68,3 +68,9 @@ body {
 .phone-header-description .uil-angle-left {
    font-size: 20px;
 }
+
+.phone-header-description img {
+   width: 25px;
+   border: 1px solid white;
+   border-radius: 50px;
+}
