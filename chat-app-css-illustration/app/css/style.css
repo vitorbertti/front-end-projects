@@ -74,3 +74,7 @@ body {
    border: 1px solid white;
    border-radius: 50px;
 }
+
+.name {
+   font-size: 12px;
+}
