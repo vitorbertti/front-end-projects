@@ -83,3 +83,11 @@ body {
    font-size: 8px;
    color: lightgray;
 }
+
+.phone-body {
+   overflow: auto;
+   width: 100%;
+   flex-grow: 1;
+   border-radius: 0px 0px 20px 20px;
+   background-color: hsl(270, 20%, 96%);
+}
