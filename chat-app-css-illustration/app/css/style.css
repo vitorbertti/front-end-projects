@@ -78,3 +78,8 @@ body {
 .name {
    font-size: 12px;
 }
+
+.availability {
+   font-size: 8px;
+   color: lightgray;
+}
