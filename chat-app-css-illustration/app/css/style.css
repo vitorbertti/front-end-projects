@@ -91,3 +91,9 @@ body {
    border-radius: 0px 0px 20px 20px;
    background-color: hsl(270, 20%, 96%);
 }
+
+.phone-body .message {
+   font-size: 8px;
+   display: inline-block;
+   margin-top: 7px;
+}
