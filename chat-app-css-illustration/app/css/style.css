@@ -97,3 +97,11 @@ body {
    display: inline-block;
    margin-top: 7px;
 }
+
+.phone-body .left p {
+   background-color: hsl(0, 14%, 91%);
+   color: hsl(276, 55%, 52%);
+   border-radius: 10px 10px 10px 5px;
+   padding: 7px;
+   margin-left: 10px;
+}
