@@ -105,3 +105,9 @@ body {
    padding: 7px;
    margin-left: 10px;
 }
+
+.phone-body .right {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+}
