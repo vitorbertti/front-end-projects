@@ -118,3 +118,10 @@ body {
    padding: 7px;
    margin-right: 10px;
 }
+
+.pictures {
+   margin-top: 7px;
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+}
