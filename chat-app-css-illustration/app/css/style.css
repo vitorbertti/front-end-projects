@@ -131,3 +131,20 @@ body {
    margin-right: 10px;
    border-radius: 10px;
 }
+
+.payment {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 140px;
+   margin-left: 10px;
+   margin-top: 7px;
+   color: white;
+   background-image: linear-gradient(
+      to left,
+      hsl(264, 100%, 61%),
+      hsl(293, 100%, 63%)
+   );
+   padding: 7px;
+   border-radius: 10px 10px 10px 5px;
+}
