@@ -125,3 +125,9 @@ body {
    display: flex;
    justify-content: flex-end;
 }
+
+.pictures img {
+   width: 38px;
+   margin-right: 10px;
+   border-radius: 10px;
+}
