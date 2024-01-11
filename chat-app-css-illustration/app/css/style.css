@@ -148,3 +148,9 @@ body {
    padding: 7px;
    border-radius: 10px 10px 10px 5px;
 }
+
+.payment-left {
+   display: flex;
+   align-items: center;
+   width: 80%;
+}
