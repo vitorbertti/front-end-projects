@@ -154,3 +154,7 @@ body {
    align-items: center;
    width: 80%;
 }
+
+.payment-left i {
+   color: hsl(270, 20%, 96%);
+}
