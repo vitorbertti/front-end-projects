@@ -168,3 +168,15 @@ body {
    font-size: 14px;
    font-weight: 700;
 }
+
+.type-message {
+   margin: auto;
+   margin-top: 20px;
+   background-color: white;
+   width: 90%;
+   height: 40px;
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
