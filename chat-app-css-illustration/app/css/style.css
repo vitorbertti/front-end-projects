@@ -180,3 +180,9 @@ body {
    align-items: center;
    justify-content: space-between;
 }
+
+.type-message p {
+   font-size: 10px;
+   color: lightgray;
+   margin-left: 15px;
+}
