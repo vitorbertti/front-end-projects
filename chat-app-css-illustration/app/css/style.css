@@ -186,3 +186,15 @@ body {
    color: lightgray;
    margin-left: 15px;
 }
+
+.type-message .send {
+   width: 30px;
+   height: 30px;
+   background-color: hsl(271, 36%, 24%);
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 5px;
+   border-radius: 100px;
+}
