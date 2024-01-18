@@ -198,3 +198,7 @@ body {
    margin-right: 5px;
    border-radius: 100px;
 }
+
+.type-message .send i {
+   color: white;
+}
