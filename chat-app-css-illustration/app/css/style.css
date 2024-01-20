@@ -206,3 +206,9 @@ body {
 .description-head, .description-text {
    text-align: center;
 }
+
+.description-head {
+   color: hsl(271, 36%, 24%);
+   margin-bottom: 20px;
+   font-weight: 500;
+}
