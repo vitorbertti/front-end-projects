@@ -212,3 +212,11 @@ body {
    margin-bottom: 20px;
    font-weight: 500;
 }
+
+.description-text {
+   color: hsl(270, 7%, 64%);
+   font-size: 14px;
+   width: 70%;
+   margin: auto;
+   font-weight: normal;
+}
