@@ -220,3 +220,19 @@ body {
    margin: auto;
    font-weight: normal;
 }
+
+.purpleBody {
+   background-image: linear-gradient(
+      to top left,
+      hsl(264, 100%, 61%),
+      hsl(293, 100%, 63%)
+   );
+   width: 50%;
+   height: 400px;
+   align-self: flex-start;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   border-radius: 0 0 1000px 0px;
+}
