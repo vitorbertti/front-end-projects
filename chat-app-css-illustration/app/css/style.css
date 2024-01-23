@@ -236,3 +236,15 @@ body {
    z-index: -1;
    border-radius: 0 0 1000px 0px;
 }
+
+.greybody {
+   background-color: hsl(0, 14%, 91%);
+   width: 50%;
+   height: 400px;
+   align-self: flex-start;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+   border-radius: 1000px 0px 0px 0px;
+}
