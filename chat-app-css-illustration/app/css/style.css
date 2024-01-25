@@ -253,4 +253,8 @@ body {
    body {
       flex-direction: row;
    }
+
+   .description {
+      margin-left: 100px;
+   }
 }
