@@ -257,4 +257,8 @@ body {
    .description {
       margin-left: 100px;
    }
+
+   .description-head {
+      text-align: left;
+   }
 }
