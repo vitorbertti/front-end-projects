@@ -266,4 +266,10 @@ body {
       width: 400px;
       text-align: left;
    }
+
+   .purpleBody {
+      width: 25%;
+      border-radius: 0 0 1000px 1000px;
+      height: 550px;
+   }
 }
