@@ -261,4 +261,9 @@ body {
    .description-head {
       text-align: left;
    }
+
+   .description-text {
+      width: 400px;
+      text-align: left;
+   }
 }
