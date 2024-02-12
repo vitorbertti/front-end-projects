@@ -13,3 +13,10 @@ body {
    align-items: center;
    font-family: "Outfit", sans-serif;
 }
+
+.card {
+   background-color: hsl(216, 50%, 16%);
+   border-radius: 15px;
+   width: 275px;
+   padding: 1.5rem;
+}
