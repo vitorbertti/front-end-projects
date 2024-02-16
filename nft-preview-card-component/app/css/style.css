@@ -40,3 +40,9 @@ body {
    height: 100%;
    opacity: 0;
 }
+
+.image div:hover {
+   opacity: 1;
+   cursor: pointer;
+   border-radius: 10px;
+}
