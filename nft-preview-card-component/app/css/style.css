@@ -70,3 +70,11 @@ h3 {
    line-height: 28px;
    font-weight: 300;
 }
+
+.price-days {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid hsl(215, 51%, 70%);
+   padding-bottom: 1rem;
+   margin-bottom: 1rem;
+}
