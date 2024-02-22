@@ -78,3 +78,11 @@ h3 {
    padding-bottom: 1rem;
    margin-bottom: 1rem;
 }
+
+.price {
+   display: flex;
+   align-items: center;
+   color: hsl(178, 100%, 50%);
+   font-size: 14px;
+   letter-spacing: 1px;
+}
