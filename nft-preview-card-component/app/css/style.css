@@ -86,3 +86,7 @@ h3 {
    font-size: 14px;
    letter-spacing: 1px;
 }
+
+.price img {
+   margin-right: 5px;
+}
