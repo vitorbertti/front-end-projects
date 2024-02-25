@@ -90,3 +90,10 @@ h3 {
 .price img {
    margin-right: 5px;
 }
+
+.days {
+   display: flex;
+   align-items: center;
+   color: hsl(215, 51%, 70%);
+   font-size: 14px;
+}
