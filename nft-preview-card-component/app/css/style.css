@@ -108,3 +108,9 @@ h3 {
    font-size: 15px;
    color: hsl(215, 51%, 70%);
 }
+
+.avatar {
+   border: 1px solid white;
+   border-radius: 50px;
+   margin-right: 1rem;
+}
