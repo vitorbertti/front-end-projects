@@ -119,3 +119,7 @@ span {
    color: white;
    margin-left: 5px;
 }
+
+.mainImg, h3, span {
+   cursor: pointer;
+}
