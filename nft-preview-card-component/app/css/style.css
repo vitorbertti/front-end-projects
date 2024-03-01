@@ -123,3 +123,7 @@ span {
 .mainImg, h3, span {
    cursor: pointer;
 }
+
+.card:hover .mainImg {
+   background: linear-gradient(to top, #3204fdba, #9907facc), url(images/image-equilibrium.jpg) no-repeat top center;
+}
