@@ -125,5 +125,9 @@ span {
 }
 
 .card:hover .mainImg {
-   background: linear-gradient(to top, #3204fdba, #9907facc), url(images/image-equilibrium.jpg) no-repeat top center;
+   background: linear-gradient(to top, #3204fdba, #9907facc), url(../../images/image-equilibrium.jpg) no-repeat top center;
+}
+
+h3:hover, span:hover {
+   color: hsl(178, 100%, 50%);
 }
