@@ -25,3 +25,8 @@ body {
    align-items: center;
    position: absolute;
 }
+
+.adviceID {
+   color: hsl(150, 100%, 66%);
+   margin-top: 30px;
+}
