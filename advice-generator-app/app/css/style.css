@@ -57,3 +57,7 @@ body {
    bottom: -40px;
    cursor: pointer;
 }
+
+.dice:hover {
+   background-color: hsl(150, 86%, 72%);
+}
