@@ -61,3 +61,9 @@ body {
 .dice:hover {
    background-color: hsl(150, 86%, 72%);
 }
+
+@media screen and (min-width: 1300px) {
+   .card {
+      width: 540px;
+   }
+}
