@@ -66,4 +66,8 @@ body {
    .card {
       width: 540px;
    }
+
+   .desktop {
+      display: block;
+   }
 }
