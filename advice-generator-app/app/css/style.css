@@ -70,4 +70,8 @@ body {
    .desktop {
       display: block;
    }
+
+   .mobile {
+      display: none;
+   }
 }
