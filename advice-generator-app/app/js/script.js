@@ -9,3 +9,5 @@ async function getUrl() {
    adviceID.innerHTML = data.slip.id
    adviceText.innerHTML = data.slip.advice
 }
+
+button.addEventListener("click", getUrl)
