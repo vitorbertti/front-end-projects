@@ -13,3 +13,11 @@ body {
    font-family: "Outfit", sans-serif;
    font-family: "Red Hat Text", sans-serif;
 }
+
+header {
+   height: 12vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
