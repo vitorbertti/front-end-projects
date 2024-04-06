@@ -21,3 +21,8 @@ header {
    justify-content: center;
    align-items: flex-end;
 }
+
+h2 {
+   margin-top: 5vh;
+   color: hsl(0, 0%, 59%);
+}
