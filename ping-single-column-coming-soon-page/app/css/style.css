@@ -31,3 +31,8 @@ span {
    font-weight: 800 !important;
    color: black;
 }
+
+p {
+   margin-top: 1.5vh;
+   font-weight: lighter;
+}
