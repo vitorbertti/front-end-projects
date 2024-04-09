@@ -36,3 +36,9 @@ p {
    margin-top: 1.5vh;
    font-weight: lighter;
 }
+
+.inpbutton {
+   display: flex;
+   flex-direction: column;
+   margin-top: 3.5vh;
+}
