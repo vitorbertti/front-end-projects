@@ -61,6 +61,10 @@ p {
    color: hsl(223, 100%, 88%);
 }
 
+::-ms-input-placeholder {
+   color: hsl(223, 100%, 88%);
+}
+
 .error {
    color: red;
    font-size: 10px;
