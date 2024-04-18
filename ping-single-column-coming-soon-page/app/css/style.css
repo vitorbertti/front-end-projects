@@ -104,3 +104,10 @@ footer {
    flex-direction: column;
    align-items: center;
 }
+
+.icon {
+   display: flex;
+   width: 100px;
+   justify-content: space-between;
+   margin-bottom: 25px;
+}
