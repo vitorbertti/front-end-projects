@@ -111,3 +111,16 @@ footer {
    justify-content: space-between;
    margin-bottom: 25px;
 }
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+   color: hsl(223, 87%, 63%);
+   border: 1px solid hsl(223, 100%, 88%);
+   width: 26px;
+   height: 26px;
+   display: flex;
+   border-radius: 26px;
+   justify-content: center;
+   align-items: center;
+}
