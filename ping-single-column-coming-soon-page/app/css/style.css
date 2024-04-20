@@ -124,3 +124,9 @@ footer {
    justify-content: center;
    align-items: center;
 }
+
+@media only screen and (min-width: 800px) {
+   header {
+      height: 10vh;
+   }
+}
