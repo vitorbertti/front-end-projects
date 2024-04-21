@@ -129,4 +129,8 @@ footer {
    header {
       height: 10vh;
    }
+
+   .headimg {
+      width: 80px;
+   }
 }
