@@ -133,4 +133,9 @@ footer {
    .headimg {
       width: 80px;
    }
+
+   h2 {
+      font-size: 50px;
+      font-weight: lighter;
+   }
 }
