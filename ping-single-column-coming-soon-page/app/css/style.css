@@ -138,4 +138,8 @@ footer {
       font-size: 50px;
       font-weight: lighter;
    }
+
+   p {
+      font-size: 25px;
+   }
 }
