@@ -142,4 +142,8 @@ footer {
    p {
       font-size: 25px;
    }
+
+   .inpbutton {
+      flex-direction: row;
+   }
 }
