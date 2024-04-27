@@ -153,4 +153,11 @@ footer {
       margin-top: 10px;
       font-size: 14px;
    }
+
+   .input {
+      width: 385px;
+      height: 45px;
+      margin-right: 25px;
+      font-size: 20px;
+   }
 }
