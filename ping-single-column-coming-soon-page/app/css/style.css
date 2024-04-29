@@ -173,4 +173,8 @@ footer {
       width: 680px;
       height: 380px;
    }
+
+   footer {
+      font-size: 12px;
+   }
 }
