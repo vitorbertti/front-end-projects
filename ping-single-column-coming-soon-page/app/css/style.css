@@ -167,4 +167,10 @@ footer {
       width: 195px;
       font-size: 16px;
    }
+
+   .illustration {
+      margin-top: 5vh;
+      width: 680px;
+      height: 380px;
+   }
 }
