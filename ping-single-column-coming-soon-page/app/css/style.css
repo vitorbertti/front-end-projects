@@ -177,4 +177,11 @@ footer {
    footer {
       font-size: 12px;
    }
+
+   .fa-facebook-f,
+   .fa-twitter,
+   .fa-instagram {
+      width: 30px;
+      height: 30px;
+   }
 }
