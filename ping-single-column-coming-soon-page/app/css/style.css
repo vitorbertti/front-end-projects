@@ -191,4 +191,8 @@ footer {
       color: white;
       background-color: hsl(223, 87%, 63%);
    }
+
+   .icon {
+      width: 120px;
+   }
 }
