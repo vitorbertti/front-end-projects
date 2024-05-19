@@ -12,3 +12,12 @@ body {
    height: 100vh;
    font-family: "Overpass", sans-serif;
 }
+
+.card {
+   background-color:#232a34;
+   width: 412px;
+   height: 416px;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+}
