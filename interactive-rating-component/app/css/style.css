@@ -21,3 +21,10 @@ body {
    display: flex;
    justify-content: center;
 }
+
+.startState {
+   width: 341px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
