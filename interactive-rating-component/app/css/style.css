@@ -50,3 +50,9 @@ body {
    font-size: 15px;
    width: 340px;
 }
+
+.ratings {
+   width: 340px;
+   display: flex;
+   justify-content: space-between;
+}
