@@ -56,3 +56,15 @@ body {
    display: flex;
    justify-content: space-between;
 }
+
+#circle {
+   background-color: hsl(213, 19%, 18%);
+   color: hsl(216, 12%, 54%);
+   width: 51px;
+   height: 51px;
+   border-radius: 51px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
