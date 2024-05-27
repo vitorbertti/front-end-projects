@@ -73,3 +73,16 @@ body {
    background-color:hsl(25, 97%, 53%);
    color: white;
 }
+
+.button {
+   background-color: hsl(25, 97%, 53%);
+   width: 341px;
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 22.5px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
