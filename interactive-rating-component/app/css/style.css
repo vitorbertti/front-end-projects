@@ -86,3 +86,11 @@ body {
    font-weight: bold;
    cursor: pointer;
 }
+
+.endState {
+   display: none;
+   flex-direction: column;
+   width: 340px;
+   align-items: center;
+   justify-content: space-evenly;
+}
