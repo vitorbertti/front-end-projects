@@ -94,3 +94,14 @@ body {
    align-items: center;
    justify-content: space-evenly;
 }
+
+.selectedState {
+   width: 193px;
+   height: 32px;
+   background-color: #262e38;
+   color: #fc7614;
+   border-radius: 22.5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
