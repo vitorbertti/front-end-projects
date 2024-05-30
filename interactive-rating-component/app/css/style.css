@@ -105,3 +105,8 @@ body {
    justify-content: center;
    align-items: center;
 }
+
+.number {
+   margin-left: 4px;
+   margin-right: 4px;
+}
