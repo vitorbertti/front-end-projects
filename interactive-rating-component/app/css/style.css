@@ -110,3 +110,9 @@ body {
    margin-left: 4px;
    margin-right: 4px;
 }
+
+.thankyou {
+   font-size: 28px;
+   font-weight: bold;
+   color: white;
+}
