@@ -37,7 +37,24 @@
             <label for="">CARD NUMBER</label>
             <input class="cardHolderNumberInput" type="text" placeholder="e.g. 1234 5678 9123 0000" />
             <div class="numberError">Wrong format, numbers only and 16 digits</div>
-         </div>  
+         </div>
+         <div class="dateCvc">
+            <div class="label">
+               <p>EXP.DATE (MM/YY)</p>
+               <p>CVC</p>
+            </div>
+            <div class="inputs">
+               <input class="month" type="number" placeholder="MM" />
+               <input class="year" type="number" placeholder="YY" />
+               <input class="cvc" type="number" placeholder="e.g. 123 " />
+            </div>
+            <div class="error">
+               <div class="monthYearError">Can't be Blank</div>
+               <div class="cvcError">Can't be Blank</div>
+            </div>
+
+            <div class="button">Confirm</div>
+         </div>
       </div>
    </body>
 </html>
