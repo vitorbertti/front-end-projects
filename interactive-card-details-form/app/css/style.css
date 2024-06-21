@@ -12,3 +12,15 @@ body {
    height: 100vh;
    font-family: 'Space Grotesk', sans-serif;
 }
+
+.backCard {
+   position: relative;
+   top: 33px;
+   left: 73px;
+   z-index: -1;
+   background-image: url("../../images/bg-card-back.png");
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 284px;
+   height: 155px;
+}
