@@ -24,3 +24,13 @@ body {
    width: 284px;
    height: 155px;
 }
+
+.backNumber {
+   color: white;
+   font-size: 10px;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 35px;
+}
