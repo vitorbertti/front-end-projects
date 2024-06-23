@@ -34,3 +34,16 @@ body {
    justify-content: flex-end;
    padding-right: 35px;
 }
+
+.frontCard {
+   position: relative;
+   top: -29px;
+   left: 16px;
+   background-image: url("../../images/bg-card-front.png");
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 284px;
+   height: 155px;
+   color: white;
+   padding-top: 15px;
+}
