@@ -75,3 +75,8 @@ body {
    align-items: center;
    margin-top: 39px;
 }
+
+.frontNumber {
+   letter-spacing: 2px;
+   font-size: 18px
+}
