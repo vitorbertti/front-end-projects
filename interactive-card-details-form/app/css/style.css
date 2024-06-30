@@ -80,3 +80,9 @@ body {
    letter-spacing: 2px;
    font-size: 18px
 }
+
+.form , .formCompleted{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
