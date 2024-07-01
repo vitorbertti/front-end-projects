@@ -91,3 +91,11 @@ body {
    text-align: center;
    display: none;
 }
+
+.cardName {
+   display: flex;
+   justify-content: space-between;
+   font-size: 10px;
+   width: 85%;
+   margin-top: 15px;
+}
