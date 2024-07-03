@@ -108,3 +108,7 @@ body {
    color: hsl(278, 68%, 11%);
    font-weight: bold;
 }
+
+.cardNumber , .dateCvc {
+   margin-top: 22px;
+}
