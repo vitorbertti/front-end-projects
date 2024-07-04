@@ -112,3 +112,16 @@ body {
 .cardNumber , .dateCvc {
    margin-top: 22px;
 }
+
+.cardHolderName input, .cardNumber input {
+   width: 310px;
+   height: 41px;
+   border-radius: 10px;
+   text-decoration: none;
+   outline: none;
+   border: 1px solid hsl(270, 3%, 87%);
+   padding-left: 15px;
+   font-size: 18px;
+   letter-spacing: 1px;
+   margin-top: 8px;
+}
