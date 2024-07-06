@@ -130,3 +130,10 @@ body {
    color: red;
    display: none;
 }
+
+.dateCvc {
+   font-size: 12px;
+   letter-spacing: 1px;
+   color: hsl(278, 68%, 11%);
+   font-weight: bold;
+}
