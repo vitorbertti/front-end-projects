@@ -125,3 +125,8 @@ body {
    letter-spacing: 1px;
    margin-top: 8px;
 }
+
+.numberError {
+   color: red;
+   display: none;
+}
