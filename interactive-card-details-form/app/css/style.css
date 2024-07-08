@@ -137,3 +137,9 @@ body {
    color: hsl(278, 68%, 11%);
    font-weight: bold;
 }
+
+.label {
+   display: flex;
+   justify-content: space-between;
+   width: 192px;
+}
