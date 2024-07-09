@@ -150,3 +150,9 @@ body {
    width: 325px;
    margin-top: 7px;  
 }
+
+.error {
+   color: red;
+   margin-bottom: 30px;
+   position: relative;
+}
