@@ -143,3 +143,10 @@ body {
    justify-content: space-between;
    width: 192px;
 }
+
+.inputs {
+   display: flex;
+   justify-content: space-between;
+   width: 325px;
+   margin-top: 7px;  
+}
