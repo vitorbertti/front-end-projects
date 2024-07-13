@@ -178,3 +178,9 @@ body {
    border: 1px solid hsl(270, 3%, 87%);
    border-radius: 10px;
 }
+
+.inputs .cvc {
+   width: 160px;
+   text-align: left;
+   padding-left: 15px;
+}
