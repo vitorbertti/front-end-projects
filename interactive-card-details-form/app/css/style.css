@@ -167,3 +167,14 @@ body {
    right: 60px;
    display: none;
 }
+
+.inputs input {
+   width: 70px;
+   height: 41px;
+   text-align: center;
+   font-size: 18px;
+   text-decoration: none;
+   outline: none;
+   border: 1px solid hsl(270, 3%, 87%);
+   border-radius: 10px;
+}
