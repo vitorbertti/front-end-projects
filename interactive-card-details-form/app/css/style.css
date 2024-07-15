@@ -195,3 +195,10 @@ body {
    color: hsl(270, 3%, 87%);
    background-color: hsl(278, 68%, 11%);
 }
+
+.thankYou {
+   font-size: 28px;
+   letter-spacing: 2px;
+   color: hsl(278, 68%, 11%);
+   margin-top: 40px;
+}
