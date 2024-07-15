@@ -184,3 +184,14 @@ body {
    text-align: left;
    padding-left: 15px;
 }
+
+.button , .continue {
+   width: 320px;
+   height: 53px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   color: hsl(270, 3%, 87%);
+   background-color: hsl(278, 68%, 11%);
+}
