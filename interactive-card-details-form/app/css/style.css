@@ -202,3 +202,9 @@ body {
    color: hsl(278, 68%, 11%);
    margin-top: 40px;
 }
+
+.added {
+   font-size: 18px;
+   color: hsl(279, 6%, 55%);
+   margin-top: 16px;
+}
