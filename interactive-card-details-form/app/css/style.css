@@ -208,3 +208,7 @@ body {
    color: hsl(279, 6%, 55%);
    margin-top: 16px;
 }
+
+.continue {
+   margin-top: 48px;
+}
