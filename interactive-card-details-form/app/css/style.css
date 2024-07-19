@@ -212,3 +212,11 @@ body {
 .continue {
    margin-top: 48px;
 }
+
+@media only screen and (min-width: 385px) {
+   body {
+      background-image: url("../../images/bg-main-desktop.png");
+      background-color: white;
+      background-position: left;
+   }
+}
