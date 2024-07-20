@@ -219,4 +219,12 @@ body {
       background-color: white;
       background-position: left;
    }
+
+   .backCard {
+      top: 470px;
+      left: 260px;
+      background-image: url("../../images/bg-card-back.png");
+      width: 445px;
+      height: 243px;
+   }
 }
