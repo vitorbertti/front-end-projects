@@ -227,4 +227,9 @@ body {
       width: 445px;
       height: 243px;
    }
+
+   .backNumber {
+      font-size: 15px;
+      padding-right: 50px;
+   }
 }
