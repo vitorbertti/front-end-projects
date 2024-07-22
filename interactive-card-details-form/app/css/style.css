@@ -232,4 +232,12 @@ body {
       font-size: 15px;
       padding-right: 50px;
    }
+
+   .frontCard {
+      top: -54px;
+      left: 164px;
+      width: 445px;
+      height: 243px;
+      padding-top: 27px;
+   }
 }
