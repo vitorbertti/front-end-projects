@@ -244,4 +244,9 @@ body {
    .circle {
       padding-left: 29px;
    }
+
+   .bigCircle {
+      width: 45px;
+      height: 45px;
+   }
 }
