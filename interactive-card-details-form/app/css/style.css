@@ -259,4 +259,8 @@ body {
    .details {
       margin-top: 65px;
    }
+
+   .frontNumber {
+      font-size: 30px
+   }
 }
