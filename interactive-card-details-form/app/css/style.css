@@ -268,4 +268,11 @@ body {
       font-size: 16px;
       margin-top: 20px;
    }
+
+   .form, .formCompleted {
+      align-items: flex-end;
+      padding-right: 210px;
+      position: relative;
+      bottom: 230px;
+   }
 }
