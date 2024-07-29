@@ -263,4 +263,9 @@ body {
    .frontNumber {
       font-size: 30px
    }
+
+   .cardName {
+      font-size: 16px;
+      margin-top: 20px;
+   }
 }
