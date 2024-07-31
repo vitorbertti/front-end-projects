@@ -275,4 +275,9 @@ body {
       position: relative;
       bottom: 230px;
    }
+
+   .cardHolderName input, .cardNumber input {
+      width: 363px;
+      font-size: 22px;
+   }
 }
