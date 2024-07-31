@@ -280,4 +280,11 @@ body {
       width: 363px;
       font-size: 22px;
    }
+
+   .inputs {
+      display: flex;
+      justify-content: space-between;
+      width: 373px;
+      margin-top: 7px;
+   }
 }
