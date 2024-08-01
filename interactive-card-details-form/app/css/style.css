@@ -287,4 +287,8 @@ body {
       width: 373px;
       margin-top: 7px;
    }
+
+   .inputs input {
+      width: 75px;
+   }
 }
