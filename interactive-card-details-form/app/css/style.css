@@ -291,4 +291,10 @@ body {
    .inputs input {
       width: 75px;
    }
+
+   .inputs .cvc {
+      width: 190px;
+      text-align: left;
+      padding-left: 20px;
+   }
 }
