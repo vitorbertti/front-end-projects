@@ -13,3 +13,7 @@ let yearCard = document.querySelector(".yy")
 let inputs = document.querySelectorAll("input")
 let form = document.querySelector(".form")
 let thankyou = document.querySelector(".center")
+
+let numberError = document.querySelector(".numberError")
+let monthYearError = document.querySelector(".monthYearError")
+let cvcError = document.querySelector(".cvcError")
