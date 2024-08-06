@@ -17,3 +17,21 @@ let thankyou = document.querySelector(".center")
 let numberError = document.querySelector(".numberError")
 let monthYearError = document.querySelector(".monthYearError")
 let cvcError = document.querySelector(".cvcError")
+
+button.addEventListener("click", function (e) {
+   if(cardNameFun() === true && cardNumberFun() === true && monthFun() === true && yearFun() === true && cvcFun() === true) {
+      cardNameFun()
+      cardNumberFun()
+      monthFun()
+      yearFun()
+      cvcFun()
+      form.style.display = "none"
+      thankyou.style.display = "block"
+   } else {
+      cardNameFun()
+      cardNumberFun()
+      monthFun()
+      yearFun()
+      cvcFun()
+   }
+})
