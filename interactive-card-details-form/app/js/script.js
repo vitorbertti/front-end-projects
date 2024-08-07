@@ -35,3 +35,19 @@ button.addEventListener("click", function (e) {
       cvcFun()
    }
 })
+
+continueButton.addEventListener("click", function (e) {
+   form.style.display = "flex"
+   thankyou.style.display = "none"
+   cardHolderName.value = ""
+   cardHolderNumber.value = ""
+   month.value = ""
+   year.value =""
+   cvc.value =""
+   cardName.innerHTML = "Jane Appleseed"
+   cardNumber.innerHTML = "0000 0000 0000 0000"
+   monthCard.innerHTML = "00"
+   yearCard.innerHTML ="00"
+   backNumber.innerHTML ="000"
+   numberError.style.display = "none"
+})
