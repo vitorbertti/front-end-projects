@@ -51,3 +51,15 @@ continueButton.addEventListener("click", function (e) {
    backNumber.innerHTML ="000"
    numberError.style.display = "none"
 })
+
+let cardNameFun = function () {
+   if (inputs[0].value.match(/^[A-Za-z]+$/)) {
+      cardName.innerHTML = cardHolderName.value
+      inputs[0].style.borderColor = "hsl(270, 3%, 87%)"
+      return true
+   } else {
+      cardName.innerHTML
+      inputs[0].style.borderColor = "red"
+      return false
+   }
+}
