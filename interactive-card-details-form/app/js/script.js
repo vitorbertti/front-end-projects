@@ -63,3 +63,17 @@ let cardNameFun = function () {
       return false
    }
 }
+
+let cardNumberFun = function () {
+   if (inputs[1].value.match(/^\d+/) && cardHolderNumber.value.length === 16) {
+      cardNumber.innerHTML = cardHolderNumber.value.match(/.{1,4}/g).join(" ")
+      inputs[1].style.borderColor = "hsl(270, 3%, 87%)"
+      numberError.style.display = "none"
+      return true
+   } else {
+      cardNumber.innerHTML
+      inputs[1].style.borderColor = "red"
+      numberError.style.display = "flex"
+      return false
+   }
+}
