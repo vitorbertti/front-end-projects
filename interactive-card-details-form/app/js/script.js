@@ -77,3 +77,17 @@ let cardNumberFun = function () {
       return false
    }
 }
+
+let monthFun = function () {
+   if (inputs[2].value.match(/^\d+/) && month.value.length === 2) {
+      monthCard.innerHTML = month.value
+      inputs[2].style.borderColor = "hsl(270, 3%, 87%)"
+      monthYearError.style.display ="none"
+      return true
+   } else {
+      monthCard.innerHTML
+      inputs[2].style.borderColor = "red"
+      monthYearError.style.display ="block"
+      return false
+   }
+}
