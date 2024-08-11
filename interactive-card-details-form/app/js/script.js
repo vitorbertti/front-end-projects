@@ -91,3 +91,17 @@ let monthFun = function () {
       return false
    }
 }
+
+let yearFun = function () {
+   if (inputs[3].value.match(/^\d+/) && year.value.length === 2) {
+      yearCard.innerHTML = year.value
+      inputs[3].style.borderColor = "hsl(270, 3%, 87%)"
+      monthYearError.style.display ="none"
+      return true
+   } else {
+      yearCard.innerHTML
+      inputs[3].style.borderColor = "red"
+      monthYearError.style.display ="block"
+      return false
+   }
+}
