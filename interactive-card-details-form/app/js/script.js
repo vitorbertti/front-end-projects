@@ -105,3 +105,17 @@ let yearFun = function () {
       return false
    }
 }
+
+let cvcFun = function () {
+   if (inputs[4].value.match(/^\d+/) && cvc.value.length === 3) {
+      backNumber.innerHTML = cvc.value
+      inputs[4].style.borderColor = "hsl(270, 3%, 87%)"
+      cvcError.style.display = "none"
+      return true
+   } else {
+      backNumber.innerHTML
+      inputs[4].style.borderColor = "red"
+      cvcError.style.display = "block"
+      return false
+   }
+}
