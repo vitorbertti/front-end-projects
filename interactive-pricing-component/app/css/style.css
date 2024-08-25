@@ -2,3 +2,16 @@
    margin: 0px;
    padding: 0px;
 }
+
+body {
+   background: hsl(230, 100%, 99%) url("../../images/bg-pattern.svg") no-repeat;
+   background-attachment: fixed;
+   background-position: top;
+   font-family: "Manrope", sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}
