@@ -26,3 +26,8 @@ header {
    height: 150px;
    text-align: center;
 }
+
+.mainHead {
+   font-weight: 800;
+   font-size: 28px;
+}
