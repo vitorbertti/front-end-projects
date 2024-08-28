@@ -31,3 +31,9 @@ header {
    font-weight: 800;
    font-size: 28px;
 }
+
+.subHead {
+   font-size: 15px;
+   color: hsl(225, 20%, 60%);
+   margin-top: 15px;
+}
