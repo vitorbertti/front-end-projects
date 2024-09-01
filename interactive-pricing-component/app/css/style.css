@@ -62,3 +62,8 @@ header {
    font-weight: 800;
    letter-spacing: 1px;
 }
+
+.priceMonth {
+   display: flex;
+   align-items: center;
+}
