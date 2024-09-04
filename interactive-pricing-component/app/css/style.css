@@ -77,3 +77,8 @@ header {
    margin-left: 2px;
    color: hsl(225, 20%, 60%);
 }
+
+.partTwo {
+   width: 445px;
+   margin-top: 38px;
+}
