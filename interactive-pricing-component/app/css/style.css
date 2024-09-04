@@ -72,3 +72,8 @@ header {
    font-size: 40px;
    font-weight: bolder;
 }
+
+.month {
+   margin-left: 2px;
+   color: hsl(225, 20%, 60%);
+}
