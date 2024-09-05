@@ -82,3 +82,8 @@ header {
    width: 445px;
    margin-top: 38px;
 }
+
+.progressBar {
+   position: relative;
+   height: 20px;
+}
