@@ -87,3 +87,7 @@ header {
    position: relative;
    height: 20px;
 }
+
+.progressBar input[type="range"] {
+   width: 100%;
+}
