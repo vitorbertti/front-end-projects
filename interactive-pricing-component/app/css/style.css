@@ -99,3 +99,15 @@ header {
    border-radius: 5px;
    outline: none;
 }
+
+.myrange::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   width: 35px;
+   height: 35px;
+   background-image: url("../../images/icon-slider.svg");
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   background-color: hsl(174, 86%, 45%);
+   border-radius: 50%;
+   cursor: pointer;
+}
