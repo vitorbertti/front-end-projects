@@ -123,3 +123,9 @@ header {
    justify-content: flex-end;
    margin-top: 45px;
 }
+
+.partThree p {
+   color: hsl(225, 20%, 60%);
+   font-weight: 1000;
+   font-size: 12px;
+}
