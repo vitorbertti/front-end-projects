@@ -137,3 +137,11 @@ header {
 .yearly {
    margin-right: 10px;
 }
+
+.switch {
+   position: relative;
+   display: inline-block;
+   width: 44px;
+   height: 22px;
+   margin-right: 12px;
+}
