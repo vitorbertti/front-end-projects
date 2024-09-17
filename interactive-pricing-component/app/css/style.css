@@ -163,3 +163,15 @@ header {
    -webkit-transition: 0.4s;
    transition: 0.4s;
 }
+
+.slider:before {
+   position: absolute;
+   content: "";
+   height: 14px;
+   width: 14px;
+   left: 2px;
+   bottom: 4.5px;
+   background-color: white;
+   -webkit-transition: 0.4s;
+   transition: 0.4s;
+}
