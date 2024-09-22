@@ -189,3 +189,7 @@ input:checked + .slider:before {
 input:focus + .slider {
    box-shadow: 0 0 1px hsl(174, 86%, 45%);
 }
+
+.slider.round {
+   border-radius: 34px;
+}
