@@ -211,3 +211,7 @@ input:focus + .slider {
    justify-content: center;
    align-items: center;
 }
+
+.discountNumber{
+   margin-right: 3px;
+}
