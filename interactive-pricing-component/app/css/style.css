@@ -225,3 +225,10 @@ input:focus + .slider {
    justify-content: space-evenly;
    align-items: center;
 }
+
+.checkOne, .checkTwo, .checkThree {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
