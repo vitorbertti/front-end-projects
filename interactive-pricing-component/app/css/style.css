@@ -250,3 +250,10 @@ input:focus + .slider {
    cursor: pointer;
    font-size: 13px;
 }
+
+@media only screen and (max-width: 600px) {
+   body {
+      justify-content: flex-start;
+      background-size: 370px 340px;
+   }
+}
