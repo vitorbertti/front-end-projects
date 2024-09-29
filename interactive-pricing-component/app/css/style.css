@@ -238,3 +238,15 @@ input:focus + .slider {
    width: 9px;
    height: 9px;
 }
+
+.button {
+   width: 170px;
+   height: 38px;
+   border-radius: 20px;
+   border: none;
+   outline: none;
+   background-color: hsl(227, 35%, 25%);
+   color: hsl(226, 100%, 87%);
+   cursor: pointer;
+   font-size: 13px;
+}
