@@ -256,4 +256,9 @@ input:focus + .slider {
       justify-content: flex-start;
       background-size: 370px 340px;
    }
+
+   header {
+      margin-top: 56px;
+      margin-bottom: 30px;
+   }
 }
