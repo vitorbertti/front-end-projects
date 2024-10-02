@@ -261,4 +261,8 @@ input:focus + .slider {
       margin-top: 56px;
       margin-bottom: 30px;
    }
+
+   .mainHead {
+      font-size: 20px;
+   }
 }
