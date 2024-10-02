@@ -265,4 +265,11 @@ input:focus + .slider {
    .mainHead {
       font-size: 20px;
    }
+
+   .subHead {
+      font-size: 13px;
+      width: 170px;
+      line-height: 22px;
+      margin-top: 8px;
+   }
 }
