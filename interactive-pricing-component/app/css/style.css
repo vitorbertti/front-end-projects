@@ -272,4 +272,9 @@ input:focus + .slider {
       line-height: 22px;
       margin-top: 8px;
    }
+
+   .card {
+      width: 328px;
+      height: 480px;
+   }
 }
