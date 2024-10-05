@@ -281,4 +281,9 @@ input:focus + .slider {
    .partOne, .partTwo, .partFour {
       width: 280px;
    }
+
+   .partOne {
+      margin-top: 35px;
+      flex-direction: column;
+   }
 }
