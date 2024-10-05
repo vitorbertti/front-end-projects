@@ -277,4 +277,8 @@ input:focus + .slider {
       width: 328px;
       height: 480px;
    }
+
+   .partOne, .partTwo, .partFour {
+      width: 280px;
+   }
 }
