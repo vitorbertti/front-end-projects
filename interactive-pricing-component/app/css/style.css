@@ -291,4 +291,9 @@ input:focus + .slider {
       font-size: 12px;
       margin-bottom: 90px;
    }
+
+   .price {
+      font-size: 30px;
+      font-weight: bolder;
+   }
 }
