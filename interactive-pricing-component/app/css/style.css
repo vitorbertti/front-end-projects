@@ -296,4 +296,10 @@ input:focus + .slider {
       font-size: 30px;
       font-weight: bolder;
    }
+
+   .month {
+      font-size: 14px;
+      margin-left: 10px;
+      color: hsl(225, 20%, 60%);
+   }
 }
