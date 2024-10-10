@@ -307,4 +307,8 @@ input:focus + .slider {
       position: relative;
       bottom: 128;
    }
+
+   .myrange {
+      height: 8px;
+   }
 }
