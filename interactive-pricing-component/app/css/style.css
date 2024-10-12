@@ -323,4 +323,10 @@ input:focus + .slider {
       border-radius: 50%;
       cursor: pointer;
    }
+
+   .partThree {
+      margin-top: -20px;
+      width: 335px;
+      justify-content: flex-end;
+   }
 }
