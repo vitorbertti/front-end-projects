@@ -329,4 +329,8 @@ input:focus + .slider {
       width: 335px;
       justify-content: flex-end;
    }
+
+   .monthly {
+      margin-right: 10px;
+   }
 }
