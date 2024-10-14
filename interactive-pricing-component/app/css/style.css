@@ -333,4 +333,9 @@ input:focus + .slider {
    .monthly {
       margin-right: 10px;
    }
+
+   .yearly {
+      margin-right: -4px;
+      margin-left: -3px;
+   }
 }
