@@ -338,4 +338,12 @@ input:focus + .slider {
       margin-right: -4px;
       margin-left: -3px;
    }
+
+   .discount {
+      width: 30px;
+      justify-content: center;
+      align-items: center;
+      padding: 3px;
+      margin-left: 10px;
+   }
 }
