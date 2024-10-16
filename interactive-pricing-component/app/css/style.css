@@ -346,4 +346,8 @@ input:focus + .slider {
       padding: 3px;
       margin-left: 10px;
    }
+
+   .discount .discountWord {
+      display: none;
+   }
 }
