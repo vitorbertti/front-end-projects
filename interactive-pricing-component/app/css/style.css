@@ -350,4 +350,8 @@ input:focus + .slider {
    .discount .discountWord {
       display: none;
    }
+
+   .partFour {
+      flex-direction: column;
+   }
 }
