@@ -32,3 +32,23 @@ const data = [
       leftpercentage: 100,
    },
 ]
+
+const getData = function () {
+   const { pageviews, monthlycost, leftpercentage } = data[rangeInput.value - 1]
+ 
+   if(rangeInput.value == 1) {
+      rangeInput.style.background = "linear-gradient(to right, hsl(174, 77%, 80%) 0,hsl(174, 77%, 80%) 0%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 100%)"
+   }else if(rangeInput.value == 2) {
+      rangeInput.style.background = "linear-gradient(to right, hsl(174, 77%, 80%) 0,hsl(174, 77%, 80%) 25%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 100%)"
+   }else if(rangeInput.value == 3) {
+      rangeInput.style.background = "linear-gradient(to right, hsl(174, 77%, 80%) 0,hsl(174, 77%, 80%) 50%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 100%)"
+   }else if(rangeInput.value == 4) {
+      rangeInput.style.background = "linear-gradient(to right, hsl(174, 77%, 80%) 0,hsl(174, 77%, 80%) 75%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 100%)"
+   }else if(rangeInput.value == 5) {
+      rangeInput.style.background = "linear-gradient(to right, hsl(174, 77%, 80%) 0,hsl(174, 77%, 80%) 100%,hsl(224, 65%, 95%) 0%, hsl(224, 65%, 95%) 100%)"
+   }
+   
+   views.innerHTML = pageviews
+   cost.innerHTML = monthlycost.toFixed(2)
+   discount.innerHTML = leftpercentage
+}
