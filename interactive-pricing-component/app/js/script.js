@@ -52,3 +52,5 @@ const getData = function () {
    cost.innerHTML = monthlycost.toFixed(2)
    discount.innerHTML = leftpercentage
 }
+
+rangeInput.addEventListener('input' , getData)
