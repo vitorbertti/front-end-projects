@@ -18,3 +18,9 @@ body {
    justify-content: center;
    align-items: center;
 }
+
+.boxOne {
+   width: 90%;
+   background-color: hsl(228, 56%, 26%);
+   border-radius: 10px 100px 10px 10px;
+}
