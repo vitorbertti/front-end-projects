@@ -28,3 +28,12 @@ body {
 .logo {
    margin: 9%;
 }
+
+.icon {
+   display: flex;
+   align-items: center;
+   margin-left: 9%;
+   margin-bottom: 9%;
+   width: 50%;
+   justify-content: space-between;
+}
