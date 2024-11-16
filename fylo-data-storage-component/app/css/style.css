@@ -68,3 +68,11 @@ body {
 .text span {
    font-weight: bolder;
 }
+
+.bar {
+   background-color: hsl(229, 57%, 11%);
+   width: 90%;
+   margin-top: 5%;
+   padding: 1%;
+   border-radius: 20px;
+}
