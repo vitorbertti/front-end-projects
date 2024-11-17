@@ -76,3 +76,12 @@ body {
    padding: 1%;
    border-radius: 20px;
 }
+
+.bar .insidebar {
+   border-radius: 20px;
+   width: 81.5%;
+   background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+   padding: .5%;
+   display: flex;
+   justify-content: flex-end;
+}
