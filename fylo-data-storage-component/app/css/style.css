@@ -85,3 +85,10 @@ body {
    display: flex;
    justify-content: flex-end;
 }
+
+.bar .insidebar .whiteball {
+   height: 10px;
+   background-color: white;
+   width: 4%;
+   border-radius: 10px;
+}
