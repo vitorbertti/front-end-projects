@@ -101,3 +101,12 @@ body {
    margin-top: 3%;
    margin-bottom:15% ;
 }
+
+@media only screen and (min-width: 750px){
+   body {
+      background-image: url("../../images/bg-desktop.png");
+      background-position-y: bottom;
+      background-color: hsl(229, 57%, 11%) ;
+      background-repeat: repeat-x;
+   }
+}
