@@ -116,4 +116,9 @@ body {
       justify-content: center;
       align-content: center;   
    }
+
+   .boxOne {
+      width: 25%;
+      margin-right: 2%;
+   }
 }
