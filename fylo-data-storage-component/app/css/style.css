@@ -127,4 +127,10 @@ body {
       margin-left: 2%;
       margin-bottom:1% ;
    }
+
+   .text {
+      margin-top: 5%;
+      align-self: flex-start;
+      margin-left: 5%;
+   }
 }
