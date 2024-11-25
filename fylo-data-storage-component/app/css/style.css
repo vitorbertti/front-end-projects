@@ -133,4 +133,9 @@ body {
       align-self: flex-start;
       margin-left: 5%;
    }
+
+   .bar {
+      margin-top: 3%;
+      padding: 0.5%;
+   }
 }
