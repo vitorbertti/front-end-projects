@@ -142,4 +142,9 @@ body {
    .bar .insidebar .whiteball {
       width: 2%;
    }
+
+   .limit {
+      margin-top: 1%;
+      margin-bottom:3%;
+   }
 }
