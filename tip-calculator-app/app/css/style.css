@@ -9,3 +9,9 @@ body {
    background-color: hsl(185, 41%, 84%);
    font-family: "Space Mono", monospace;
 }
+
+.logo {
+   text-align: center;
+   margin-top: 1.7rem;
+   margin-bottom: 2.3rem;
+}
