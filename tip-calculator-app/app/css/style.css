@@ -15,3 +15,11 @@ body {
    margin-top: 1.7rem;
    margin-bottom: 2.3rem;
 }
+
+.tip-calculator {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+   border-radius: 1.4rem 1.4rem 0 0;
+}
