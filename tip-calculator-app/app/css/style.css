@@ -23,3 +23,9 @@ body {
    padding: 2rem;
    border-radius: 1.4rem 1.4rem 0 0;
 }
+
+label {
+   color: hsl(186, 14%, 43%);
+   font-weight: 700;
+   margin-bottom: 0.3rem;
+}
