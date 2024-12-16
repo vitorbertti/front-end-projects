@@ -44,3 +44,7 @@ input {
    font-weight: bolder;
    font-family: "Space Mono", monospace;
 }
+
+.bill-input {
+   background-image: url("../../images/icon-dollar.svg");
+}
