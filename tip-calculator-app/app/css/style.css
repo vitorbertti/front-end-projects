@@ -58,3 +58,15 @@ input {
    column-gap: 18px;
    margin-bottom: 2rem;
 }
+
+.tips {
+   background-color: hsl(183, 100%, 15%);
+   color: white;
+   height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+   border-radius: 4px;
+   cursor: pointer;
+}
