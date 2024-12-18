@@ -47,4 +47,14 @@ input {
 
 .bill-input {
    background-image: url("../../images/icon-dollar.svg");
+   margin-bottom: 36px;
+}
+
+.tip {
+   margin-top: 0.7rem;
+   display: grid;
+   grid-template-columns: 144px 144px;
+   row-gap: 2em;
+   column-gap: 18px;
+   margin-bottom: 2rem;
 }
