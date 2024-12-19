@@ -70,3 +70,9 @@ input {
    border-radius: 4px;
    cursor: pointer;
 }
+
+.active-tip {
+   color: hsl(183, 100%, 15%);
+   background-color: hsl(172, 67%, 45%);
+   font-weight: bolder;
+}
