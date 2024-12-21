@@ -81,3 +81,10 @@ input {
    background-image: url("../../images/icon-person.svg");
    margin-bottom: 2.4rem;
 }
+
+.result {
+   background-color: hsl(183, 100%, 15%);
+   color: white;
+   padding: 39px 21px;
+   border-radius: 12px;
+}
