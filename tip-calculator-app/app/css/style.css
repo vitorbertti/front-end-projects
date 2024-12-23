@@ -88,3 +88,10 @@ input {
    padding: 39px 21px;
    border-radius: 12px;
 }
+
+.tip-amount, .total {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 1.7rem;
+}
