@@ -107,3 +107,14 @@ input {
    color: hsl(172, 67%, 45%);
    font-weight: 700;
 }
+
+.reset {
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700;
+   color: hsl(183, 100%, 15%);
+   background-color: hsl(172, 67%, 45%);
+   padding: 9px 0 9px 0;
+   border-radius: 5px;
+   cursor: pointer;
+}
