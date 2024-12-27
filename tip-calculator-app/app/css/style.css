@@ -118,3 +118,8 @@ input {
    border-radius: 5px;
    cursor: pointer;
 }
+
+#tip-custom input {
+   box-sizing: border-box;
+   width: 100%;
+}
