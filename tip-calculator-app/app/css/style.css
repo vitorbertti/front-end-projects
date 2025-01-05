@@ -123,3 +123,8 @@ input {
    box-sizing: border-box;
    width: 100%;
 }
+
+.peopleLabel {
+   display: flex;
+   justify-content: space-between;
+}
