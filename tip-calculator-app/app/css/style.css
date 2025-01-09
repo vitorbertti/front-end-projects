@@ -146,4 +146,12 @@ input {
       padding: 9px;
       background-position: 17px 18px;
    }
+
+   .tip-calculator {
+      width: 990px;
+      flex-direction: row;
+      border-radius: 1.4rem;
+      padding: 2.3rem;
+      height: 479px;
+   }
 }
