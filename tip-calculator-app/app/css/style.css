@@ -154,4 +154,9 @@ input {
       padding: 2.3rem;
       height: 479px;
    }
+
+   .partOne {
+      margin-top: 1rem;
+      margin-left: 1.2rem;
+   }
 }
