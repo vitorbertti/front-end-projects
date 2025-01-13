@@ -163,4 +163,11 @@ input {
    .bill-input {
       margin-bottom: 3.4rem;
    }
+
+   .tip {
+      grid-template-columns: 135px 135px 135px;
+      row-gap: 1.2em;
+      column-gap: 17px;
+      margin-bottom: 3.2rem;
+   }
 }
