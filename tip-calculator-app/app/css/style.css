@@ -185,4 +185,8 @@ input {
       align-content: space-between;
       padding: 48px 38px;
    }
+
+   .amount {
+      font-size: 55px;
+   }
 }
