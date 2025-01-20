@@ -15,3 +15,12 @@ billInput.value = "0.0"
 peopleInput.value = "1"
 tipPerPerson.innerHTML = "$" + (0.0).toFixed(2)
 totalPerPerson.innerHTML = "$" + (0.0).toFixed(2)
+
+function calculateTip() {
+   if (peopleValue >= 1) {
+      let tipAmount = (billValue * tipValue) / peopleValue
+      let total = (billValue + tipAmount) / peopleValue
+      tipPerPerson.innerHTML = "$" + tipAmount.toFixed(2)
+      totalPerPerson.innerHTML = "$" + total.toFixed(2)
+   }
+}
