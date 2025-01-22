@@ -30,4 +30,18 @@ function billInputFun() {
    calculateTip()
 }
 
+function peopleInputFun() {
+   peopleValue = parseFloat(peopleInput.value)
+ 
+   if (peopleValue < 1) {
+      error.style.display = "flex"
+      peopleInput.style.border = "thick solid red"
+   } else {
+      error.style.display = "none"
+      peopleInput.style.border = "none"
+      calculateTip()
+   }
+}
+
 billInput.addEventListener("input", billInputFun)
+peopleInput.addEventListener("input", peopleInputFun)
