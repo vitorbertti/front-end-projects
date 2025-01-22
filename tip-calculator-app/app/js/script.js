@@ -24,3 +24,10 @@ function calculateTip() {
       totalPerPerson.innerHTML = "$" + total.toFixed(2)
    }
 }
+
+function billInputFun() {
+   billValue = parseFloat(billInput.value)
+   calculateTip()
+}
+
+billInput.addEventListener("input", billInputFun)
