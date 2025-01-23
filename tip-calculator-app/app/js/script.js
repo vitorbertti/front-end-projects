@@ -43,5 +43,16 @@ function peopleInputFun() {
    }
 }
 
+function handleClick(event) {
+   tips.forEach(function (val) {
+      val.classList.remove("active-tip")
+      if (event.target.innerHTML == val.innerHTML) {
+         val.classList.add("active-tip")
+         tipValue = parseFloat(val.innerHTML) / 100
+      }
+   })
+   calculateTip();
+}
+
 billInput.addEventListener("input", billInputFun)
 peopleInput.addEventListener("input", peopleInputFun)
