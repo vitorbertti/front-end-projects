@@ -54,5 +54,15 @@ function handleClick(event) {
    calculateTip();
 }
 
+function tipInputFun() {
+   tipValue = parseFloat(tipCustom.value / 100)
+ 
+   tips.forEach(function (val) {
+      val.classList.remove("active-tip");
+   })
+   calculateTip()
+}
+
 billInput.addEventListener("input", billInputFun)
 peopleInput.addEventListener("input", peopleInputFun)
+tipCustom.addEventListener("input", tipInputFun)
