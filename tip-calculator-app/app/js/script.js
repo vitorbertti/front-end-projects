@@ -58,11 +58,20 @@ function tipInputFun() {
    tipValue = parseFloat(tipCustom.value / 100)
  
    tips.forEach(function (val) {
-      val.classList.remove("active-tip");
+      val.classList.remove("active-tip")
    })
    calculateTip()
+}
+
+function reset() {
+   billInput.value = "0.0"
+   billInputFun()
+   peopleInput.value = "1"
+   peopleInputFun()
+   tipCustom.value = ""
 }
 
 billInput.addEventListener("input", billInputFun)
 peopleInput.addEventListener("input", peopleInputFun)
 tipCustom.addEventListener("input", tipInputFun)
+resetBtn.addEventListener("click", reset)
