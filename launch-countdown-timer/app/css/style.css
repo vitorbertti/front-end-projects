@@ -2,3 +2,13 @@
    margin: 0;
    padding: 0;
 }
+
+body {
+   background-image: url("../../images/bg-stars.svg");
+   background-color: hsl(235, 16%, 14%);
+   background-repeat: no-repeat;
+   color: white;
+   font-family: "Outfit", sans-serif;
+   font-family: "Red Hat Text", sans-serif;
+   width: 100%;
+}
