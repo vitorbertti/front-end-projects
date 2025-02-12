@@ -20,3 +20,10 @@ body {
    justify-content: center;
    height: 70vh;
 }
+
+.countdown-body .header {
+   font-size: 20px;
+   letter-spacing: 5px;
+   width: 80%;
+   text-align: center;
+}
