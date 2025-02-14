@@ -27,3 +27,11 @@ body {
    width: 80%;
    text-align: center;
 }
+
+.counter {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 85%;
+   margin-top: 50px;
+}
