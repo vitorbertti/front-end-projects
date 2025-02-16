@@ -35,3 +35,15 @@ body {
    width: 85%;
    margin-top: 50px;
 }
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 65px;
+   height: 65px;
+   font-size: 33px;
+   color: hsl(345, 95%, 68%);
+   background-color: hsl(236, 21%, 26%);
+   border-radius: 5px;
+}
