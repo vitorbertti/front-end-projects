@@ -47,3 +47,12 @@ body {
    background-color: hsl(236, 21%, 26%);
    border-radius: 5px;
 }
+
+.days p, .hours p, .minutes p, .seconds p {
+   font-size: 7px;
+   letter-spacing: 3px;
+   font-weight: lighter;
+   color: hsl(237, 18%, 59%);
+   text-align: center;
+   margin-top: 13px;
+}
