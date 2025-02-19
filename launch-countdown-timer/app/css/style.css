@@ -73,3 +73,7 @@ footer {
    align-items: center;
    justify-content: space-between;
 }
+
+.icon img:hover {
+   background-color: hsl(345, 95%, 68%);
+}
