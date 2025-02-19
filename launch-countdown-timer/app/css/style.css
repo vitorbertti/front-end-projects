@@ -66,3 +66,10 @@ footer {
    align-items: center;
    justify-content: center;
 }
+
+.icon {
+   width: 36%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
