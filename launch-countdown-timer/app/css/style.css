@@ -86,3 +86,12 @@ footer {
    height: 25vh;
    z-index: -100;
 }
+
+@media only screen and (min-width: 800px) {
+   .countdown-body .header {
+      font-size: 23px;
+      letter-spacing: 10px;
+      margin-top: 10px;
+      margin-bottom: 70px;
+   }
+}
