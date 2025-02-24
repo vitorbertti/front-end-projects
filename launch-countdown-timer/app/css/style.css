@@ -98,4 +98,10 @@ footer {
    .counter {
       width: 60%;
    }
+
+   .box {
+      width: 100px;
+      height: 100px;
+      font-size: 50px;
+   }
 }
