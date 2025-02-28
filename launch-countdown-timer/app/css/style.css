@@ -122,4 +122,8 @@ footer {
       margin-top: 10px;
       margin-bottom: 70px;
    }
+
+   .counter {
+      width: 46%;
+   }
 }
