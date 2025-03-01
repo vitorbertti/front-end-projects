@@ -126,4 +126,10 @@ footer {
    .counter {
       width: 46%;
    }
+
+   .box {
+      width: 140px;
+      height: 130px;
+      font-size: 80px;
+   }
 }
