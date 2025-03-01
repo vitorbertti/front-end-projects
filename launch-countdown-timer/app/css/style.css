@@ -132,4 +132,9 @@ footer {
       height: 130px;
       font-size: 80px;
    }
+
+   .days p, .hours p, .minutes p, .seconds p {
+      font-size: 15px;
+      margin-top: 25px;
+   }
 }
