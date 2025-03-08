@@ -4,6 +4,8 @@ let x = setInterval(() => {
   const today = new Date().getTime()
   let distance = countdownDate - today
   let days = Math.floor(distance / (1000 * 60 * 60 * 24))
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
 
   document.getElementById("days").innerHTML = days
+  document.getElementById("hours").innerHTML = hours
  }, 1000)
