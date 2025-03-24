@@ -11,3 +11,14 @@ body {
    justify-content: center;
    align-items: center;
 }
+
+.card {
+   background-color: white;
+   border-radius: 24px 24px 100px 24px;
+   width: 343px;
+   height: 486px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
