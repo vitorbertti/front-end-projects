@@ -30,3 +30,15 @@ body {
    justify-content: space-between;
    align-items: center;
 }
+
+.day, .month, .year {
+   width: 87.67px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #716F6F;
+   font-weight: bold;
+   font-size: 12px;
+   letter-spacing: 25%;
+}
