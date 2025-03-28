@@ -57,3 +57,12 @@ input {
    font-size: 20px;
    margin-top: 8px;
 }
+
+.dayError, .monthError, .yearError {
+   color: red;
+   font-size: 10px;
+   font-style: italic;
+   position: absolute;
+   top: 210px;
+   display: none;
+}
