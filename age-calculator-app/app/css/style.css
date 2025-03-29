@@ -66,3 +66,9 @@ input {
    top: 210px;
    display: none;
 }
+
+.submit {
+   width: 295px;
+   height: 64px;
+   position: relative;
+}
