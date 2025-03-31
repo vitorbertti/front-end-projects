@@ -96,3 +96,8 @@ input {
    transform: translate(-50%, 0%);
    cursor: pointer;
 }
+
+img {
+   width: 24px;
+   height: 24px;
+}
