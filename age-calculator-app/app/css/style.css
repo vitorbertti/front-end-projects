@@ -81,3 +81,18 @@ input {
    top: 50%;
    transform: translate(0, -50%);
 }
+
+.button {
+   background-color: #854DFF;
+   width: 64px;
+   height: 64px;
+   border-radius: 216px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 21;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0%);
+   cursor: pointer;
+}
