@@ -116,3 +116,11 @@ img {
    color: #854DFF;
    margin-right: 8px;
 }
+
+@media only screen and (min-width: 1440px) {
+   .card {
+      border-radius: 24px 24px 200px 24px;
+      width: 840px;
+      height: 651px;
+   }
+}
