@@ -123,4 +123,12 @@ img {
       width: 840px;
       height: 651px;
    }
+
+   .date {
+      width: 728px;
+      height: 101px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+   }
 }
