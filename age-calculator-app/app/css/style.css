@@ -131,4 +131,8 @@ img {
       justify-content: flex-start;
       align-items: center;
    }
+
+   .day, .month, .year {
+      width: 160px;
+   }
 }
