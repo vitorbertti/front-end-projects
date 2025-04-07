@@ -139,4 +139,10 @@ img {
    .month, .year {
       margin-left: 32px;
    }
+
+   input {
+      width: calc(100% - 24px);
+      height: 72px;
+      padding-left: 24px;
+   }
 }
