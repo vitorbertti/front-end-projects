@@ -135,4 +135,8 @@ img {
    .day, .month, .year {
       width: 160px;
    }
+
+   .month, .year {
+      margin-left: 32px;
+   }
 }
