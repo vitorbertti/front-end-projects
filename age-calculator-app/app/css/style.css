@@ -145,4 +145,9 @@ img {
       height: 72px;
       padding-left: 24px;
    }
+
+   .dayError, .monthError, .yearError {
+      font-size: 14px;
+      top: 145px;
+   }
 }
