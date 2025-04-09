@@ -150,4 +150,10 @@ img {
       font-size: 14px;
       top: 145px;
    }
+
+   .submit {
+      width: 728px;
+      height: 96px;
+      position: relative;
+   }
 }
