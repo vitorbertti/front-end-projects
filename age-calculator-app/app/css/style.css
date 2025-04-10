@@ -156,4 +156,11 @@ img {
       height: 96px;
       position: relative;
    }
+
+   .button {
+      width: 96px;
+      height: 96px;
+      left: 100%;
+      transform: translate(-100%, 0%);
+   }
 }
