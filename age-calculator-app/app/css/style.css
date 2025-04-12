@@ -163,4 +163,9 @@ img {
       left: 100%;
       transform: translate(-100%, 0%);
    }
+
+   img {
+      width: 44px;
+      height: 44px;
+   }
 }
