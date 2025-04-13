@@ -168,4 +168,10 @@ img {
       width: 44px;
       height: 44px;
    }
+
+   .result {
+      width: 728px;
+      height: 342px;
+      font-size: 104px;
+   }
 }
