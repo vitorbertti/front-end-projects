@@ -11,3 +11,7 @@ let dayNumber = document.querySelector(".dayNumber")
 let dayClass = document.querySelector(".day")
 let monthClass = document.querySelector(".month")
 let yearClass = document.querySelector(".year")
+
+let dayError = document.querySelector(".dayError")
+let monthError = document.querySelector(".monthError")
+let yearError = document.querySelector(".yearError")
