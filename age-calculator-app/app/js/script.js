@@ -15,3 +15,15 @@ let yearClass = document.querySelector(".year")
 let dayError = document.querySelector(".dayError")
 let monthError = document.querySelector(".monthError")
 let yearError = document.querySelector(".yearError")
+
+day.addEventListener("input", function () {
+   if (day.value > 31) {
+      dayClass.style.color = "red"
+      day.style.borderColor = "red"
+      dayError.style.display = "block"
+   } else {
+      dayClass.style.color = "#716F6F"
+      day.style.borderColor = "#716F6F"
+      dayError.style.display = "none"
+   }
+})
