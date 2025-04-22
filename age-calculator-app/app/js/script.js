@@ -39,3 +39,15 @@ month.addEventListener("input", function () {
       monthError.style.display = "none"
    }
 })
+
+year.addEventListener("input", function () {
+   if (year.value > (new Date().getFullYear())) {
+      yearClass.style.color = "red"
+      year.style.borderColor = "red"
+      yearError.style.display = "block"
+   } else {
+      yearClass.style.color = "#716F6F"
+      year.style.borderColor = "#716F6F"
+      yearError.style.display = "none"
+   }
+})
