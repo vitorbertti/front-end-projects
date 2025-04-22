@@ -27,3 +27,15 @@ day.addEventListener("input", function () {
       dayError.style.display = "none"
    }
 })
+
+month.addEventListener("input", function () {
+   if (month.value > 12) {
+      monthClass.style.color = "red"
+      month.style.borderColor = "red"
+      monthError.style.display = "block"
+   } else {
+      monthClass.style.color = "#716F6F"
+      month.style.borderColor = "#716F6F"
+      monthError.style.display = "none"
+   }
+})
