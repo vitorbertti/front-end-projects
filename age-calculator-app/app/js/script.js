@@ -51,3 +51,20 @@ year.addEventListener("input", function () {
       yearError.style.display = "none"
    }
 })
+
+button.addEventListener("click", function () {
+   const birthDate = new Date(`${year.value}-${month.value}-${day.value}`)
+   const today = new Date()
+   const ageInMilliseconds = today - birthDate
+   const millisecondsInYear = 3.15576e10
+   const millisecondsInMonth = millisecondsInYear / 12
+   const millisecondsInDay = 24 * 60 * 60 * 1000
+
+   const years = Math.floor(ageInMilliseconds / millisecondsInYear)
+   const months = Math.floor((ageInMilliseconds % millisecondsInYear) / millisecondsInMonth)
+   const days = Math.floor((ageInMilliseconds % millisecondsInMonth) / millisecondsInDay)
+
+   yearNumber.innerHTML = years
+   monthNumber.innerHTML = months
+   dayNumber.innerHTML = days
+})
