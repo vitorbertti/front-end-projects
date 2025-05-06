@@ -12,3 +12,17 @@ body {
    align-items: center;
    font-family: "Figtree", serif;
 }
+
+.card {
+   border: 1px solid #111111;
+   background-color: white;
+   width: 336px;
+   height: 474px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 24px;
+   box-shadow: 8px 8px #111111;
+}
