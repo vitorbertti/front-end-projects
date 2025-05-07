@@ -26,3 +26,7 @@ body {
    padding: 24px;
    box-shadow: 8px 8px #111111;
 }
+
+.card:hover {
+   box-shadow: 16px 16px #111111; 
+}
