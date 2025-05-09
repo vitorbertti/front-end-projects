@@ -30,3 +30,9 @@ body {
 .card:hover {
    box-shadow: 16px 16px #111111; 
 }
+
+.blogImage img {
+   width: 336px;
+   height: 200px;
+   border-radius: 10px;
+}
