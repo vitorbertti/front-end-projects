@@ -44,3 +44,16 @@ body {
    flex-direction: column;
    justify-content: space-between;
 }
+
+.cardContentCategory {
+   background-color: #F4D04E;
+   width: 82px;
+   height: 29px;
+   border-radius: 4px;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 14px;
+   line-height: 150%;
+}
