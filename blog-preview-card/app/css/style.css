@@ -36,3 +36,11 @@ body {
    height: 200px;
    border-radius: 10px;
 }
+
+.cardContent {
+   width: 336px;
+   height: 194px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
