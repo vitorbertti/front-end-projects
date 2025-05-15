@@ -72,3 +72,10 @@ body {
 .card:hover .cardContentTitle {
    color: #F4D04E;
 }
+
+.cardContentDescription {
+   font-size: 16px;
+   line-height: 150%;
+   height: 72px;
+   color:#6B6B6B;
+}
