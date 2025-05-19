@@ -99,4 +99,8 @@ body {
       width: 279px;
       height: 453px;
    }
+
+   .blogImage img {
+      width: 279px;
+   }
 }
