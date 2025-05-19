@@ -93,3 +93,10 @@ body {
    width: 32px;
    height: 32px;
 }
+
+@media only screen and (min-width:375px) {
+   .card {
+      width: 279px;
+      height: 453px;
+   }
+}
