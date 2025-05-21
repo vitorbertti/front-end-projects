@@ -103,4 +103,8 @@ body {
    .blogImage img {
       width: 279px;
    }
+
+   .cardContent {
+      width: 279px;
+   }
 }
