@@ -24,3 +24,9 @@ body {
    width: calc(384px - 80px);
    border-radius: 12px;
 }
+
+img {
+   width: 88px;
+   height: 88px;
+   border-radius: 100px;
+}
