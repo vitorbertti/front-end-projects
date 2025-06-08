@@ -82,3 +82,8 @@ img {
    line-height: 150%;
    transition: background-color 1s ease;
 }
+
+.button:hover {
+   background-color: #C4F82A;
+   color: #333333;
+}
