@@ -87,3 +87,11 @@ img {
    background-color: #C4F82A;
    color: #333333;
 }
+
+@media only screen and (min-width: 375px) {
+   .card {
+      padding: 24px;
+      height: calc(579px - 48px);
+      width: calc(327px - 48px);
+   }  
+}
