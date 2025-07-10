@@ -3,3 +3,14 @@
    padding: 0;
    margin: 0;
 }
+
+:root {
+   /* color variables */
+   --clr-purple--muted: hsl(254, 88%, 90%);
+   --clr-purple: hsl(256, 67%, 59%);
+   --clr-yellow--muted: hsl(31, 66%, 93%);
+   --clr-yellow: hsl(39, 100%, 71%);
+   --clr-white: hsl(0, 0%, 100%);
+   --clr-bkg: hsl(0 0% 96.1%);
+   --clr-black: hsl(0, 0%, 7%);
+}
