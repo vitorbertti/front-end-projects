@@ -38,3 +38,7 @@
    /* border radius variable */
    --rounded-md: 16px;
 }
+
+.text--purple {
+   color: var(--clr-purple);
+}
