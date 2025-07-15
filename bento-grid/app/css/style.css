@@ -42,3 +42,7 @@
 .text--purple {
    color: var(--clr-purple);
 }
+
+.text--yellow {
+   color: var(--clr-yellow);
+}
