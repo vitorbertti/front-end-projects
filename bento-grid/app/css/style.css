@@ -68,3 +68,19 @@ body {
    display: grid;
    place-items: center;
 }
+
+.bento {
+   display: grid;
+   gap: var(--space-s);
+   max-width: 1200px;
+   grid-template-columns: 1fr;
+   grid-template-areas:
+      "social"
+      "multiple"
+      "consistency"
+      "timing"
+      "followers"
+      "growth"
+      "schedule"
+      "content";
+}
