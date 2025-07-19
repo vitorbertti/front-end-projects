@@ -57,3 +57,14 @@ img {
    display: block;
    max-width: 100%;
 }
+
+body {
+   font-family: "DM Sans", sans-serif;
+   background-color: var(--clr-bkg);
+   color: var(--clr-black);
+   font-size: var(--fs-0);
+   font-weight: 400;
+   padding: var(--space-m);
+   display: grid;
+   place-items: center;
+}
