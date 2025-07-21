@@ -93,3 +93,7 @@ body {
    overflow: hidden;
    gap: var(--space-s);
 }
+
+.bento-item p {
+   text-wrap: pretty;
+}
