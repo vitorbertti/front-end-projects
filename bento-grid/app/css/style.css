@@ -84,3 +84,12 @@ body {
       "schedule"
       "content";
 }
+
+.bento-item {
+   padding: var(--space-m);
+   border-radius: var(--rounded-md);
+   display: grid;
+   width: 100%;
+   overflow: hidden;
+   gap: var(--space-s);
+}
