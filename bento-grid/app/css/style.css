@@ -97,3 +97,7 @@ body {
 .bento-item p {
    text-wrap: pretty;
 }
+
+.bento-item h2 {
+   font-size: var(--fs-2);
+}
