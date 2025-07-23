@@ -101,3 +101,9 @@ body {
 .bento-item h2 {
    font-size: var(--fs-2);
 }
+
+.schedule {
+   grid-area: schedule;
+   background-color: var(--clr-yellow--muted);
+   align-content: center;
+}
