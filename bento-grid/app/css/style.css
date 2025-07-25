@@ -107,3 +107,7 @@ body {
    background-color: var(--clr-yellow--muted);
    align-content: center;
 }
+
+.schedule img {
+   width: 200px;
+}
