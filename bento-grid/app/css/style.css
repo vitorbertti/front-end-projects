@@ -118,3 +118,7 @@ body {
    background-color: var(--clr-purple);
    text-align: center;
 }
+
+.social h2 {
+   font-size: var(--fs-4);
+}
