@@ -111,3 +111,10 @@ body {
 .schedule img {
    width: 200px;
 }
+
+.social {
+   grid-area: social;
+   color: var(--clr-white);
+   background-color: var(--clr-purple);
+   text-align: center;
+}
