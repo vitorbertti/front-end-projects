@@ -122,3 +122,8 @@ body {
 .social h2 {
    font-size: var(--fs-4);
 }
+
+.social img {
+   margin-inline: auto;
+   width: 200px;
+}
