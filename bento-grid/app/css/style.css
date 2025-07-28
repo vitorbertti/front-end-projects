@@ -127,3 +127,10 @@ body {
    margin-inline: auto;
    width: 200px;
 }
+
+.timing {
+   grid-area: timing;
+   background-color: var(--clr-purple--muted);
+   text-align: center;
+   align-content: center;
+}
