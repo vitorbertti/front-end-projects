@@ -138,3 +138,8 @@ body {
 .timing img {
    margin-inline: auto;
 }
+
+.content {
+   grid-area: content;
+   background-color: var(--clr-yellow);
+}
