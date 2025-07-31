@@ -143,3 +143,8 @@ body {
    grid-area: content;
    background-color: var(--clr-yellow);
 }
+
+.multiple {
+   grid-area: multiple;
+   background-color: var(--clr-white);
+}
