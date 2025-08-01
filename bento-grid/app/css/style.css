@@ -148,3 +148,8 @@ body {
    grid-area: multiple;
    background-color: var(--clr-white);
 }
+
+.growth {
+   background-color: var(--clr-white);
+   grid-area: growth;
+}
