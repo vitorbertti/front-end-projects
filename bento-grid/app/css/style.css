@@ -153,3 +153,8 @@ body {
    background-color: var(--clr-white);
    grid-area: growth;
 }
+
+.growth h2 {
+   font-size: inherit;
+   font-weight: 400;
+}
