@@ -158,3 +158,8 @@ body {
    font-size: inherit;
    font-weight: 400;
 }
+
+.growth .large {
+   font-size: var(--fs-4);
+   font-weight: 500;
+}
