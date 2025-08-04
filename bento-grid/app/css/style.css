@@ -163,3 +163,7 @@ body {
    font-size: var(--fs-4);
    font-weight: 500;
 }
+
+.growth img {
+   width: 200px;
+}
