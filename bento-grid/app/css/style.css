@@ -167,3 +167,9 @@ body {
 .growth img {
    width: 200px;
 }
+
+.consistency {
+   grid-area: consistency;
+   padding-block-end: 0;
+   background-color: var(--clr-yellow);
+}
