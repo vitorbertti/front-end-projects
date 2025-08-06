@@ -173,3 +173,7 @@ body {
    padding-block-end: 0;
    background-color: var(--clr-yellow);
 }
+
+.consistency img {
+   width: 250px;
+}
