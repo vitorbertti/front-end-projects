@@ -177,3 +177,10 @@ body {
 .consistency img {
    width: 250px;
 }
+
+.followers {
+   grid-area: followers;
+   place-items: center;
+   background-color: var(--clr-purple);
+   color: var(--clr-white);
+}
