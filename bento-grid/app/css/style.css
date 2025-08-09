@@ -184,3 +184,7 @@ body {
    background-color: var(--clr-purple);
    color: var(--clr-white);
 }
+
+.followers h2 {
+   text-align: center;
+}
