@@ -188,3 +188,7 @@ body {
 .followers h2 {
    text-align: center;
 }
+
+.followers img {
+   width: 240px;
+}
