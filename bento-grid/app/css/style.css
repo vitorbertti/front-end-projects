@@ -192,3 +192,15 @@ body {
 .followers img {
    width: 240px;
 }
+
+@media screen and (min-width: 768px) {
+   .bento {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 50px 0.1.2fr 1fr;
+      grid-template-areas:
+         "schedule social social timing"
+         "schedule multiple consistency timing"
+         "content multiple consistency timing"
+         "content growth followers followers";
+   }
+}
