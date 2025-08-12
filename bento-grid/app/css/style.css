@@ -209,4 +209,8 @@ body {
       padding-right: var(--space-m);
       margin-right: -400px;
    }
+
+   .schedule img {
+      width: 100%;
+   }
 }
