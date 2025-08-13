@@ -213,4 +213,8 @@ body {
    .schedule img {
       width: 100%;
    }
+
+   .timing {
+      text-align: left;
+   }
 }
