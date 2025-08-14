@@ -217,4 +217,8 @@ body {
    .timing {
       text-align: left;
    }
+
+   .timing img {
+      max-width: 660px;
+   }
 }
