@@ -221,4 +221,8 @@ body {
    .timing img {
       max-width: 660px;
    }
+
+   .content {
+      align-content: space-between;
+   }
 }
