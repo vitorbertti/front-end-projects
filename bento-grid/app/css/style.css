@@ -225,4 +225,8 @@ body {
    .content {
       align-content: space-between;
    }
+
+   .multiple img {
+      max-width: 300px;
+   }
 }
