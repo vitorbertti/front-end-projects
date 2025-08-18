@@ -229,4 +229,8 @@ body {
    .multiple img {
       max-width: 300px;
    }
+
+   .growth img {
+      width: 100%;
+   }
 }
