@@ -237,4 +237,9 @@ body {
    .consistency img {
       width: 100%;
    }
+
+   .followers {
+      display: flex;
+      gap: var(--space-m);
+   }
 }
