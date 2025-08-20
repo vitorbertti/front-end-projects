@@ -242,4 +242,8 @@ body {
       display: flex;
       gap: var(--space-m);
    }
+
+   .followers h2 {
+      text-align: left;
+   }
 }
