@@ -21,3 +21,9 @@ img, svg {
    display: block;
    max-width: 100%;
 }
+
+button {
+   font: inherit;
+   border: none;
+   background: none;
+}
