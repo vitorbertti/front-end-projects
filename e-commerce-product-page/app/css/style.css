@@ -27,3 +27,7 @@ button {
    border: none;
    background: none;
 }
+
+p, h1, h2 {
+   overflow-wrap: break-word;
+}
