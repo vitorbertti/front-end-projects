@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
+:root {
+   --base: 1rem;
+   --radius: 0.8rem;
+
+   --sizer-1: calc((var(--base) * 1.26));
+   --sizer-2: calc((var(--base) * 1.875));
+   --sizer-3: calc((var(--base) * 2.25));
+   --sizer-4: calc((var(--base) * 2.5));
+   --sizer-5: calc((var(--base) * 2.8125));
+
+   --fs-1: calc((var(--base) * 0.8));
+   --fs-2: ((--base));
+   --fs-3: calc((var(--base) * 1.75));
+   --fs-4: calc((var(--base) * 2.25));
+ 
+   --bkg: hsl(25, 100%, 99%);
+   --accent: hsl(26, 100%, 55%);
+   --accent-semi-transparent: hsl(26, 100%, 55%, 0.4);
+   --accent-pale: hsl(25, 100%, 94%);
+   --text: hsl(25, 100%, 3%);
+   --text-opacity: hsl(25, 100%, 3%, 0.75);
+   --alt-bkg: hsl(220, 13%, 13%);
+   --alt-bkg1: hsl(219, 9%, 45%);
+   --alt-bkg2: hsl(220, 14%, 75%);
+   --alt-bkg3: hsl(223, 64%, 98%);
+ }
+
 *, *::before, *::after {
    box-sizing: border-box;
 }
@@ -26,8 +53,10 @@ button {
    font: inherit;
    border: none;
    background: none;
+   cursor: pointer;
 }
 
 p, h1, h2 {
    overflow-wrap: break-word;
 }
+
