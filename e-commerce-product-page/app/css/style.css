@@ -60,3 +60,6 @@ p, h1, h2 {
    overflow-wrap: break-word;
 }
 
+svg {
+   pointer-events: none;
+}
