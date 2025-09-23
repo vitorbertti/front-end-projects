@@ -63,3 +63,7 @@ p, h1, h2 {
 svg {
    pointer-events: none;
 }
+
+.fs-1 {
+   font-size: var(--fs-1);
+}
