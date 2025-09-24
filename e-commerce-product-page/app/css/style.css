@@ -67,3 +67,7 @@ svg {
 .fs-1 {
    font-size: var(--fs-1);
 }
+
+.fs-2 {
+   font-size: var(--fs-2);
+}
