@@ -83,3 +83,7 @@ svg {
 .uppercase {
    text-transform: uppercase;
 }
+
+.font-bold {
+   font-weight: bold;
+}
