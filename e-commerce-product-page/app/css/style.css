@@ -107,3 +107,7 @@ h2 {
 .gap-4 {
    gap: var(--sizer-4);
 }
+
+.bg-accent {
+   background-color: var(--accent);
+}
