@@ -103,3 +103,7 @@ h2 {
 .gap-1 {
    gap: var(--sizer-1);
 }
+
+.gap-4 {
+   gap: var(--sizer-4);
+}
