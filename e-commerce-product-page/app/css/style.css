@@ -115,3 +115,7 @@ h2 {
 .bg-accent-pale {
    background-color: var(--accent-pale);
 }
+
+.bg-alt-bkg3 {
+   background-color: var(--alt-bkg3);
+}
