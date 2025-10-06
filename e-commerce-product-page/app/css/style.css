@@ -111,3 +111,7 @@ h2 {
 .bg-accent {
    background-color: var(--accent);
 }
+
+.bg-accent-pale {
+   background-color: var(--accent-pale);
+}
