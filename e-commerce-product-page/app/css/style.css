@@ -123,3 +123,7 @@ h2 {
 .accent {
    color: var(--accent);
 }
+
+.accent-pale {
+   color: var(--accent-pale);
+}
