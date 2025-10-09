@@ -127,3 +127,7 @@ h2 {
 .accent-pale {
    color: var(--accent-pale);
 }
+
+.alt-bkg1 {
+   color: var(--alt-bkg1);
+}
