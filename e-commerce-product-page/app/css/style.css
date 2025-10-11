@@ -131,3 +131,7 @@ h2 {
 .alt-bkg1 {
    color: var(--alt-bkg1);
 }
+
+.alt-bkg2 {
+   color: var(--alt-bkg2);
+}
