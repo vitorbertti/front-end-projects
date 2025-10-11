@@ -64,6 +64,10 @@ svg {
    pointer-events: none;
 }
 
+.grid {
+   display: grid;
+}
+
 .fs-1 {
    font-size: var(--fs-1);
 }
