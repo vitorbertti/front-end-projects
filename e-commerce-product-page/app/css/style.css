@@ -72,6 +72,10 @@ svg {
    display: flex;
 }
 
+.rounded {
+   border-radius: var(--radius);
+}
+
 .fs-1 {
    font-size: var(--fs-1);
 }
