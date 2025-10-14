@@ -76,6 +76,10 @@ svg {
    border-radius: var(--radius);
 }
 
+.hidden {
+   display: none;
+}
+
 .fs-1 {
    font-size: var(--fs-1);
 }
