@@ -152,3 +152,14 @@ h2 {
 .alt-bkg2 {
    color: var(--alt-bkg2);
 }
+
+nav {
+   display: flex;
+   justify-items: center;
+   justify-content: space-between;
+   padding: var(--sizer-1);
+   background-color: var(--bkg);
+   width: 100%;
+   position: fixed;
+   z-index: 8;
+}
