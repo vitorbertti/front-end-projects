@@ -163,3 +163,7 @@ nav {
    position: fixed;
    z-index: 8;
 }
+
+.nav--section {
+   gap: 10px;
+}
