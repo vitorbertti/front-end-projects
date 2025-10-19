@@ -167,3 +167,7 @@ nav {
 .nav--section {
    gap: 10px;
 }
+
+.account {
+   width: var(--sizer-1);
+}
