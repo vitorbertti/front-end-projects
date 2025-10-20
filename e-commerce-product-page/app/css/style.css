@@ -179,3 +179,7 @@ nav {
    z-index: 10;
    transform: translateX(-100%);
 }
+
+.nav__panel-container.expanded {
+   transform: translateX(0%);
+}
