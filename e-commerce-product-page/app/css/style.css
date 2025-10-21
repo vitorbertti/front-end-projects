@@ -183,3 +183,10 @@ nav {
 .nav__panel-container.expanded {
    transform: translateX(0%);
 }
+
+.nav__panel {
+   background-color: var(--bkg);
+   width: 60%;
+   height: 100%;
+   padding: var(--sizer-1);
+}
