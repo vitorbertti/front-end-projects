@@ -190,3 +190,9 @@ nav {
    height: 100%;
    padding: var(--sizer-1);
 }
+
+.nav__link-container {
+   list-style: none;
+   padding: 0;
+   display: grid;
+}
