@@ -202,3 +202,9 @@ nav {
    font-weight: bold;
    color: var(--text);
 }
+
+.slider-container {
+   overflow: hidden;
+   width: 100%;
+   position: relative;
+}
