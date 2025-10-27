@@ -222,3 +222,7 @@ nav {
    transform: translateY(-50%);
    cursor: pointer;
 }
+
+.btn.hidden {
+   display: none;
+}
