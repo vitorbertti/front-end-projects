@@ -226,3 +226,7 @@ nav {
 .btn.hidden {
    display: none;
 }
+
+.btn--left {
+   left: var(--sizer-1);
+}
