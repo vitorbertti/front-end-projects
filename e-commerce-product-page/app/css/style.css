@@ -230,3 +230,7 @@ nav {
 .btn--left {
    left: var(--sizer-1);
 }
+
+.btn--left svg {
+   margin-right: 4px;
+}
