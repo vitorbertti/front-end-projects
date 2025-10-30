@@ -238,3 +238,7 @@ nav {
 .btn--right {
    right: var(--sizer-1);
 }
+
+.btn--right svg {
+   margin-left: 4px;
+}
