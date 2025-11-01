@@ -242,3 +242,8 @@ nav {
 .btn--right svg {
    margin-left: 4px;
 }
+
+.slider {
+   width: 100%;
+   height: 100%;
+}
