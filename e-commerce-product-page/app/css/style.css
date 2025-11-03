@@ -254,3 +254,7 @@ nav {
    height: 100%;
    object-fit: cover;
 }
+
+.product {
+   padding: var(--sizer-1);
+}
