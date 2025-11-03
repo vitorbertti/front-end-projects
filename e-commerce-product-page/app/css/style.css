@@ -258,3 +258,8 @@ nav {
 .product {
    padding: var(--sizer-1);
 }
+
+.product__price {
+   justify-content: space-between;
+   align-items: center;
+}
