@@ -267,3 +267,8 @@ nav {
 .product__price--actual {
    align-items: center;
 }
+
+.price--discount {
+   padding: 2px 5px;
+   border-radius: 5px;
+}
