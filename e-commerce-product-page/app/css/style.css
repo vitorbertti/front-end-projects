@@ -272,3 +272,7 @@ nav {
    padding: 2px 5px;
    border-radius: 5px;
 }
+
+.price--original {
+   text-decoration: line-through;
+}
