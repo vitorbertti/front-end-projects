@@ -276,3 +276,7 @@ nav {
 .price--original {
    text-decoration: line-through;
 }
+
+.checkout {
+   flex-wrap: wrap;
+}
