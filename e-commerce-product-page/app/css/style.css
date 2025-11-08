@@ -280,3 +280,7 @@ nav {
 .checkout {
    flex-wrap: wrap;
 }
+
+.checkout__amt {
+   flex: 100%;
+}
