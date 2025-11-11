@@ -299,3 +299,10 @@ nav {
    align-items: center;
    padding: calc(var(--sizer-1) * 0.2) var(--sizer-1);
 }
+
+.amt {
+   padding: calc(var(--sizer-1) * 0.5);
+   height: var(--sizer-3);
+   width: var(--sizer-3);
+   place-items: center;
+}
