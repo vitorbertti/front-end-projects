@@ -310,3 +310,13 @@ nav {
 .amt[disabled] {
    cursor: not-allowed;
 }
+
+.cart-container {
+   position: fixed;
+   inset: 0;
+   z-index: 6;
+   padding: calc(var(--sizer-1) * 0.5);
+   display: flex;
+   justify-content: end;
+   align-items: start;
+}
