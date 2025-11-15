@@ -320,3 +320,7 @@ nav {
    justify-content: end;
    align-items: start;
 }
+
+.cart-container[disabled] {
+   transform: translateY(-100%);
+}
