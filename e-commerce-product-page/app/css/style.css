@@ -324,3 +324,12 @@ nav {
 .cart-container[disabled] {
    transform: translateY(-100%);
 }
+
+.cart {
+   background-color: var(--bkg);
+   position: relative;
+   top: calc(var(--sizer-5) + var(--sizer-1));
+   box-shadow: 0px 10px 25px hsl(25, 100%, 3%, 0.25);
+   width: 100%;
+   max-width: 356px;
+}
