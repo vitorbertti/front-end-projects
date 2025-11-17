@@ -338,3 +338,8 @@ nav {
    padding: var(--sizer-1);
    border-bottom: 1px solid var(--alt-bkg2);
 }
+
+.cart__body {
+   padding: var(--sizer-1);
+   place-items: center;
+}
