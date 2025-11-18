@@ -343,3 +343,9 @@ nav {
    padding: var(--sizer-1);
    place-items: center;
 }
+
+.cart__body--content {
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+}
