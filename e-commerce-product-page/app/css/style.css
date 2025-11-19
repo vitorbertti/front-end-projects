@@ -349,3 +349,7 @@ nav {
    justify-content: space-between;
    width: 100%;
 }
+
+.cart__body--content-description {
+   align-items: center;
+}
