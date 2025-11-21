@@ -353,3 +353,10 @@ nav {
 .cart__body--content-description {
    align-items: center;
 }
+
+.cart__img {
+   width: calc(var(--sizer-5) * 1.2);
+   height: calc(var(--sizer-5) * 1.2);
+   object-fit: cover;
+   border-radius: 5px;
+}
