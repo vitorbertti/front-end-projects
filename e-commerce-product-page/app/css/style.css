@@ -360,3 +360,10 @@ nav {
    object-fit: cover;
    border-radius: 5px;
 }
+
+.product--name {
+   max-width: 17ch;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
