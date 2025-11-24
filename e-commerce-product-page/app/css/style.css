@@ -375,3 +375,8 @@ nav {
 #total {
    margin-left: 10px;
 }
+
+.cart__body--btn {
+   padding: var(--sizer-1);
+   width: 100%;
+}
