@@ -371,3 +371,7 @@ nav {
 .product--amt {
    gap: 5px;
 }
+
+#total {
+   margin-left: 10px;
+}
