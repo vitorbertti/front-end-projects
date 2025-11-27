@@ -38,3 +38,12 @@ const checkoutState = {
       </div>
    `
 }
+
+function toggleCart(){
+   cartBtn.getAttribute('aria-expanded') === 'false'
+      ? cartBtn.setAttribute('aria-expanded', 'true')
+      : cartBtn.setAttribute('aria-expanded', 'false')
+   cartBtn.getAttribute('aria-expanded') === 'false'
+      ? cartPanel.setAttribute('disabled', 'true')
+      : cartPanel.removeAttribute('disabled')
+}
