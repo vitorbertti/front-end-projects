@@ -39,11 +39,24 @@ const checkoutState = {
    `
 }
 
-function toggleCart(){
+function toggleCart() {
    cartBtn.getAttribute('aria-expanded') === 'false'
       ? cartBtn.setAttribute('aria-expanded', 'true')
       : cartBtn.setAttribute('aria-expanded', 'false')
    cartBtn.getAttribute('aria-expanded') === 'false'
       ? cartPanel.setAttribute('disabled', 'true')
       : cartPanel.removeAttribute('disabled')
+}
+
+function updateCartState(num) {
+   if(num === 0){
+      cartBody.innerHTML = checkoutState.default
+   } else {
+      cartBody.innerHTML = checkoutState.items
+      const PRICE = 125
+      const amt = document.querySelector('#amt')
+      const total = document.querySelector('#total')
+      amt.textContent = num
+      total.textContent = `$${num * PRICE}.00`
+   }
 }
