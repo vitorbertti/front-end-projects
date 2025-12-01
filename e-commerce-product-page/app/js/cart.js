@@ -78,3 +78,5 @@ function handleAmtBtnClick(e){
 
    updateCartState(amt)
 }
+
+amtBtns.forEach(b => b.addEventListener('click', handleAmtBtnClick))
