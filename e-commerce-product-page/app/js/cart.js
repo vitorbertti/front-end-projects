@@ -60,3 +60,21 @@ function updateCartState(num) {
       total.textContent = `$${num * PRICE}.00`
    }
 }
+
+function handleAmtBtnClick(e){
+   if(e.currentTarget.id === 'amt--decrease'){
+      amt === 0 ? e.currentTarget : amt--
+   } else {
+      amt++
+   }
+
+   qty.textContent = amt
+
+   if(amt === 0){
+      e.currentTarget.setAttribute('disabled', 'true')
+   } else {
+      e.currentTarget.removeAttribute('disabled')
+   }
+
+   updateCartState(amt)
+}
