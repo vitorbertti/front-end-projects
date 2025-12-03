@@ -82,3 +82,5 @@ function handleAmtBtnClick(e){
 amtBtns.forEach(b => b.addEventListener('click', handleAmtBtnClick))
 
 cartBtn.addEventListener('click', toggleCart)
+
+checkoutBtn.addEventListener('click', toggleCart)
