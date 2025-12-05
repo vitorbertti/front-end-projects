@@ -84,3 +84,8 @@ amtBtns.forEach(b => b.addEventListener('click', handleAmtBtnClick))
 cartBtn.addEventListener('click', toggleCart)
 
 checkoutBtn.addEventListener('click', toggleCart)
+
+cartPanel.addEventListener('click', (e) => {
+   e.currentTarget === e.target && toggleCart()
+   e.target === document.querySelector('#trash') && updateCartState(0)
+})
