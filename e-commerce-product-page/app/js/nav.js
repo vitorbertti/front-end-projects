@@ -5,3 +5,5 @@ const navPanelContainer = document.querySelector('.nav__panel-container')
 function toggleMenu(){
    navPanelContainer.classList.toggle('expanded')
 }
+
+closeMenuBtn.addEventListener('click', toggleMenu)
