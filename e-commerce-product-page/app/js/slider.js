@@ -20,3 +20,7 @@ function moveSlider(dir){
       break
    }
 }
+
+function handleBtnClick(e){
+   e.currentTarget.id === "next" ? moveSlider('next') : moveSlider('prev')
+}
