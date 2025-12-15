@@ -24,3 +24,7 @@ function moveSlider(dir){
 function handleBtnClick(e){
    e.currentTarget.id === "next" ? moveSlider('next') : moveSlider('prev')
 }
+
+btns.forEach(b => {
+   b.addEventListener('click', handleBtnClick)
+})
