@@ -36,6 +36,42 @@
                </div>
             </div>
          </section>
+
+         <div class="dashboard">
+            <section class="current">
+               <h2 class="visually-hidden">Current Location Temperature</h2>
+      
+               <div class="current__weather">
+                  <div class="current__location">
+                     <div id="dvCityCountry" class="current__city">Berlin, Germany</div>
+                     <div id="dvCurrDate" class="current__date">Tuesday, Aug 5, 2025</div>
+                  </div>
+                  <div class="current__info">
+                     <img class="current__icon" src="./images/icon-sunny.webp" alt="Sunny" width="320" height="320">
+                     <div class="current__temp"><span id="dvCurrTemp">20</span>&deg;</div>
+                  </div>
+               </div>
+      
+               <div class="current__conditions">
+                  <div class="block current__condition">
+                     <p class="current__condition-title">Feels Like</p>
+                     <p class="current__condition-value"><span id="pFeelsLike"></span>&deg;</p>
+                  </div>
+                  <div class="block current__condition">
+                     <p class="current__condition-title">Humidity</p>
+                     <p class="current__condition-value"><span id="pHumidity"></span>%</p>
+                  </div>
+                  <div class="block current__condition">
+                     <p class="current__condition-title">Wind</p>
+                     <p id="pWind" class="current__condition-value"></p>
+                  </div>
+                  <div class="block current__condition">
+                     <p class="current__condition-title">Precipitation</p>
+                     <p id="pPrecipitation" class="current__condition-value"></p>
+                  </div>
+               </div>
+            </section>
+         </div>
       </main>
    </body>
 </html>
