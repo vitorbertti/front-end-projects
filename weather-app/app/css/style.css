@@ -104,4 +104,13 @@
   * {
     margin: 0;
   }
+
+  body {
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: var(--color-main-bg);
+    color: var(--color-text-light);
+    line-height: 1.2;
+    padding-block-end: 80px;
+  }
 }
