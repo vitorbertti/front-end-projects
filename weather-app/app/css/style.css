@@ -113,4 +113,8 @@
     line-height: 1.2;
     padding-block-end: 80px;
   }
+
+  img {
+    max-width: 100%;
+  }
 }
