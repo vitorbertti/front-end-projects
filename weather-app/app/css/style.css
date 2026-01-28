@@ -121,4 +121,10 @@
   h1 {
     font-family: "Bricolage Grotesque", Arial, Helvetica, sans-serif;
   }
+
+  input, button, textarea, select {
+    font: inherit;
+    width: 100%;
+    border: none;
+  }
 }
