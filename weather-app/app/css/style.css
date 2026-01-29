@@ -127,4 +127,13 @@
     width: 100%;
     border: none;
   }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr calc(100% - 32px) 1fr;
+
+    > * {
+      grid-column: 2;
+    }
+  }
 }
