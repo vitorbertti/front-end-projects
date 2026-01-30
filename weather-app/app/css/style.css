@@ -135,5 +135,9 @@
     > * {
       grid-column: 2;
     }
+
+    @media (width >= calc(700 / 16 * 1rem)) {
+      grid-template-columns: 1fr min(calc(100% - 48px), calc(1216 / 16 * 1rem)) 1fr;
+    }
   }
 }
