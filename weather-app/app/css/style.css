@@ -140,4 +140,23 @@
       grid-template-columns: 1fr min(calc(100% - 48px), calc(1216 / 16 * 1rem)) 1fr;
     }
   }
+
+  .visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+    &.skip-link:focus {
+      left: 0;
+      width: auto;
+      height: auto;
+      background-color: var(--color-main-bg);
+      color: var(--color-text-light);
+      padding: 10px;
+      border: 2px solid var(--color-text-light);
+    }
+  }
 }
