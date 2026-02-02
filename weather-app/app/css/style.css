@@ -159,4 +159,9 @@
       border: 2px solid var(--color-text-light);
     }
   }
+
+  .main {
+    display: grid;
+    row-gap: 32px;
+  }
 }
