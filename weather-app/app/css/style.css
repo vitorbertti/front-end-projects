@@ -164,4 +164,13 @@
     display: grid;
     row-gap: 32px;
   }
+
+  .dashboard {
+    display: grid;
+    gap: 32px;
+    grid-template-areas:
+      "current"
+      "daily"
+      "hourly";
+  }
 }
