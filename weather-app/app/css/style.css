@@ -181,4 +181,12 @@
         "daily daily hourly";
     }
   }
+
+  .dropdown {
+    background-color: var(--color-panel-bg-dark);
+    color: var(--color-text-light);
+    border: 0;
+    font-size: var(--font-size-dropdown);
+    border-radius: 8px;
+  }
 }
