@@ -196,3 +196,14 @@
     border-radius: 12px;
   }
 }
+
+@layer component {
+  .header {
+    .header__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-block-start: 16px;
+    }
+  }
+}
