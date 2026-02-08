@@ -205,5 +205,9 @@
       justify-content: space-between;
       padding-block-start: 16px;
     }
+
+    .header__logo {
+      width: calc(137 / 16 * 1rem);
+    }
   }
 }
