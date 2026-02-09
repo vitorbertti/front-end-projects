@@ -213,5 +213,13 @@
         width: calc(197 / 16 * 1rem);
       }
     }
+
+    .header__dropdown {
+      max-width: 10ch;
+      background-image: url("/assets/images/icon-units.svg");
+      background-repeat: no-repeat;
+      background-position: 16px center;
+      padding: 12px 40px;
+    }
   }
 }
