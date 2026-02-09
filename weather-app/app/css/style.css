@@ -208,6 +208,10 @@
 
     .header__logo {
       width: calc(137 / 16 * 1rem);
+
+      @media (width >= calc(700 / 16 * 1rem)) {
+        width: calc(197 / 16 * 1rem);
+      }
     }
   }
 }
