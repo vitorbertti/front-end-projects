@@ -222,4 +222,12 @@
       padding: 12px 40px;
     }
   }
+
+  .hero {
+    .hero__content {
+      display: grid;
+      justify-items: center;
+      padding-block-start: 48px;
+    }
+  }
 }
