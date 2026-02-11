@@ -229,5 +229,12 @@
       justify-items: center;
       padding-block-start: 48px;
     }
+
+    .hero__title {
+      font-size: var(--font-size-h1);
+      margin-block-end: 48px;
+      text-align: center;
+      line-height: 1.2;
+    }
   }
 }
