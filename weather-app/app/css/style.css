@@ -235,6 +235,10 @@
       margin-block-end: 48px;
       text-align: center;
       line-height: 1.2;
+
+      @media (width < calc(1000 / 16 * 1rem)) {
+        max-width: 15ch;
+      }
     }
   }
 }
