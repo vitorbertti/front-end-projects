@@ -240,5 +240,12 @@
         max-width: 15ch;
       }
     }
+
+    .hero__search {
+      display: grid;
+      gap: 12px 16px;
+      width: 100%;
+      max-width: calc(656 / 16 * 1rem);
+    }
   }
 }
