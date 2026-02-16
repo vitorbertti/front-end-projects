@@ -246,6 +246,10 @@
       gap: 12px 16px;
       width: 100%;
       max-width: calc(656 / 16 * 1rem);
+
+      @media (width >= calc(700 / 16 * 1rem)) {
+        grid-template-columns: 1fr auto;
+      }
     }
   }
 }
