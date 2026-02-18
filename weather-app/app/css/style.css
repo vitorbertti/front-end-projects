@@ -216,7 +216,7 @@
 
     .header__dropdown {
       max-width: 10ch;
-      background-image: url("/assets/images/icon-units.svg");
+      background-image: url("../../images/icon-units.svg");
       background-repeat: no-repeat;
       background-position: 16px center;
       padding: 12px 40px;
@@ -250,6 +250,17 @@
       @media (width >= calc(700 / 16 * 1rem)) {
         grid-template-columns: 1fr auto;
       }
+    }
+
+    .hero__textbox {
+      background-image: url("../../images/icon-search.svg");
+      background-repeat: no-repeat;
+      background-position: 24px center;
+      background-color: var(--color-panel-bg-dark);
+      font-size: var(--font-size-search);
+      padding: 16px 20px 16px 60px;
+      color: var(--color-text-med-light);
+      border-radius: 12px;
     }
   }
 }
