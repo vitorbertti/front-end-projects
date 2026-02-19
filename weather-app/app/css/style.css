@@ -261,6 +261,10 @@
       padding: 16px 20px 16px 60px;
       color: var(--color-text-med-light);
       border-radius: 12px;
+
+      &:focus {
+        outline: 2px solid var(--color-text-med-light);
+      }
     }
   }
 }
