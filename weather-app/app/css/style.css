@@ -266,5 +266,14 @@
         outline: 2px solid var(--color-text-med-light);
       }
     }
+
+    .hero__button {
+      background-color: var(--c-blue-500);
+      border-radius: 12px;
+      font-size: var(--font-size-search);
+      color: var(--color-text-light);
+      padding: 16px 24px;
+      transition: background-color 120ms ease-in-out;
+    }
   }
 }
