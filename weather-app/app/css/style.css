@@ -274,6 +274,11 @@
       color: var(--color-text-light);
       padding: 16px 24px;
       transition: background-color 120ms ease-in-out;
+
+      &:hover {
+        background-color: var(--color-button-bg-hover);
+        cursor: pointer;
+      }
     }
   }
 }
