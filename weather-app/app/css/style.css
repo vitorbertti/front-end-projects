@@ -311,5 +311,11 @@
     .current__location {
       text-align: center;
     }
+
+    .current__city {
+      font-size: var(--font-size-city);
+      font-weight: 700;
+      margin-block-end: 12px;
+    }
   }
 }
