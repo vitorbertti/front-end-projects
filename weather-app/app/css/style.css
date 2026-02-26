@@ -317,5 +317,10 @@
       font-weight: 700;
       margin-block-end: 12px;
     }
+
+    .current__date {
+      font-size: var(--font-size-date);
+      color: var(--color-text-med-light);
+    }
   }
 }
