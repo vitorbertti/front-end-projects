@@ -322,5 +322,11 @@
       font-size: var(--font-size-date);
       color: var(--color-text-med-light);
     }
+
+    .current__info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
   }
 }
