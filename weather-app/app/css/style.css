@@ -328,5 +328,10 @@
       align-items: center;
       gap: 20px;
     }
+
+    .current__icon {
+      width: 120px;
+      height: auto;
+    }
   }
 }
