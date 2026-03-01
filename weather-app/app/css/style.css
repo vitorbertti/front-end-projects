@@ -333,5 +333,13 @@
       width: 120px;
       height: auto;
     }
+
+    .current__temp {
+      font-size: var(--font-size-temp);
+      line-height: 1;
+      letter-spacing: -2%;
+      font-weight: 600;
+      font-style: italic;
+    }
   }
 }
