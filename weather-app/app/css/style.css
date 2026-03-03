@@ -346,6 +346,10 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 16px;
+
+      @media (width >= calc(700 / 16 * 1rem)) {
+        grid-template-columns: repeat(4, 1fr);
+      }
     }
   }
 }
