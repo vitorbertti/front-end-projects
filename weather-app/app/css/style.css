@@ -351,5 +351,9 @@
         grid-template-columns: repeat(4, 1fr);
       }
     }
+
+    .current__condition {
+      padding: 20px;
+    }
   }
 }
