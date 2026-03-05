@@ -355,5 +355,11 @@
     .current__condition {
       padding: 20px;
     }
+
+    .current__condition-title {
+      font-size: var(--font-size-panel-title);
+      color: var(--color-text-med-light);
+      margin-block-end: 24px;
+    }
   }
 }
