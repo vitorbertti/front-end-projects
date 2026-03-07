@@ -361,5 +361,10 @@
       color: var(--color-text-med-light);
       margin-block-end: 24px;
     }
+
+    .current__condition-value {
+      font-size: var(--font-size-panel-value);
+      font-weight: 300;
+    }
   }
 }
