@@ -370,5 +370,10 @@
 
   .daily {
     grid-area: daily;
+
+    .daily__title {
+      font-size: var(--font-size-forecast-title);
+      margin-block-end: 20px;
+    }
   }
 }
