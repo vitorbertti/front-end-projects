@@ -394,5 +394,9 @@
       padding: 16px 10px;
       text-align: center;
     }
+
+    .daily__day-title {
+      font-size: var(--font-size-forecast-day);
+    }
   }
 }
