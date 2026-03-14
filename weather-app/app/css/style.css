@@ -398,5 +398,10 @@
     .daily__day-title {
       font-size: var(--font-size-forecast-day);
     }
+
+    .daily__day-icon {
+      width: 60px;
+      height: auto;
+    }
   }
 }
