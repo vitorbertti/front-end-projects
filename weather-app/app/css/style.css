@@ -403,5 +403,12 @@
       width: 60px;
       height: auto;
     }
+
+    .daily__day-temps {
+      justify-self: stretch;
+      display: flex;
+      justify-content: space-between;
+      font-size: var(--font-size-forecast-temp);
+    }
   }
 }
