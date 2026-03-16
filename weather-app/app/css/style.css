@@ -410,5 +410,9 @@
       justify-content: space-between;
       font-size: var(--font-size-forecast-temp);
     }
+
+    .daily__day-low {
+      color: var(--color-text-med-light);
+    }
   }
 }
