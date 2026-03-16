@@ -415,4 +415,9 @@
       color: var(--color-text-med-light);
     }
   }
+
+  .hourly {
+    grid-area: hourly;
+    position: relative;
+  }
 }
