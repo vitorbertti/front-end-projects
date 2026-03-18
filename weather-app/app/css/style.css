@@ -426,6 +426,12 @@
       padding: 20px 16px;
       max-height: 60vh;
       overflow-y: scroll;
+
+      @media (width >= calc(1000 / 16 * 1rem)) {
+        position: absolute;
+        height: 100%;
+        max-height: none;
+      }
     }
   }
 }
