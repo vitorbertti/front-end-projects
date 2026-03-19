@@ -433,5 +433,13 @@
         max-height: none;
       }
     }
+
+    .hourly__header {
+      display: flex;
+      gap: 40px;
+      justify-content: space-between;
+      align-items: center;
+      margin-block-end: 16px;
+    }
   }
 }
