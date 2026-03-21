@@ -441,5 +441,10 @@
       align-items: center;
       margin-block-end: 16px;
     }
+
+    .hourly__title {
+      font-size: var(--font-size-forecast-title);
+      font-weight: 600;
+    }
   }
 }
