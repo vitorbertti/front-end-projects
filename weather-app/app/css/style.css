@@ -452,5 +452,10 @@
       width: auto;
       padding: 8px 16px;
     }
+
+    .hourly__hours {
+      display: grid;
+      gap: 16px;
+    }
   }
 }
