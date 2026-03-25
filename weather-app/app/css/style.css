@@ -474,5 +474,9 @@
       width: 40px;
       height: auto;
     }
+
+    .hourly__hour-time {
+      font-size: var(--font-size-forecast-hour);
+    }
   }
 }
