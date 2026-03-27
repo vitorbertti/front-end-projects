@@ -478,5 +478,10 @@
     .hourly__hour-time {
       font-size: var(--font-size-forecast-hour);
     }
+
+    .hourly__hour-temp {
+      font-size: var(--font-size-forecast-temp);
+      justify-self: end;
+    }
   }
 }
