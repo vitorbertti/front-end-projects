@@ -414,6 +414,9 @@
     .daily__day-low {
       color: var(--color-text-med-light);
     }
+
+    .daily__day-high {
+    }
   }
 
   .hourly {
