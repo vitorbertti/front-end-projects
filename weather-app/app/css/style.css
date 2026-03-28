@@ -456,6 +456,9 @@
       padding: 8px 16px;
     }
 
+    .hourly__select-day {
+    }
+
     .hourly__hours {
       display: grid;
       gap: 16px;
