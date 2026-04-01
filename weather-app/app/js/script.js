@@ -33,3 +33,21 @@ async function getGeoData() {
      console.error(error.message)
    }
  }
+
+ function loadLocationData(locationData) {
+  let location = locationData[0].address
+  cityName = location.city
+  countryName = location.country_code.toUpperCase()
+
+  let dateOptions = {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    weekday: "long",
+  }
+
+  let currDate = new Intl.DateTimeFormat("pt-BR", dateOptions).format(new Date())
+
+  dvCityCountry.textContent = `${cityName}, ${countryName}`
+  dvCurrDate.textContent = currDate
+}
