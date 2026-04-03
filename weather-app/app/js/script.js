@@ -80,3 +80,11 @@ async function getWeatherData(lat, lon) {
     console.error(error.message)
   }
 }
+
+function loadCurrentWeather() {
+  dvCurrTemp.textContent = Math.round(weatherData.current.temperature_2m)
+  pFeelsLike.textContent = Math.round(weatherData.current.apparent_temperature)
+  pHumidity.textContent = weatherData.current.relative_humidity_2m
+  pWind.textContent = `${weatherData.current.wind_speed_10m} ${weatherData.current_units.wind_speed_10m.replace("mp/h", "mph")}`
+  pPrecipitation.textContent = `${weatherData.current.precipitation} ${weatherData.current_units.precipitation.replace("inch", "in")}`
+}
