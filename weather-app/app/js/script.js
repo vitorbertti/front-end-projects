@@ -51,3 +51,32 @@ async function getGeoData() {
   dvCityCountry.textContent = `${cityName}, ${countryName}`
   dvCurrDate.textContent = currDate
 }
+
+async function getWeatherData(lat, lon) {
+  let tempUnit = "celsius"
+  let windUnit = "kmh"
+  let precipUnit = "mm"
+
+  if (ddlUnits.value === "F") {
+    tempUnit = "fahrenheit"
+    windUnit = "mph"
+    precipUnit = "inch"
+  }
+
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=weather_code,temperature_2m_max,temperature_2m_min&hourly=temperature_2m,weather_code&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,precipitation,wind_speed_10m&wind_speed_unit=${windUnit}&temperature_unit=${tempUnit}&precipitation_unit=${precipUnit}`
+
+  try {
+    const response = await fetch(url)
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`)
+    }
+
+    weatherData = await response.json()
+
+    loadCurrentWeather(weatherData)
+    loadDailyForecast(weatherData)
+    loadHourlyForecast(weatherData)
+  } catch (error) {
+    console.error(error.message)
+  }
+}
