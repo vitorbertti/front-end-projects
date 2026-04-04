@@ -88,3 +88,28 @@ function loadCurrentWeather() {
   pWind.textContent = `${weatherData.current.wind_speed_10m} ${weatherData.current_units.wind_speed_10m.replace("mp/h", "mph")}`
   pPrecipitation.textContent = `${weatherData.current.precipitation} ${weatherData.current_units.precipitation.replace("inch", "in")}`
 }
+
+function loadDailyForecast() {
+  let daily = weatherData.daily
+
+  for (let i = 0; i < 7; i++) {
+    let date = new Date(daily.time[i])
+    let dayOfWeek = new Intl.DateTimeFormat("pt-BR", { weekday: "short" }).format(date)
+    let dvForecastDay = document.querySelector(`#dvForecastDay${i + 1}`)
+    let weatherCodeName = getWeatherCodeName(daily.weather_code[i])
+    let dailyHigh = Math.round(daily.temperature_2m_max[i]) + "°"
+    let dailyLow = Math.round(daily.temperature_2m_min[i]) + "°"
+
+    while (dvForecastDay.firstChild) {
+      dvForecastDay.removeChild(dvForecastDay.firstChild)
+    }
+
+    addDailyElement("p", "daily__day-title", dayOfWeek, "", dvForecastDay, "afterbegin")
+    addDailyElement("img", "daily__day-icon", "", weatherCodeName, dvForecastDay, "beforeend")
+    addDailyElement("div", "daily__day-temps", "", "", dvForecastDay, "beforeend")
+
+    let dvDailyTemps = document.querySelector(`#dvForecastDay${i + 1} .daily__day-temps`)
+    addDailyElement("p", "daily__day-high", dailyHigh, "", dvDailyTemps, "afterbegin")
+    addDailyElement("p", "daily__day-low", dailyLow, "", dvDailyTemps, "beforeend")
+  }
+}
