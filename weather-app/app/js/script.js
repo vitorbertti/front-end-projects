@@ -124,11 +124,39 @@ function addDailyElement(tag, className, content, weatherCodeName, parentElement
   }
 
   if (tag === "img") {
-    newElement.setAttribute("src", `/assets/images/icon-${weatherCodeName}.webp`);
+    newElement.setAttribute("src", `../../images/icon-${weatherCodeName}.webp`);
     newElement.setAttribute("alt", weatherCodeName)
     newElement.setAttribute("width", "320")
     newElement.setAttribute("height", "320")
   }
   
   parentElement.insertAdjacentElement(position, newElement)
+}
+
+function loadHourlyForecast() {
+  let dayIndex = parseInt(ddlDay.value, 10)
+
+  let firstHour = 24 * dayIndex
+  let lastHour = 24 * (dayIndex + 1) - 1
+  let weatherCodes = weatherData.hourly.weather_code
+  let temps = weatherData.hourly.temperature_2m
+  let hours = weatherData.hourly.time
+  let id = 1
+
+  for (let h = firstHour; h <= lastHour; h++) {
+    let weatherCodeName = getWeatherCodeName(weatherCodes[h])
+    let temp = Math.round(temps[h]) + "°"
+    let hour = new Date(hours[h]).toLocaleString("en-US", { hour: "numeric", hour12: true })
+    let dvForecastHour = document.querySelector(`#dvForecastHour${id}`)
+
+    while (dvForecastHour.firstChild) {
+      dvForecastHour.removeChild(dvForecastHour.firstChild);
+    }
+
+    addDailyElement("img", "hourly__hour-icon", "", weatherCodeName, dvForecastHour, "afterbegin")
+    addDailyElement("p", "hourly__hour-time", hour, "", dvForecastHour, "beforeend")
+    addDailyElement("p", "hourly__hour-temp", temp, "", dvForecastHour, "beforeend")
+
+    id++
+  }
 }
