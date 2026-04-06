@@ -113,3 +113,22 @@ function loadDailyForecast() {
     addDailyElement("p", "daily__day-low", dailyLow, "", dvDailyTemps, "beforeend")
   }
 }
+
+function addDailyElement(tag, className, content, weatherCodeName, parentElement, position) {
+  const newElement = document.createElement(tag)
+  newElement.setAttribute("class", className)
+
+  if (content !== "") {
+    const newContent = document.createTextNode(content)
+    newElement.appendChild(newContent)
+  }
+
+  if (tag === "img") {
+    newElement.setAttribute("src", `/assets/images/icon-${weatherCodeName}.webp`);
+    newElement.setAttribute("alt", weatherCodeName)
+    newElement.setAttribute("width", "320")
+    newElement.setAttribute("height", "320")
+  }
+  
+  parentElement.insertAdjacentElement(position, newElement)
+}
