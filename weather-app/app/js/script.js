@@ -195,3 +195,25 @@ function getWeatherCodeName(code) {
 
   return weatherCodes[code]
 }
+
+function populateDayOfWeek() {
+  let currDate = new Date()
+  let currDay
+
+  for (i = 0; i < 7; i++) {
+    currDay = new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(currDate)
+    const newOption = document.createElement("option")
+    const dayOfWeek = document.createTextNode(currDay)
+
+    newOption.setAttribute("class", "hourly__select-day")
+    newOption.setAttribute("value", i)
+    newOption.appendChild(dayOfWeek)
+
+    ddlDay.insertAdjacentElement("beforeend", newOption)
+
+    currDate.setDate(currDate.getDate() + 1)
+  }
+}
+
+populateDayOfWeek()
+getGeoData()
