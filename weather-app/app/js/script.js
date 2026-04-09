@@ -217,3 +217,5 @@ function populateDayOfWeek() {
 
 populateDayOfWeek()
 getGeoData()
+
+btnSearch.addEventListener("click", getGeoData)
