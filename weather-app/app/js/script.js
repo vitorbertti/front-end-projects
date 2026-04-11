@@ -219,3 +219,4 @@ populateDayOfWeek()
 getGeoData()
 
 btnSearch.addEventListener("click", getGeoData)
+ddlUnits.addEventListener("change", getGeoData)
