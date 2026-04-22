@@ -30,6 +30,28 @@
   src: url('../../fonts/young-serif-v2-latin-regular.woff2') format('woff2');
 }
 
+:root {
+  --c-white: hsl(0, 0%, 100%);
+  --c-stone-100: hsl(30, 54%, 90%);
+  --c-stone-150: hsl(30, 18%, 87%);
+  --c-stone-600: hsl(30, 10%, 34%);
+  --c-stone-900: hsl(24, 5%, 18%);
+  --c-brown-800: hsl(14, 45%, 36%);
+  --c-rose-800: hsl(332, 51%, 32%);
+  --c-rose-50: hsl(330, 100%, 98%);
+  --ff-sans-serif: 'Outfit', Arial, Helvetica, sans-serif;
+  --ff-serif: 'Young Serif', Georgia, 'Times New Roman', Times, serif;
+  --color-background: var(--c-stone-100);
+  --color-background-recipe: var(--c-white);
+  --color-headline-primary: var(--c-stone-900);
+  --color-headline-secondary: var(--c-brown-800);
+  --color-text: var(--c-stone-600);
+  --color-prep-background: var(--c-rose-50);
+  --color-prep-headline: var(--c-rose-800);
+  --color-border: var(--c-stone-150);
+  --color-table-td: var(--c-brown-800);
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
