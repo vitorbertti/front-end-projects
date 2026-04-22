@@ -1,3 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/outfit-v11-latin-regular.woff2') format('woff2');
+}
+ 
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/outfit-v11-latin-600.woff2') format('woff2');
+}
+ 
+@font-face {
+  font-display: swap;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/outfit-v11-latin-700.woff2') format('woff2');
+}
+ 
+@font-face {
+  font-display: swap;
+  font-family: 'Young Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/young-serif-v2-latin-regular.woff2') format('woff2');
+}
+
 *, *::before, *::after {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
