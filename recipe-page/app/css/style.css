@@ -55,3 +55,9 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--color-background);
+  margin: 0;
+  font-family: var(--ff-sans-serif);
+}
