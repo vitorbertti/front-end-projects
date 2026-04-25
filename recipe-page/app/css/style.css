@@ -67,3 +67,9 @@ h1, h2 {
   line-height: 1;
   margin: 0;
 }
+
+h1 {
+  font-size: 2.25rem;
+  margin-block-end: 20px;
+  color: var(--color-headline-primary);
+}
