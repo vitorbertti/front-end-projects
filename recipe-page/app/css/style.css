@@ -78,3 +78,8 @@ h1 {
     margin-block-end: 24px;
   }
 }
+
+h2 {
+  font-size: 1.6rem;
+  color: var(--color-headline-secondary);
+}
