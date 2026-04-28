@@ -83,3 +83,8 @@ h2 {
   font-size: 1.6rem;
   color: var(--color-headline-secondary);
 }
+
+p, ul li, ol li, th, td {
+  font-size: 1rem;
+  color: var(--color-text);
+}
