@@ -87,4 +87,8 @@ h2 {
 p, ul li, ol li, th, td {
   font-size: 1rem;
   color: var(--color-text);
+
+  @media (width >= 68.75rem) {
+    font-size: 1.15rem;
+  }
 }
