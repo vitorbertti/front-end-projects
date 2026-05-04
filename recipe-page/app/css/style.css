@@ -111,3 +111,8 @@ ul li, ol li {
   padding-inline-start: 20px;
   line-height: 1.75;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
