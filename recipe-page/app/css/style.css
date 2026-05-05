@@ -116,3 +116,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+section {
+  padding-block-end: 30px;
+}
