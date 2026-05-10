@@ -130,3 +130,7 @@ table {
 table tr {
   border-bottom: 1px solid var(--color-border);
 }
+
+table th, table td {
+  padding-block: 14px;
+}
