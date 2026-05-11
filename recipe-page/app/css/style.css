@@ -134,3 +134,8 @@ table tr {
 table th, table td {
   padding-block: 14px;
 }
+
+table th {
+  padding-inline-start: 30px;
+  font-weight: 400;
+}
