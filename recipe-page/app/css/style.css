@@ -148,4 +148,8 @@ table td {
 .wrapper {
   display: grid;
   place-items: center;
+
+  @media (width >= 68.75rem) {
+    padding-block: 8rem;
+  }
 }
