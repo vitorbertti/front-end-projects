@@ -153,3 +153,8 @@ table td {
     padding-block: 8rem;
   }
 }
+
+.border-bottom {
+  border-bottom: 1px solid var(--color-border);
+  margin-block-end: 30px;
+}
