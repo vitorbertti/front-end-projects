@@ -168,3 +168,10 @@ table td {
     padding: 36px;
   }
 }
+
+.recipe__image {
+  @media (width >= 68.75rem) {
+    margin-block-end: 32px;
+    border-radius: 12px;
+  }
+}
