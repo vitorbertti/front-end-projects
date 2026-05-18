@@ -175,3 +175,9 @@ table td {
     border-radius: 12px;
   }
 }
+
+.recipe__text {
+  @media (width < 68.75rem) {
+    padding: 30px 24px;
+  }
+}
