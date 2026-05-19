@@ -181,3 +181,9 @@ table td {
     padding: 30px 24px;
   }
 }
+
+.prep {
+  background-color: var(--color-prep-background);
+  padding: 20px;
+  border-radius: 12px;
+}
