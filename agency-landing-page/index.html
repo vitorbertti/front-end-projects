@@ -14,6 +14,26 @@
             <a href="/" class="header__logo">
                <img src="./images/logo.svg" alt="Sunnyside Logo" width="124" height="24" />
             </a>
+
+            <nav>
+               <span id="nav-label" class="visually-hidden">Navigation</span>
+               <button id="btnOpen" class="header__open" aria-expanded="false" aria-labelledby="nav-label">
+                  <img src="./images/icon-hamburger.svg" alt="Hamburger icon" width="24" height="18" />
+               </button>
+     
+               <div class="header__menu" role="dialog" aria-labelledby="nav-label">
+                  <button class="header__close" id="btnClose" aria-label="Close">
+                     <img src="./images/icon-hamburger.svg" alt="Hamburger icon" width="24" height="18" />
+                  </button>
+                  <ul class="header__links">
+                     <li><a href="" class="header__link">About</a></li>
+                     <li><a href="" class="header__link">Services</a></li>
+                     <li><a href="" class="header__link">Projects</a></li>
+                     <li class="hide-on-mobile"><a href="" class="button white">Contact</a></li>
+                     <li class="hide-on-desktop"><a href="" class="button yellow">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
          </div>
       </header>
    </body>
