@@ -24,6 +24,27 @@
   }
 }
 
+@layer colors {
+  :root {
+    --c-red-400: hsl(7, 99%, 70%);
+    --c-yellow-500: hsl(51, 100%, 49%);
+    --c-blue-800: hsl(198, 62%, 26%);
+    --c-green-500: hsl(167, 34%, 41%);
+    --c-grey-950: hsl(212, 27%, 19%);
+    --c-grey-600: hsl(213, 9%, 39%);
+    --c-grey-550: hsl(232, 10%, 55%);
+    --c-grey-400: hsl(210, 4%, 67%);
+    --c-white: hsl(0, 100%, 100%);
+    --c-white-o25: hsla(0, 100%, 100%, 0.25);
+    --color-button-bg-mobile: var(--c-yellow-500);
+    --color-button-txt-mobile: var(--c-grey-950);
+    --color-button-bg-desktop: var(--c-white);
+    --color-button-bg-desktop-hover: var(--c-white-o25);
+    --color-button-txt-desktop: var(--c-grey-950);
+    --color-button-txt-desktop-hover: var(--c-white);
+  }
+}
+
 @layer global {
   *, *::before, *::after {
     box-sizing: border-box;
