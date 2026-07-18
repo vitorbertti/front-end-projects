@@ -62,4 +62,9 @@
     margin: 0;
     line-height: 1;
   }
+
+  p {
+    font-size: calc(18 / 16 * 1rem);
+    line-height: 1.3;
+  }
 }
