@@ -67,4 +67,8 @@
     font-size: calc(18 / 16 * 1rem);
     line-height: 1.3;
   }
+
+  a {
+    text-decoration: none;
+  }
 }
