@@ -86,4 +86,10 @@
       list-style-type: none;
     }
   }
+
+  button {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
 }
