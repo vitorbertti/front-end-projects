@@ -93,3 +93,18 @@
     padding: 0;
   }
 }
+
+@layer layout {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr min(100% - 48px, calc(1200 / 16 * 1rem)) 1fr;
+
+    > * {
+      grid-column: 2;
+    }
+
+    > .fullbleed {
+      grid-column: 1 / -1;
+    }
+  }
+}
