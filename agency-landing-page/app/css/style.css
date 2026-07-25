@@ -108,3 +108,17 @@
     }
   }
 }
+
+@layer button {
+  .button {
+    display: block;
+    width: fit-content;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 28px;
+    transition: 250ms ease-in-out;
+    transition-property: color, background-color;
+  }
+}
