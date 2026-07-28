@@ -125,5 +125,10 @@
       background-color: var(--color-button-bg-mobile);
       color: var(--color-button-txt-mobile);
     }
+
+    &.white {
+      background-color: var(--color-button-bg-desktop);
+      color: var(--color-button-txt-desktop);
+    }
   }
 }
