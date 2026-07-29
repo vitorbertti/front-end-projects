@@ -129,6 +129,11 @@
     &.white {
       background-color: var(--color-button-bg-desktop);
       color: var(--color-button-txt-desktop);
+
+      &:hover {
+        background-color: var(--color-button-bg-desktop-hover);
+        color: var(--color-button-txt-desktop-hover);
+      }
     }
   }
 }
