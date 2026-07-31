@@ -142,5 +142,11 @@
   .header {
     position: absolute;
     inset: 0 0 auto 0;
+
+    .header__content {
+      display: flex;
+      justify-content: space-between;
+      padding-block-start: 32px;
+    }
   }
 }
