@@ -148,5 +148,13 @@
       justify-content: space-between;
       padding-block-start: 32px;
     }
+
+    .header__open[aria-expanded='true'] {
+      opacity: 0;
+
+      + .header__menu {
+        opacity: 1;
+      }
+    }
   }
 }
