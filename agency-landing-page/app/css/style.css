@@ -156,5 +156,15 @@
         opacity: 1;
       }
     }
+
+    .header__menu {
+      @media (width < 64rem) {
+        position: fixed;
+        inset: 0 0 auto 0;
+        padding: 32px 24px 0 24px;
+        opacity: 0;
+        transition: opacity 500ms ease-in-out;
+      }
+    }
   }
 }
