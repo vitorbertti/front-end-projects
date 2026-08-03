@@ -166,5 +166,11 @@
         transition: opacity 500ms ease-in-out;
       }
     }
+
+    .header__close {
+      display: block;
+      margin-left: auto;
+      opacity: 0.5;
+    }
   }
 }
