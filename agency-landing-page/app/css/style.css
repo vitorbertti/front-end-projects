@@ -178,5 +178,13 @@
         display: none;
       }
     }
+
+    .header__links {
+      position: relative;
+      display: grid;
+      gap: 47px;
+      grid-auto-flow: column;
+      align-items: center;
+    }
   }
 }
