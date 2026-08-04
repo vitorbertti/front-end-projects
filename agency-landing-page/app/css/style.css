@@ -172,5 +172,11 @@
       margin-left: auto;
       opacity: 0.5;
     }
+
+    .header__open, .header__close {
+      @media (width >= 64rem) {
+        display: none;
+      }
+    }
   }
 }
