@@ -185,6 +185,16 @@
       gap: 47px;
       grid-auto-flow: column;
       align-items: center;
+
+      @media (width < 64rem) {
+        grid-auto-flow: row;
+        gap: 32px;
+        justify-items: center;
+        text-align: center;
+        padding: 40px;
+        background-color: var(--c-white);
+        margin-block-start: 50px;
+      }
     }
   }
 }
