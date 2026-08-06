@@ -194,6 +194,21 @@
         padding: 40px;
         background-color: var(--c-white);
         margin-block-start: 50px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          rotate: -45deg;
+          translate: 16px -20px;
+          width: 0;
+          height: 0;
+          border: 0 solid transparent;
+          border-left-width: 24px;
+          border-right-width: 24px;
+          border-top: 24px solid var(--c-white);
+        }
       }
     }
   }
