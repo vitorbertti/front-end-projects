@@ -211,5 +211,10 @@
         }
       }
     }
+
+    .header__link {
+      font-size: calc(18 / 16 * 1rem);
+      color: var(--c-white);
+    }
   }
 }
