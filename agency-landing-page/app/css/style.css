@@ -223,3 +223,11 @@
     }
   }
 }
+
+@layer hero {
+  .hero {
+    @media (width >= 64rem) {
+      min-height: calc(800 / 16 * 1rem);
+    }
+  }
+}
