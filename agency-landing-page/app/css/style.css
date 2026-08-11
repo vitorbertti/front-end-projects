@@ -229,5 +229,9 @@
     @media (width >= 64rem) {
       min-height: calc(800 / 16 * 1rem);
     }
+
+    .hero__picture {
+      grid-row: 1 / -1;
+    }
   }
 }
