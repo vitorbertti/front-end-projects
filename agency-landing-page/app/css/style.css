@@ -233,5 +233,9 @@
     .hero__picture {
       grid-row: 1 / -1;
     }
+
+    .hero__image {
+      width: 100%;
+    }
   }
 }
