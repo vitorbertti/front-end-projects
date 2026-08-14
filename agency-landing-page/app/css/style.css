@@ -242,5 +242,10 @@
         object-fit: cover;
       }
     }
+
+    .hero__content {
+      grid-row: 1;
+      place-self: center;
+    }
   }
 }
