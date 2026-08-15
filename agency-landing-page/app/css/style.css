@@ -246,6 +246,10 @@
     .hero__content {
       grid-row: 1;
       place-self: center;
+
+      @media (width >= 64rem) {
+        translate: 0 -50px;
+      }
     }
   }
 }
