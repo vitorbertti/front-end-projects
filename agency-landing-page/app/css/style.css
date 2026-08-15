@@ -251,5 +251,14 @@
         translate: 0 -50px;
       }
     }
+
+    .hero__title {
+      font-size: calc(40 / 16 * 1rem);
+      line-height: 1.3;
+      letter-spacing: 0.15em;
+      color: var(--c-white);
+      text-transform: uppercase;
+      text-align: center;
+    }
   }
 }
