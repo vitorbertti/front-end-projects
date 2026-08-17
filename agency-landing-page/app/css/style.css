@@ -259,6 +259,10 @@
       color: var(--c-white);
       text-transform: uppercase;
       text-align: center;
+
+      @media (width >= 64rem) {
+        font-size: calc(56 / 16 * 1rem);
+      }
     }
   }
 }
