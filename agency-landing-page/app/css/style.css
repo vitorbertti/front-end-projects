@@ -264,5 +264,10 @@
         font-size: calc(56 / 16 * 1rem);
       }
     }
+
+    .hero__arrow {
+      margin-inline: auto;
+      margin-block-start: 52px;
+    }
   }
 }
