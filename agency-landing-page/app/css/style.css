@@ -285,4 +285,10 @@
     height: 1px;
     overflow: hidden;
   }
+
+  .hide-on-mobile {
+    @media (width < 64rem) {
+      display: none;
+    }
+  }
 }
