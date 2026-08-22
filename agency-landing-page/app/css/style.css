@@ -291,4 +291,10 @@
       display: none;
     }
   }
+
+  .hide-on-desktop {
+    @media (width >= 64rem) {
+      display: none;
+    }
+  }
 }
