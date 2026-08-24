@@ -1,0 +1,6 @@
+const btnOpen = document.querySelector('#btnOpen')
+const btnClose = document.querySelector('#btnClose')
+const media = window.matchMedia('(width < 64rem)')
+const topNavMenu = document.querySelector('.header__menu')
+const main = document.querySelector('main')
+const body = document.querySelector('body')
