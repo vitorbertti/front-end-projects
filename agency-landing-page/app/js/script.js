@@ -4,3 +4,12 @@ const media = window.matchMedia('(width < 64rem)')
 const topNavMenu = document.querySelector('.header__menu')
 const main = document.querySelector('main')
 const body = document.querySelector('body')
+
+function openMobileMenu() {
+   btnOpen.setAttribute('aria-expanded', 'true')
+   topNavMenu.removeAttribute('inert')
+   topNavMenu.removeAttribute('style')
+   main.setAttribute('inert', '')
+   bodyScrollLockUpgrade.disableBodyScroll(body)
+   btnClose.focus()
+}
