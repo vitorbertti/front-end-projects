@@ -25,3 +25,15 @@ function closeMobileMenu() {
       topNavMenu.style.transition = 'none'
    }, 500)
 }
+
+function setupTopNav(e) {
+   if (e.matches) {
+      topNavMenu.setAttribute('inert', '')
+      topNavMenu.style.transition = 'none'
+   } else {
+      closeMobileMenu()
+      topNavMenu.removeAttribute('inert')
+   }
+}
+ 
+setupTopNav(media)
