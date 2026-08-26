@@ -13,3 +13,15 @@ function openMobileMenu() {
    bodyScrollLockUpgrade.disableBodyScroll(body)
    btnClose.focus()
 }
+
+function closeMobileMenu() {
+   btnOpen.setAttribute('aria-expanded', 'false')
+   topNavMenu.setAttribute('inert', '')
+   main.removeAttribute('inert')
+   bodyScrollLockUpgrade.enableBodyScroll(body)
+   btnOpen.focus()
+ 
+   setTimeout(() => {
+      topNavMenu.style.transition = 'none'
+   }, 500)
+}
