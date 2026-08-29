@@ -39,3 +39,4 @@ function setupTopNav(e) {
 setupTopNav(media)
 
 btnOpen.addEventListener('click', openMobileMenu)
+btnClose.addEventListener('click', closeMobileMenu)
