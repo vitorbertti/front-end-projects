@@ -40,3 +40,7 @@ setupTopNav(media)
 
 btnOpen.addEventListener('click', openMobileMenu)
 btnClose.addEventListener('click', closeMobileMenu)
+
+media.addEventListener('change', function (e) {
+   setupTopNav(e)
+})
